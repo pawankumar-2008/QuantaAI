@@ -1,0 +1,80 @@
+{
+  "created_at_utc": "2026-11-05T21:25:08.949409+00:00",
+  "dataset_manifest_sha256": "cfb1d55990ec516a34984d17572c86e8a00c50b56cc3b9fe32751c8613d7d704",
+  "splits": {
+    "test": {
+      "average_tokens_per_document": 5195.0,
+      "bos_token_id": 258,
+      "category_token_counts": {
+        "Computer Science": 5195
+      },
+      "context_policy": "Full document encoded; no truncation. Chunking is required before model input.",
+      "documents_exceeding_model_context_length": 1,
+      "eos_token_id": 259,
+      "maximum_sequence_length": 5195,
+      "model_context_length": 256,
+      "output_path": "data/splits/test/test_tokens.jsonl",
+      "output_sha256": "4abe1ac2e857e5bc1dbbb1a1fa97be9883c5ddb565d23c25401b95b91902b73f",
+      "source_document_count": 1,
+      "token_count_including_bos_eos": 5195,
+      "tokenized_document_count": 1,
+      "unknown_token_count": 0
+    },
+    "train": {
+      "average_tokens_per_document": 5736.454545454545,
+      "bos_token_id": 258,
+      "category_token_counts": {
+        "Artificial Intelligence": 9983,
+        "Computer Science": 27618,
+        "General Science": 11056,
+        "Mathematics": 11257,
+        "Student Learning": 3187
+      },
+      "context_policy": "Full document encoded; no truncation. Chunking is required before model input.",
+      "documents_exceeding_model_context_length": 11,
+      "eos_token_id": 259,
+      "maximum_sequence_length": 11257,
+      "model_context_length": 256,
+      "output_path": "data/splits/train/train_tokens.jsonl",
+      "output_sha256": "1512cec48337557f0a601acc800b81a8a6c4ca848e3c8a280a8e46610c8e0d7a",
+      "source_document_count": 11,
+      "token_count_including_bos_eos": 63101,
+      "tokenized_document_count": 11,
+      "unknown_token_count": 0
+    },
+    "validation": {
+      "average_tokens_per_document": 8464.0,
+      "bos_token_id": 258,
+      "category_token_counts": {
+        "Computer Science": 8464
+      },
+      "context_policy": "Full document encoded; no truncation. Chunking is required before model input.",
+      "documents_exceeding_model_context_length": 1,
+      "eos_token_id": 259,
+      "maximum_sequence_length": 8464,
+      "model_context_length": 256,
+      "output_path": "data/splits/validation/validation_tokens.jsonl",
+      "output_sha256": "561ce1695302f33863e78d7f4d86a2d91988bb1d1c64237d1388d10b1496af06",
+      "source_document_count": 1,
+      "token_count_including_bos_eos": 8464,
+      "tokenized_document_count": 1,
+      "unknown_token_count": 0
+    }
+  },
+  "tokenizer": {
+    "merges_sha256": "58311870925135198c8ec425a47aa6438546432bc489c23b6c14d955ffb48ff1",
+    "special_tokens": {
+      "<bos>": 258,
+      "<eos>": 259,
+      "<pad>": 256,
+      "<unk>": 257
+    },
+    "training_report_sha256": "af2e2ea773b3a722dc8876252818db45dc1ddf38eaa6079deab2ff32eb1000e2",
+    "vocabulary_sha256": "22726c0c72d74a9e7ce0d2957bdd58d869293988471d3b3004b962318273381b",
+    "vocabulary_size": 2048
+  },
+  "total_document_count": 13,
+  "total_token_count": 76760,
+  "total_unknown_token_count": 0,
+  "training_split_sha256": "40de3bb3446317770478a457b6b9e08fead5294afddc6507175780967d7666c9"
+}

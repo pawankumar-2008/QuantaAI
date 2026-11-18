@@ -1,0 +1,119 @@
+{
+  "all_checks_passed": true,
+  "checks": {
+    "all_documents_chunked": true,
+    "all_next_token_targets_covered_including_eos": true,
+    "all_sequences_within_context": true,
+    "all_source_token_positions_covered": true,
+    "all_token_ids_in_vocabulary": true,
+    "bos_at_document_start": true,
+    "eos_is_final_document_target": true,
+    "input_target_shift_is_correct": true,
+    "no_document_mixing": true,
+    "no_eos_at_artificial_boundaries": true,
+    "padding_is_masked_from_loss": true,
+    "source_and_tokenizer_hashes_present": true
+  },
+  "model_compatibility": {
+    "input_and_target_tensor_shape": [
+      null,
+      256
+    ],
+    "loss_mask_must_be_applied_by_training_loop": true,
+    "model_forward_accepts_input_ids": true,
+    "model_forward_consumes_attention_mask": false,
+    "model_logits_shape": [
+      null,
+      256,
+      2048
+    ],
+    "right_padding_is_causally_inert_for_valid_prefix": true
+  },
+  "overlap_note": "Overlapping windows intentionally repeat some next-token targets. The overlap count measures repeated target positions, not token-ID value coincidences.",
+  "padding_note": "input_ids and target_ids are right-padded to the model context. attention_mask and loss_mask are zero at padding positions; training must use loss_mask when reducing token loss.",
+  "split_statistics": {
+    "test": {
+      "average_chunk_length": 255.47826086956522,
+      "average_realized_window_overlap_tokens": 32.0,
+      "category_chunk_counts": {
+        "Computer Science": 23
+      },
+      "configured_overlap_tokens": 32,
+      "configured_stride_tokens": 225,
+      "context_length": 256,
+      "documents_successfully_chunked": 1,
+      "generated_chunk_count": 23,
+      "input_padding_token_count": 12,
+      "maximum_chunk_length": 256,
+      "maximum_sequence_length": 256,
+      "minimum_chunk_length": 244,
+      "original_document_count": 1,
+      "original_token_count_including_bos_eos": 5195,
+      "overlap_input_token_count": 704,
+      "overlap_token_count": 682,
+      "padding_token_count": 12,
+      "target_padding_token_count": 12,
+      "target_token_positions": 5876,
+      "total_padding_positions_in_input_and_target": 24,
+      "total_represented_tokens": 5195,
+      "total_target_tokens_represented": 5194
+    },
+    "train": {
+      "average_chunk_length": 252.57543859649124,
+      "average_realized_window_overlap_tokens": 33.45985401459854,
+      "category_chunk_counts": {
+        "Artificial Intelligence": 45,
+        "Computer Science": 126,
+        "General Science": 49,
+        "Mathematics": 50,
+        "Student Learning": 15
+      },
+      "configured_overlap_tokens": 32,
+      "configured_stride_tokens": 225,
+      "context_length": 256,
+      "documents_successfully_chunked": 11,
+      "generated_chunk_count": 285,
+      "input_padding_token_count": 976,
+      "maximum_chunk_length": 256,
+      "maximum_sequence_length": 256,
+      "minimum_chunk_length": 127,
+      "original_document_count": 11,
+      "original_token_count_including_bos_eos": 63101,
+      "overlap_input_token_count": 9168,
+      "overlap_token_count": 8894,
+      "padding_token_count": 976,
+      "target_padding_token_count": 976,
+      "target_token_positions": 71984,
+      "total_padding_positions_in_input_and_target": 1952,
+      "total_represented_tokens": 63101,
+      "total_target_tokens_represented": 63090
+    },
+    "validation": {
+      "average_chunk_length": 252.89473684210526,
+      "average_realized_window_overlap_tokens": 32.0,
+      "category_chunk_counts": {
+        "Computer Science": 38
+      },
+      "configured_overlap_tokens": 32,
+      "configured_stride_tokens": 225,
+      "context_length": 256,
+      "documents_successfully_chunked": 1,
+      "generated_chunk_count": 38,
+      "input_padding_token_count": 118,
+      "maximum_chunk_length": 256,
+      "maximum_sequence_length": 256,
+      "minimum_chunk_length": 138,
+      "original_document_count": 1,
+      "original_token_count_including_bos_eos": 8464,
+      "overlap_input_token_count": 1184,
+      "overlap_token_count": 1147,
+      "padding_token_count": 118,
+      "target_padding_token_count": 118,
+      "target_token_positions": 9610,
+      "total_padding_positions_in_input_and_target": 236,
+      "total_represented_tokens": 8464,
+      "total_target_tokens_represented": 8463
+    }
+  },
+  "status": "passed"
+}

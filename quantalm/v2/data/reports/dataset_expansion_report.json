@@ -1,0 +1,143 @@
+{
+  "additional_approved_sources_added": 0,
+  "available_sources": [
+    {
+      "category": "Artificial Intelligence",
+      "document_id": "9e8980b5da0650e4",
+      "document_title": null,
+      "license_status": "unknown; no license information found",
+      "source_path": "data/raw/artificial_intelligence/ai_fundamentals.txt",
+      "source_provenance": "Repository file; external publisher, author, and acquisition details were not supplied.",
+      "title_status": "No document title metadata was supplied."
+    },
+    {
+      "category": "Computer Science",
+      "document_id": "e764c0050f66382f",
+      "document_title": null,
+      "license_status": "unknown; no license information found",
+      "source_path": "data/raw/computer_science/algorithms.txt",
+      "source_provenance": "Repository file; external publisher, author, and acquisition details were not supplied.",
+      "title_status": "No document title metadata was supplied."
+    },
+    {
+      "category": "Computer Science",
+      "document_id": "742d6782922854a3",
+      "document_title": null,
+      "license_status": "unknown; no license information found",
+      "source_path": "data/raw/computer_science/computer_networks.txt",
+      "source_provenance": "Repository file; external publisher, author, and acquisition details were not supplied.",
+      "title_status": "No document title metadata was supplied."
+    },
+    {
+      "category": "Computer Science",
+      "document_id": "eb659abed95930b1",
+      "document_title": null,
+      "license_status": "unknown; no license information found",
+      "source_path": "data/raw/computer_science/data_structures.txt",
+      "source_provenance": "Repository file; external publisher, author, and acquisition details were not supplied.",
+      "title_status": "No document title metadata was supplied."
+    },
+    {
+      "category": "Computer Science",
+      "document_id": "9756884e55d4caf1",
+      "document_title": null,
+      "license_status": "unknown; no license information found",
+      "source_path": "data/raw/computer_science/dbms.txt",
+      "source_provenance": "Repository file; external publisher, author, and acquisition details were not supplied.",
+      "title_status": "No document title metadata was supplied."
+    },
+    {
+      "category": "Computer Science",
+      "document_id": "c690a1efa2e3b140",
+      "document_title": null,
+      "license_status": "unknown; no license information found",
+      "source_path": "data/raw/computer_science/fundamentals.txt",
+      "source_provenance": "Repository file; external publisher, author, and acquisition details were not supplied.",
+      "title_status": "No document title metadata was supplied."
+    },
+    {
+      "category": "Computer Science",
+      "document_id": "8f4b67fe703c1cdd",
+      "document_title": null,
+      "license_status": "unknown; no license information found",
+      "source_path": "data/raw/computer_science/java.txt",
+      "source_provenance": "Repository file; external publisher, author, and acquisition details were not supplied.",
+      "title_status": "No document title metadata was supplied."
+    },
+    {
+      "category": "Computer Science",
+      "document_id": "c80d9c28d833f12b",
+      "document_title": null,
+      "license_status": "unknown; no license information found",
+      "source_path": "data/raw/computer_science/operating_systems.txt",
+      "source_provenance": "Repository file; external publisher, author, and acquisition details were not supplied.",
+      "title_status": "No document title metadata was supplied."
+    },
+    {
+      "category": "Computer Science",
+      "document_id": "789b13107075f7f5",
+      "document_title": null,
+      "license_status": "unknown; no license information found",
+      "source_path": "data/raw/computer_science/programming_fundamentals.txt",
+      "source_provenance": "Repository file; external publisher, author, and acquisition details were not supplied.",
+      "title_status": "No document title metadata was supplied."
+    },
+    {
+      "category": "Computer Science",
+      "document_id": "bb9c2c7947924120",
+      "document_title": null,
+      "license_status": "unknown; no license information found",
+      "source_path": "data/raw/computer_science/python.txt",
+      "source_provenance": "Repository file; external publisher, author, and acquisition details were not supplied.",
+      "title_status": "No document title metadata was supplied."
+    },
+    {
+      "category": "Mathematics",
+      "document_id": "b0aa2e9dbbd0dc68",
+      "document_title": null,
+      "license_status": "unknown; no license information found",
+      "source_path": "data/raw/mathematics/mathematics_fundamentals.txt",
+      "source_provenance": "Repository file; external publisher, author, and acquisition details were not supplied.",
+      "title_status": "No document title metadata was supplied."
+    },
+    {
+      "category": "General Science",
+      "document_id": "31ca69d786c76ed3",
+      "document_title": null,
+      "license_status": "unknown; no license information found",
+      "source_path": "data/raw/science/science_fundamentals.txt",
+      "source_provenance": "Repository file; external publisher, author, and acquisition details were not supplied.",
+      "title_status": "No document title metadata was supplied."
+    },
+    {
+      "category": "Student Learning",
+      "document_id": "f5ff7ec9ee9907cb",
+      "document_title": null,
+      "license_status": "unknown; no license information found",
+      "source_path": "data/raw/student_learning/question_answers.txt",
+      "source_provenance": "Repository file; external publisher, author, and acquisition details were not supplied.",
+      "title_status": "No document title metadata was supplied."
+    }
+  ],
+  "coverage_gaps": [
+    "General Knowledge has no locally available documents.",
+    "No dedicated Software Engineering source document was found.",
+    "Mathematics, Artificial Intelligence, General Science, and Student Learning each have only one unique source document.",
+    "No approved external sources or licensing records were provided; no external material was added."
+  ],
+  "external_source_search_or_download_performed": false,
+  "provenance_and_licensing": {
+    "external_sources": [],
+    "license_status": "unknown for existing local documents",
+    "retrieval_date": null,
+    "warning": "Repository presence does not establish a license or permission to train."
+  },
+  "unique_document_counts_by_category": {
+    "Artificial Intelligence": 1,
+    "Computer Science": 9,
+    "General Knowledge": 0,
+    "General Science": 1,
+    "Mathematics": 1,
+    "Student Learning": 1
+  }
+}

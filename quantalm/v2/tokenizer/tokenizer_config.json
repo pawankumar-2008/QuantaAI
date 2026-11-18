@@ -1,0 +1,37 @@
+{
+  "bos_token_id": 258,
+  "byte_token_count": 256,
+  "decoding": "UTF-8 with replacement for malformed token byte streams",
+  "encoding": "UTF-8 bytes with whitespace-preserving BPE",
+  "eos_token_id": 259,
+  "fitted_on_test": false,
+  "fitted_on_validation": false,
+  "merge_start_id": 260,
+  "model": "QuantaLM-BPE",
+  "pad_token_id": 256,
+  "special_tokens": {
+    "<bos>": 258,
+    "<eos>": 259,
+    "<pad>": 256,
+    "<unk>": 257
+  },
+  "training_document_ids": [
+    "31ca69d786c76ed3",
+    "789b13107075f7f5",
+    "9756884e55d4caf1",
+    "9e8980b5da0650e4",
+    "b0aa2e9dbbd0dc68",
+    "bb9c2c7947924120",
+    "c690a1efa2e3b140",
+    "c80d9c28d833f12b",
+    "e764c0050f66382f",
+    "eb659abed95930b1",
+    "f5ff7ec9ee9907cb"
+  ],
+  "training_provenance_sha256": "e3001673524fa4b581b248d1b3f0222cf3c391c6a41b7aaf8212ebe93ac3a0dd",
+  "training_random_seed": 20261106,
+  "training_split": "data/splits/train/dataset.jsonl",
+  "training_split_sha256": "40de3bb3446317770478a457b6b9e08fead5294afddc6507175780967d7666c9",
+  "unk_token_id": 257,
+  "vocab_size": 2048
+}

@@ -1,0 +1,27 @@
+{
+  "planHash": "f04f01a45dae008138093634769ae0d6d6fbe8662c54ff8fec5d6afd51c9d330",
+  "phase": "standalone",
+  "recordedAtUtc": "2026-11-11T22:42:40.8026911Z",
+  "retryCount": 0,
+  "resetBaseline": false,
+  "complete": true,
+  "result": {
+    "setupSucceeded": false,
+    "setupDurationMs": 7575,
+    "setupFailureOutput": "setup step 0 \u0027npm\u0027 failed (exit=-4048, timedOut=False)\r\nnpm error code EPERM\r\nnpm error syscall unlink\r\nnpm error path D:\\QuantaAI\\frontend\\node_modules\\@rolldown\\binding-win32-x64-msvc\\rolldown-binding.win32-x64-msvc.node\r\nnpm error errno -4048\r\nnpm error [Error: EPERM: operation not permitted, unlink \u0027D:\\QuantaAI\\frontend\\node_modules\\@rolldown\\binding-win32-x64-msvc\\rolldown-binding.win32-x64-msvc.node\u0027] {\r\nnpm error   errno: -4048,\r\nnpm error   code: \u0027EPERM\u0027,\r\nnpm error   syscall: \u0027unlink\u0027,\r\nnpm error   path: \u0027D:\\\\QuantaAI\\\\frontend\\\\node_modules\\\\@rolldown\\\\binding-win32-x64-msvc\\\\rolldown-binding.win32-x64-msvc.node\u0027\r\nnpm error }\r\nnpm error\r\nnpm error The operation was rejected by your operating system.\r\nnpm error It\u0027s possible that the file was already in use (by a text editor or antivirus), or that you lack permissions to access it.\r\nnpm error\r\nnpm error If you believe this might be a permissions issue, please double-check the permissions of the file and its containing directories, or try running the command again as root/Administrator.\r\nnpm error A complete log of this run can be found in: C:\\Users\\pawan\\AppData\\Local\\npm-cache\\_logs\\2026-11-11T22_42_33_972Z-debug-0.log\r\n",
+    "assertions": [],
+    "executions": [
+      {
+        "source": "setup[0]",
+        "resolvedExecutable": "C:\\Program Files\\nodejs\\npm.CMD",
+        "args": [
+          "ci"
+        ],
+        "cwd": "D:\\QuantaAI\\frontend",
+        "env": {},
+        "prependPath": [],
+        "platform": "win32"
+      }
+    ]
+  }
+}

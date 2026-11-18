@@ -1,0 +1,627 @@
+﻿COMPUTER NETWORKS
+
+1. INTRODUCTION TO COMPUTER NETWORKS
+
+A computer network is a collection of interconnected devices that communicate and share resources using communication links and protocols.
+
+Objectives:
+- Resource sharing: Share files, printers, and applications.
+- Communication: Exchange information between devices.
+- Data sharing: Transfer data across systems.
+- Reliability: Provide alternative communication paths.
+- Scalability: Allow networks to grow.
+
+Types of networks:
+
+PAN (Personal Area Network):
+A small network around an individual, such as Bluetooth-connected devices.
+
+LAN (Local Area Network):
+Connects devices within a limited geographical area, such as a home, office, or college.
+
+MAN (Metropolitan Area Network):
+Connects networks across a city or metropolitan area.
+
+WAN (Wide Area Network):
+Connects networks across large geographical areas. The Internet is the largest example.
+
+2. NETWORK TOPOLOGIES
+
+Network topology describes how devices and communication links are arranged.
+
+Bus topology:
+All devices share a common communication cable.
+Advantages: Simple and inexpensive.
+Disadvantages: Failure of the main cable can affect the entire network.
+
+Star topology:
+All devices connect to a central hub or switch.
+Advantages: Easy to manage and troubleshoot.
+Disadvantages: Failure of the central device affects communication.
+
+Ring topology:
+Each device connects to two neighbouring devices, forming a ring.
+Advantages: Organized data transmission.
+Disadvantages: A link or device failure can disrupt a basic ring.
+
+Mesh topology:
+Devices are connected through multiple paths.
+Advantages: High reliability and fault tolerance.
+Disadvantages: Expensive and complex to install.
+
+Tree topology:
+A hierarchical arrangement of interconnected star networks.
+Advantages: Scalable and suitable for large networks.
+Disadvantages: Failure of an upper-level device may affect an entire branch.
+
+3. NETWORK ARCHITECTURE
+
+Client-server architecture:
+A client requests services or resources from a centralized server.
+
+Peer-to-peer architecture:
+Devices communicate and share resources directly without requiring a dedicated central server.
+
+4. NETWORK PROTOCOLS
+
+A network protocol is a set of rules that defines how devices communicate and exchange data.
+
+Protocols define:
+- Data format.
+- Addressing.
+- Error handling.
+- Transmission rules.
+- Connection management.
+
+Examples:
+- HTTP and HTTPS: Web communication.
+- TCP: Reliable, connection-oriented transport.
+- UDP: Connectionless transport with low overhead.
+- IP: Logical addressing and packet forwarding.
+- DNS: Converts domain names into IP addresses.
+- FTP: File transfer.
+- SMTP: Sending email.
+- SSH: Secure remote access.
+
+5. OSI REFERENCE MODEL
+
+The Open Systems Interconnection (OSI) model is a seven-layer conceptual framework that explains network communication.
+
+Layer 7 - Application:
+Provides network services to user applications.
+Examples: HTTP, FTP, SMTP, DNS.
+
+Layer 6 - Presentation:
+Handles data translation, encryption, decryption, and compression.
+
+Layer 5 - Session:
+Establishes, manages, and terminates communication sessions.
+
+Layer 4 - Transport:
+Provides end-to-end communication, segmentation, flow control, and error recovery.
+Examples: TCP and UDP.
+
+Layer 3 - Network:
+Handles logical addressing and routing of packets.
+Example: IP.
+
+Layer 2 - Data Link:
+Provides framing, MAC addressing, and link-level error detection.
+Examples: Ethernet and Wi-Fi link protocols.
+
+Layer 1 - Physical:
+Transmits raw bits through physical communication media.
+Examples: Cables, connectors, and radio signals.
+
+Data encapsulation:
+Application data -> Segment -> Packet -> Frame -> Bits.
+
+At the receiving device, decapsulation reverses this process.
+
+6. TCP/IP MODEL
+
+The TCP/IP model describes the architecture used by the Internet.
+
+Application layer:
+Provides application-level network services.
+Examples: HTTP, HTTPS, DNS, SMTP.
+
+Transport layer:
+Provides process-to-process communication.
+Examples: TCP and UDP.
+
+Internet layer:
+Handles logical addressing and routing.
+Example: IP.
+
+Network Access or Link layer:
+Handles transmission over the local network and physical medium.
+Examples: Ethernet and Wi-Fi.
+
+OSI vs TCP/IP:
+- OSI has seven layers.
+- TCP/IP is commonly represented using four layers.
+- OSI is a conceptual reference model.
+- TCP/IP describes the practical protocol architecture used by the Internet.
+
+7. TRANSMISSION MEDIA
+
+Transmission media carry signals between network devices.
+
+Guided media:
+Signals travel through a physical medium.
+
+Twisted pair cable:
+Contains pairs of insulated copper wires twisted together.
+Commonly used in Ethernet LANs.
+
+Coaxial cable:
+Contains a central conductor surrounded by insulation and shielding.
+
+Optical fibre:
+Transmits data using light.
+Advantages include high bandwidth, low signal loss over long distances, and resistance to electromagnetic interference.
+
+Unguided media:
+Signals travel through wireless communication channels.
+
+Radio waves:
+Used in Wi-Fi and mobile communication.
+
+Microwaves:
+Used in point-to-point and satellite communication.
+
+Infrared:
+Used for short-range communication.
+
+8. NETWORK DEVICES
+
+Hub:
+Connects devices and broadcasts incoming data to all ports. It operates at the physical layer.
+
+Switch:
+Connects devices in a LAN and forwards Ethernet frames using MAC addresses. It primarily operates at the data link layer.
+
+Router:
+Connects different networks and forwards packets using IP addresses. It operates at the network layer.
+
+Repeater:
+Regenerates signals to extend transmission distance.
+
+Bridge:
+Connects LAN segments and filters frames using MAC addresses.
+
+Gateway:
+Connects systems or networks that may use different protocols or architectures.
+
+Modem:
+Modulates and demodulates signals to enable communication over a particular transmission medium.
+
+Access Point:
+Allows wireless devices to connect to a wired network through Wi-Fi.
+
+9. MAC ADDRESS AND IP ADDRESS
+
+MAC address:
+A link-layer hardware address used for communication within a local network.
+It is commonly represented as six hexadecimal pairs.
+
+Example:
+00:1A:2B:3C:4D:5E
+
+IP address:
+A logical address used to identify an interface and support communication across networks.
+
+Two major IP versions:
+- IPv4.
+- IPv6.
+
+MAC addresses operate at the data link layer, whereas IP addresses operate at the network layer.
+
+10. IPv4 ADDRESSING
+
+IPv4 uses a 32-bit address represented as four decimal octets separated by dots.
+
+Example:
+192.168.1.10
+
+Each octet contains 8 bits and has a decimal range from 0 to 255.
+
+An IPv4 address contains:
+- Network portion.
+- Host portion.
+
+The subnet mask identifies which bits represent the network portion.
+
+Example:
+IP address: 192.168.1.10
+Subnet mask: 255.255.255.0
+CIDR notation: /24
+
+11. IPv4 ADDRESS CLASSES
+
+Traditional classful IPv4 addressing:
+
+Class A:
+First octet range: 1 to 126.
+Default mask: 255.0.0.0.
+Designed for large networks.
+
+Class B:
+First octet range: 128 to 191.
+Default mask: 255.255.0.0.
+Designed for medium-sized networks.
+
+Class C:
+First octet range: 192 to 223.
+Default mask: 255.255.255.0.
+Designed for smaller networks.
+
+Class D:
+First octet range: 224 to 239.
+Used for multicast.
+
+Class E:
+First octet range: 240 to 255.
+Reserved for experimental or special purposes.
+
+Modern networks primarily use CIDR rather than traditional classful allocation.
+
+12. PRIVATE AND PUBLIC IP ADDRESSES
+
+Private IPv4 addresses are used within private networks and are not directly routed across the public Internet.
+
+Private IPv4 ranges:
+- 10.0.0.0 to 10.255.255.255.
+- 172.16.0.0 to 172.31.255.255.
+- 192.168.0.0 to 192.168.255.255.
+
+A public IP address is globally routable on the Internet, subject to network and routing policies.
+
+13. SUBNETTING
+
+Subnetting divides a larger IP network into smaller logical networks.
+
+Benefits:
+- Efficient address allocation.
+- Reduced broadcast domains.
+- Better network organization.
+- Easier network management.
+
+A subnet mask separates network bits from host bits.
+
+Example:
+Network: 192.168.1.0/24
+
+A /24 prefix means that the first 24 bits identify the network.
+
+The remaining 8 bits are available for host addressing.
+
+Total addresses = 2^8 = 256.
+Traditionally usable host addresses = 256 - 2 = 254.
+
+The two excluded addresses are the network address and broadcast address in a conventional IPv4 subnet.
+
+14. CIDR
+
+Classless Inter-Domain Routing (CIDR) allows IP addresses to be allocated using variable-length network prefixes.
+
+Example:
+192.168.1.0/26
+
+A /26 prefix leaves 6 host bits.
+
+Total addresses = 2^6 = 64.
+Traditionally usable host addresses = 64 - 2 = 62.
+
+CIDR reduces address wastage and supports flexible network allocation.
+
+15. IPv6 ADDRESSING
+
+IPv6 uses 128-bit addresses.
+
+Example:
+2001:db8::1
+
+Advantages:
+- Very large address space.
+- Simplified address configuration.
+- Improved support for modern network architecture.
+- No broadcast addressing; multicast and anycast are used for group and selected-recipient communication.
+
+IPv6 addresses are written using hexadecimal groups separated by colons.
+
+16. TCP - TRANSMISSION CONTROL PROTOCOL
+
+TCP is a connection-oriented transport-layer protocol that provides reliable and ordered data delivery.
+
+Features:
+- Connection establishment.
+- Reliable data transmission.
+- Sequence numbers.
+- Acknowledgements.
+- Retransmission of lost data.
+- Flow control.
+- Congestion control.
+- Error detection.
+
+TCP three-way handshake:
+
+Step 1: Client sends SYN.
+Step 2: Server responds with SYN-ACK.
+Step 3: Client sends ACK.
+
+After these steps, the TCP connection is established.
+
+TCP is commonly used for web communication, email, and file transfer when reliable delivery is required.
+
+17. UDP - USER DATAGRAM PROTOCOL
+
+UDP is a connectionless transport-layer protocol.
+
+Features:
+- No connection establishment.
+- Low protocol overhead.
+- No built-in guarantee of delivery.
+- No built-in guarantee of ordering.
+- No retransmission mechanism in the protocol itself.
+
+Applications include:
+- DNS queries.
+- Online gaming.
+- Live audio and video.
+- Real-time communication.
+
+18. TCP VS UDP
+
+TCP:
+- Connection-oriented.
+- Reliable and ordered delivery.
+- Uses acknowledgements and retransmissions.
+- Has flow and congestion control.
+- Higher protocol overhead.
+
+UDP:
+- Connectionless.
+- No built-in reliability or ordering guarantee.
+- No built-in retransmission.
+- Lower protocol overhead.
+- Suitable for latency-sensitive applications.
+
+19. PORT NUMBERS
+
+A port number identifies a specific application or service endpoint on a host.
+
+Common port numbers:
+- HTTP: 80.
+- HTTPS: 443.
+- FTP control: 21.
+- SSH: 22.
+- SMTP: 25.
+- DNS: 53.
+- DHCP server: 67.
+- DHCP client: 68.
+- POP3: 110.
+- IMAP: 143.
+
+TCP and UDP use port numbers to identify application endpoints.
+
+20. DNS - DOMAIN NAME SYSTEM
+
+DNS translates human-readable domain names into IP addresses.
+
+Example:
+A user enters www.example.com.
+The DNS resolver obtains the corresponding IP address.
+The browser can then communicate with the destination server.
+
+DNS hierarchy:
+- Root DNS servers.
+- Top-Level Domain servers.
+- Authoritative DNS servers.
+
+Common DNS record types:
+- A: Maps a name to an IPv4 address.
+- AAAA: Maps a name to an IPv6 address.
+- CNAME: Provides an alias for another domain name.
+- MX: Identifies mail servers.
+- NS: Identifies authoritative name servers.
+- TXT: Stores text information associated with a domain.
+
+21. DHCP - DYNAMIC HOST CONFIGURATION PROTOCOL
+
+DHCP automatically provides network configuration to devices.
+
+It can assign:
+- IP address.
+- Subnet mask.
+- Default gateway.
+- DNS server information.
+
+DHCP DORA process:
+1. Discover: Client broadcasts a DHCP Discover message.
+2. Offer: Server offers an IP configuration.
+3. Request: Client requests the offered configuration.
+4. Acknowledge: Server confirms the assignment.
+
+22. HTTP AND HTTPS
+
+HTTP (Hypertext Transfer Protocol):
+An application-layer protocol used for communication between web clients and servers.
+
+HTTPS:
+HTTP protected using TLS encryption.
+
+HTTP methods:
+- GET: Retrieve a resource.
+- POST: Submit data or request resource creation.
+- PUT: Create or replace a resource at a specified URI.
+- PATCH: Partially update a resource.
+- DELETE: Request deletion of a resource.
+
+Common HTTP status codes:
+- 200: OK.
+- 201: Created.
+- 301: Moved Permanently.
+- 400: Bad Request.
+- 401: Unauthorized.
+- 403: Forbidden.
+- 404: Not Found.
+- 500: Internal Server Error.
+- 503: Service Unavailable.
+
+23. ROUTING
+
+Routing is the process of selecting paths through which packets travel from a source network to a destination network.
+
+A router uses a routing table to determine the next hop or outgoing interface.
+
+Types of routing:
+- Static routing: Routes are configured manually.
+- Dynamic routing: Routers learn and update routes using routing protocols.
+
+Examples of routing protocols:
+- RIP.
+- OSPF.
+- BGP.
+
+24. NAT - NETWORK ADDRESS TRANSLATION
+
+NAT translates IP addresses between network address spaces.
+
+A common use is allowing multiple devices with private IP addresses to access the Internet through a public IP address.
+
+PAT (Port Address Translation) uses port numbers to distinguish connections sharing an external IP address.
+
+Benefits:
+- Conserves public IPv4 addresses.
+- Allows private networks to use private address ranges.
+- Hides internal addressing details from external networks.
+
+25. NETWORK SECURITY
+
+Network security protects networks, devices, and data against unauthorized access, misuse, modification, and attacks.
+
+Common security principles:
+- Confidentiality: Information is accessible only to authorized parties.
+- Integrity: Information remains accurate and unaltered without authorization.
+- Availability: Systems and data remain accessible when required.
+
+Common threats:
+- Malware.
+- Phishing.
+- Denial-of-Service attacks.
+- Man-in-the-Middle attacks.
+- Packet sniffing.
+- Spoofing.
+- Unauthorized access.
+
+Security mechanisms:
+- Firewalls.
+- Encryption.
+- Authentication.
+- Access control.
+- Intrusion detection and prevention.
+- Secure protocols such as HTTPS and SSH.
+
+26. FIREWALL
+
+A firewall monitors and controls incoming and outgoing network traffic according to defined security rules.
+
+Types:
+- Packet-filtering firewall.
+- Stateful inspection firewall.
+- Proxy or application-level firewall.
+- Next-generation firewall.
+
+A firewall helps prevent unauthorized network access but is not a complete replacement for other security controls.
+
+27. IMPORTANT NETWORK TERMS
+
+Bandwidth:
+The maximum data-carrying capacity of a communication link.
+
+Throughput:
+The actual rate at which data is successfully transferred.
+
+Latency:
+The time taken for data to travel from source to destination.
+
+Jitter:
+Variation in packet delay.
+
+Packet:
+A unit of data transmitted at the network layer.
+
+Frame:
+A unit of data transmitted at the data link layer.
+
+Protocol:
+A set of rules governing communication.
+
+Topology:
+The physical or logical arrangement of network devices and links.
+
+28. IMPORTANT DIFFERENCES
+
+LAN vs WAN:
+LAN covers a limited geographical area, whereas WAN connects networks across large geographical areas.
+
+Hub vs Switch:
+A hub broadcasts incoming data to all ports. A switch forwards frames based on MAC addresses.
+
+Switch vs Router:
+A switch primarily forwards frames within a LAN using MAC addresses. A router forwards packets between networks using IP addresses.
+
+IPv4 vs IPv6:
+IPv4 uses 32-bit addresses, whereas IPv6 uses 128-bit addresses.
+
+HTTP vs HTTPS:
+HTTP does not provide transport encryption by itself. HTTPS uses TLS to protect HTTP communication.
+
+Bandwidth vs Throughput:
+Bandwidth is the theoretical or configured capacity of a link. Throughput is the actual successful data-transfer rate.
+
+29. COMPUTER NETWORKS QUESTION AND ANSWER EXAMPLES
+
+Q: What is a computer network?
+A: A computer network is a collection of interconnected devices that communicate and share resources.
+
+Q: What are the seven layers of the OSI model?
+A: Physical, Data Link, Network, Transport, Session, Presentation, and Application.
+
+Q: What is the function of the network layer?
+A: It provides logical addressing and routing of packets between networks.
+
+Q: What is the difference between TCP and UDP?
+A: TCP provides reliable, ordered, connection-oriented delivery. UDP provides connectionless communication without built-in delivery or ordering guarantees.
+
+Q: What is an IP address?
+A: An IP address is a logical address used to identify a network interface and support packet delivery.
+
+Q: What is subnetting?
+A: Subnetting divides a larger IP network into smaller logical networks.
+
+Q: What is DNS?
+A: DNS translates domain names into IP addresses.
+
+Q: What is DHCP?
+A: DHCP automatically assigns IP configuration to devices on a network.
+
+Q: What is a router?
+A: A router connects different networks and forwards packets using IP addresses.
+
+Q: What is a switch?
+A: A switch connects devices in a LAN and forwards frames using MAC addresses.
+
+Q: What is a firewall?
+A: A firewall monitors and controls network traffic according to security rules.
+
+Q: What is the TCP three-way handshake?
+A: It is the SYN, SYN-ACK, and ACK exchange used to establish a TCP connection.
+
+Q: What is NAT?
+A: NAT translates IP addresses between network address spaces, commonly allowing private devices to share a public IPv4 address.
+
+Q: What is the difference between bandwidth and latency?
+A: Bandwidth measures data-carrying capacity, whereas latency measures communication delay.

@@ -1,0 +1,39 @@
+{
+  "experiment_id": "phase_3_6_controlled_3steps_seed20261106",
+  "description": "Bounded three-step CPU training experiment on the existing V2 training split; not a full-corpus run.",
+  "training": {
+    "batch_size": 1,
+    "learning_rate": 0.0001,
+    "weight_decay": 0.01,
+    "epochs": 1,
+    "warmup_steps": 1,
+    "gradient_clip_norm": 1.0,
+    "random_seed": 20261106,
+    "evaluation_interval": 1,
+    "checkpoint_interval": 3,
+    "early_stopping_patience": 3,
+    "device": "cpu",
+    "num_workers": 0,
+    "min_learning_rate_ratio": 0.1
+  },
+  "max_steps": 3,
+  "generation": {
+    "prompt": "Explain the relationship between an algorithm and a program.",
+    "max_new_tokens": 32,
+    "temperature": 0.8,
+    "top_k": 40,
+    "random_seed": 20261106
+  },
+  "benchmark": {
+    "warmup_runs": 1,
+    "measured_runs": 3
+  },
+  "data_policy": {
+    "train_split": "train",
+    "monitoring_split": "validation",
+    "test_split_used": false,
+    "external_data_used": false,
+    "source_license_status": "unknown; research-use authorization is not established by repository presence",
+    "experiment_scope": "controlled research probe on existing local corpus only"
+  }
+}

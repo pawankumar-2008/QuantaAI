@@ -1,0 +1,211 @@
+﻿JAVA PROGRAMMING
+
+Java is a high-level, class-based, object-oriented programming language. It is designed to be portable, secure, and suitable for developing different types of applications.
+
+Java source code is written in files with the .java extension. The Java compiler converts source code into bytecode, which is executed by the Java Virtual Machine.
+
+The Java Development Kit (JDK) provides tools required to develop Java applications. It includes the Java compiler, runtime components, and development utilities.
+
+The Java Runtime Environment (JRE) provides the runtime components required to execute Java applications. The JVM is responsible for executing Java bytecode.
+
+The Java Virtual Machine is an abstract computing machine that executes Java bytecode. It provides platform independence by allowing compatible JVM implementations to execute the same bytecode on different operating systems.
+
+The Java compilation process converts a Java source file into bytecode. The java launcher starts the JVM to execute the compiled program.
+
+Java is platform independent because compiled bytecode can run on any compatible system with a JVM.
+
+A class is a blueprint that defines the properties and behaviours of objects. It contains fields, constructors, and methods.
+
+An object is an instance of a class. It has state represented by fields and behaviour represented by methods.
+
+A field is a variable declared inside a class or object. It stores the state of an object or class.
+
+A method is a block of code that performs a particular operation. Methods support code reuse and modularity.
+
+A constructor is a special member used to initialize objects. Its name matches the class name, and it has no return type.
+
+A default constructor is a constructor provided automatically by the compiler when no constructor is explicitly declared.
+
+A parameterized constructor accepts arguments to initialize an object with specific values.
+
+The this keyword refers to the current object. It can be used to access instance members and distinguish instance variables from parameters.
+
+The static keyword declares members that belong to the class rather than individual objects. Static variables are shared among instances of the class.
+
+The final keyword can prevent a variable from being reassigned, a method from being overridden, or a class from being extended.
+
+OBJECT ORIENTED PROGRAMMING
+
+Object-oriented programming is a programming approach based on classes and objects. Its major principles are encapsulation, inheritance, polymorphism, and abstraction.
+
+Encapsulation combines data and methods within a class and controls access to internal data using access modifiers. It helps protect an object's state.
+
+Inheritance allows one class to acquire accessible properties and methods from another class. Java uses the extends keyword for class inheritance.
+
+The parent class is the class whose accessible members are inherited. The child class is the class that extends another class.
+
+Java supports single, multilevel, and hierarchical class inheritance. A Java class cannot directly extend multiple classes.
+
+Polymorphism means the ability to represent different behaviours through a common interface or reference. Method overloading and method overriding are important forms of polymorphism.
+
+Method overloading occurs when multiple methods in the same class have the same name but different parameter lists. The compiler determines which overloaded method to call based on the arguments.
+
+Method overriding occurs when a subclass provides its own implementation of an inherited method with a compatible method signature.
+
+Abstraction means exposing essential functionality while hiding implementation details. Java supports abstraction through abstract classes and interfaces.
+
+An abstract class is declared using the abstract keyword. It cannot be instantiated directly and may contain abstract as well as concrete methods.
+
+An interface defines a contract that implementing classes must follow. A class uses the implements keyword to implement an interface.
+
+An abstract method is a method declared without an implementation. Concrete subclasses must implement inherited abstract methods unless they are also abstract.
+
+An access modifier controls the visibility of classes, methods, constructors, and fields. Java provides public, protected, private, and package-private access levels.
+
+EXCEPTION HANDLING
+
+An exception is an event that interrupts the normal flow of program execution.
+
+Exception handling allows a program to detect and manage exceptional conditions so that it can respond appropriately.
+
+Java uses try, catch, finally, throw, and throws keywords for exception handling.
+
+The try block contains statements that may cause an exception.
+
+The catch block handles an exception thrown from the associated try block.
+
+The finally block contains cleanup code that normally executes whether an exception occurs or not.
+
+The throw keyword explicitly throws an exception from a method or block of code.
+
+The throws keyword declares exceptions that a method may pass to its caller.
+
+A checked exception is checked by the compiler. It must generally be caught or declared in the method signature. IOException is an example.
+
+An unchecked exception occurs at runtime and does not require mandatory handling or declaration. NullPointerException and ArithmeticException are examples.
+
+A user-defined exception is created by defining a custom exception class, commonly by extending Exception or RuntimeException.
+
+COLLECTIONS FRAMEWORK
+
+The Java Collections Framework provides interfaces and classes for storing and manipulating groups of objects.
+
+The Collection interface is a root interface for many collection types. List, Set, and Queue are important subinterfaces.
+
+A List is an ordered collection that permits duplicate elements. ArrayList and LinkedList are common implementations.
+
+An ArrayList is a resizable array implementation of List. It provides efficient indexed access and generally slower insertion or deletion in the middle.
+
+A LinkedList stores elements in linked nodes. It implements both List and Deque and supports operations at both ends.
+
+A Set is a collection that does not permit duplicate elements. HashSet and TreeSet are common implementations.
+
+A HashSet stores unique elements and does not guarantee iteration order.
+
+A TreeSet stores unique elements in sorted order according to their natural ordering or a supplied comparator.
+
+A Queue represents a collection designed for holding elements before processing. Many queue implementations follow first in first out ordering.
+
+A Map stores key-value pairs. Each key is unique, while values may be duplicated.
+
+HashMap stores key-value mappings and does not guarantee iteration order. It permits one null key and multiple null values.
+
+Comparable defines the natural ordering of objects using the compareTo method.
+
+Comparator defines an external or alternative ordering using the compare method.
+
+MULTITHREADING
+
+A thread is a lightweight unit of execution within a process. Multiple threads can execute different tasks within the same application.
+
+Multithreading allows a program to perform multiple tasks concurrently. It can improve responsiveness and resource utilization.
+
+Java provides two common ways to create a thread: extending the Thread class or implementing the Runnable interface.
+
+The start method requests the JVM to schedule a new thread. It eventually invokes the thread's run method.
+
+The run method contains the task executed by a thread. Calling run directly does not create a new thread.
+
+The sleep method pauses the currently executing thread for a specified duration, subject to scheduling and system timing.
+
+Thread synchronization controls concurrent access to shared resources. It helps prevent race conditions and inconsistent data.
+
+A synchronized method or block allows only one thread at a time to execute the protected section for a particular monitor lock.
+
+Inter-thread communication allows threads to coordinate their activities. Java provides wait, notify, and notifyAll methods for monitor-based communication.
+
+The wait method causes a thread to release the monitor and wait until notified or interrupted.
+
+The notify method wakes one thread waiting on the same object's monitor. The notifyAll method wakes all threads waiting on that monitor.
+
+The thread scheduler selects runnable threads for execution. Actual scheduling and execution order depend on the JVM and operating system.
+
+JAVA INPUT AND OUTPUT
+
+Java input and output streams allow programs to read data from sources and write data to destinations.
+
+Byte streams process data as bytes. InputStream and OutputStream are their main abstract base classes.
+
+Character streams process text using characters. Reader and Writer are their main abstract base classes.
+
+FileInputStream reads bytes from a file. FileOutputStream writes bytes to a file.
+
+FileReader reads character data from a file. FileWriter writes character data to a file.
+
+BufferedInputStream and BufferedOutputStream improve byte-stream efficiency by using buffers.
+
+BufferedReader reads text efficiently and provides the readLine method to read a complete line.
+
+BufferedWriter writes text efficiently by buffering characters before sending them to the destination.
+
+The read method reads data from an input stream or reader. Depending on the class, it may return a byte value, character value, or an indication that the end of the stream has been reached.
+
+JDBC
+
+Java Database Connectivity is an API that allows Java applications to communicate with relational databases.
+
+A JDBC driver enables a Java application to communicate with a particular database system.
+
+A Connection represents a connection between a Java application and a database.
+
+A Statement is used to execute SQL statements against a database.
+
+A PreparedStatement represents a precompiled parameterized SQL statement. It helps execute repeated queries and safely bind values.
+
+A ResultSet represents tabular data returned by a query. It provides methods to navigate and retrieve column values.
+
+A transaction groups database operations into a logical unit of work. JDBC provides commit and rollback operations to manage transactions.
+
+QUESTION: What is the difference between JDK, JRE, and JVM?
+ANSWER: The JDK provides development tools such as the Java compiler and runtime components. The JRE provides components needed to run Java applications. The JVM executes Java bytecode.
+
+QUESTION: Why is Java platform independent?
+ANSWER: Java source code is compiled into bytecode rather than directly into platform-specific machine code. A compatible JVM can execute that bytecode on different operating systems.
+
+QUESTION: What are the four principles of object-oriented programming?
+ANSWER: The four major principles are encapsulation, inheritance, polymorphism, and abstraction.
+
+QUESTION: What is the difference between method overloading and method overriding?
+ANSWER: Overloading defines multiple methods with the same name but different parameter lists. Overriding allows a subclass to provide a new implementation of an inherited method.
+
+QUESTION: What is the difference between an abstract class and an interface?
+ANSWER: An abstract class can contain instance fields, constructors, abstract methods, and concrete methods. An interface defines a contract and can contain abstract methods, default methods, static methods, and constants. A class can extend one class but implement multiple interfaces.
+
+QUESTION: What is the difference between throw and throws?
+ANSWER: The throw keyword explicitly throws an exception. The throws keyword declares possible exceptions in a method signature.
+
+QUESTION: What is the difference between ArrayList and LinkedList?
+ANSWER: ArrayList uses a resizable array and provides efficient indexed access. LinkedList uses linked nodes and supports efficient operations at its ends. Performance depends on the operation and position.
+
+QUESTION: What is the difference between Comparable and Comparator?
+ANSWER: Comparable defines the natural ordering of a class using compareTo. Comparator defines an external ordering using compare and allows multiple sorting strategies.
+
+QUESTION: What is the difference between start and run in Java?
+ANSWER: The start method initiates a new thread and causes its run method to execute on that thread. Calling run directly executes it like an ordinary method on the current thread.
+
+QUESTION: What is synchronization in Java?
+ANSWER: Synchronization controls access to shared resources when multiple threads are executing concurrently. It prevents multiple threads from simultaneously entering protected critical sections using the same monitor.
+
+QUESTION: What are byte streams and character streams?
+ANSWER: Byte streams process raw byte data and are useful for binary files. Character streams process text using character encoding and are useful for reading and writing textual data.
+

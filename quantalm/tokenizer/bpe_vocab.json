@@ -1,0 +1,13 @@
+{
+    "model": "QuantaLM-BPE",
+    "vocab_size": 2048,
+    "special_tokens": {
+        "<pad>": 256,
+        "<unk>": 257,
+        "<bos>": 258,
+        "<eos>": 259
+    },
+    "byte_tokens": 256,
+    "merge_start_id": 260,
+    "learned_merges": 1788
+}

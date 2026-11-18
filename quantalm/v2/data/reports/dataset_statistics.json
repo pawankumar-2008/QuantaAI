@@ -1,0 +1,116 @@
+{
+  "category_distribution": {
+    "Artificial Intelligence": {
+      "test": 0,
+      "total": 1,
+      "train": 1,
+      "validation": 0
+    },
+    "Computer Science": {
+      "test": 1,
+      "total": 9,
+      "train": 7,
+      "validation": 1
+    },
+    "General Knowledge": {
+      "test": 0,
+      "total": 0,
+      "train": 0,
+      "validation": 0
+    },
+    "General Science": {
+      "test": 0,
+      "total": 1,
+      "train": 1,
+      "validation": 0
+    },
+    "Mathematics": {
+      "test": 0,
+      "total": 1,
+      "train": 1,
+      "validation": 0
+    },
+    "Student Learning": {
+      "test": 0,
+      "total": 1,
+      "train": 1,
+      "validation": 0
+    }
+  },
+  "characters_removed_by_cleaning": 366,
+  "characters_removed_by_document_deduplication": 13682,
+  "original_raw_character_count": 199612,
+  "original_raw_document_count": 15,
+  "original_raw_file_size_bytes": 199648,
+  "requested_ratios": {
+    "test": 0.1,
+    "train": 0.8,
+    "validation": 0.1
+  },
+  "retained_bpe_token_count": 76734,
+  "retained_clean_character_count": 185564,
+  "retained_unique_document_count": 13,
+  "split_statistics": {
+    "test": {
+      "category_distribution": {
+        "Computer Science": 1
+      },
+      "character_count": 12979,
+      "document_count": 1,
+      "document_ids": [
+        "8f4b67fe703c1cdd"
+      ],
+      "document_ratio": 0.076923,
+      "estimated_token_count": 5193,
+      "token_count_method": "independent V2 byte-level BPE, exact count without special tokens"
+    },
+    "train": {
+      "category_distribution": {
+        "Artificial Intelligence": 1,
+        "Computer Science": 7,
+        "General Science": 1,
+        "Mathematics": 1,
+        "Student Learning": 1
+      },
+      "character_count": 155112,
+      "document_count": 11,
+      "document_ids": [
+        "31ca69d786c76ed3",
+        "789b13107075f7f5",
+        "9756884e55d4caf1",
+        "9e8980b5da0650e4",
+        "b0aa2e9dbbd0dc68",
+        "bb9c2c7947924120",
+        "c690a1efa2e3b140",
+        "c80d9c28d833f12b",
+        "e764c0050f66382f",
+        "eb659abed95930b1",
+        "f5ff7ec9ee9907cb"
+      ],
+      "document_ratio": 0.846154,
+      "estimated_token_count": 63079,
+      "token_count_method": "independent V2 byte-level BPE, exact count without special tokens"
+    },
+    "validation": {
+      "category_distribution": {
+        "Computer Science": 1
+      },
+      "character_count": 17473,
+      "document_count": 1,
+      "document_ids": [
+        "742d6782922854a3"
+      ],
+      "document_ratio": 0.076923,
+      "estimated_token_count": 8462,
+      "token_count_method": "independent V2 byte-level BPE, exact count without special tokens"
+    }
+  },
+  "tokenizer": {
+    "hashes": {
+      "implementation_sha256": "8cd6afbbf99769e7e9f94b0d22f57a3e3f5267bdb05d897d8c82f1503c534fd4",
+      "merges_sha256": "58311870925135198c8ec425a47aa6438546432bc489c23b6c14d955ffb48ff1",
+      "vocabulary_sha256": "22726c0c72d74a9e7ce0d2957bdd58d869293988471d3b3004b962318273381b"
+    },
+    "vocabulary_size": 2048
+  }
+}

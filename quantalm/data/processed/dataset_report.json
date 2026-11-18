@@ -1,0 +1,26 @@
+{
+    "total_domains": 5,
+    "total_characters": 185752,
+    "domains": {
+        "artificial_intelligence": {
+            "files": 1,
+            "characters": 24409
+        },
+        "computer_science": {
+            "files": 9,
+            "characters": 102831
+        },
+        "mathematics": {
+            "files": 1,
+            "characters": 24977
+        },
+        "science": {
+            "files": 1,
+            "characters": 24559
+        },
+        "student_learning": {
+            "files": 1,
+            "characters": 8815
+        }
+    }
+}

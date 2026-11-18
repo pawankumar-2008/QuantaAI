@@ -1,0 +1,216 @@
+{
+  "category_distribution": {
+    "Artificial Intelligence": {
+      "test": 0,
+      "total": 1,
+      "train": 1,
+      "validation": 0
+    },
+    "Computer Science": {
+      "test": 1,
+      "total": 9,
+      "train": 7,
+      "validation": 1
+    },
+    "General Knowledge": {
+      "test": 0,
+      "total": 0,
+      "train": 0,
+      "validation": 0
+    },
+    "General Science": {
+      "test": 0,
+      "total": 1,
+      "train": 1,
+      "validation": 0
+    },
+    "Mathematics": {
+      "test": 0,
+      "total": 1,
+      "train": 1,
+      "validation": 0
+    },
+    "Student Learning": {
+      "test": 0,
+      "total": 1,
+      "train": 1,
+      "validation": 0
+    }
+  },
+  "classified_document_count": 15,
+  "corrupted_document_count": 0,
+  "dataset_expansion": {
+    "additional_approved_sources_added": 0,
+    "category_gaps": [
+      "General Knowledge has no documents.",
+      "Mathematics, General Science, AI, and Student Learning each have one unique source document.",
+      "No dedicated software engineering document or verified general-knowledge source was found."
+    ],
+    "reason": "No approved external sources or licensing records were provided or found in the inspected local dataset."
+  },
+  "empty_document_count": 0,
+  "invalid_encoding_count": 0,
+  "known_limitations": [
+    "The General Knowledge category has no source documents.",
+    "Validation and test are small because the corpus contains few unique source documents and leakage groups are kept intact.",
+    "Repository paths do not establish authorship, factual accuracy, or reuse rights.",
+    "Lexical near-duplicate detection cannot identify semantic paraphrases.",
+    "The V2 tokenizer decoder uses UTF-8 replacement on malformed byte sequences; valid source text is checked for exact round trips.",
+    "No approved licensed external dataset was supplied; additional content was not fabricated or downloaded."
+  ],
+  "model_context_compatibility": {
+    "configured_context_length": 256,
+    "documents_exceeding_context_length": 13,
+    "documents_truncated": 0,
+    "policy": "No truncation; split documents require a separate chunking policy before model training."
+  },
+  "provenance_and_licensing": {
+    "action_required": "Obtain source and license records before distributing or training on this corpus.",
+    "external_source_metadata_available": false,
+    "license_status": "unknown for all source documents"
+  },
+  "retained_unique_document_count": 13,
+  "short_document_count": 0,
+  "source_document_count": 15,
+  "split_leakage_validation": {
+    "exact_duplicate_cross_split_count": 0,
+    "near_duplicate_or_shared_line_group_cross_split_count": 0,
+    "normalized_duplicate_cross_split_count": 0,
+    "shared_line_minimum_length": 16,
+    "shared_passage_cross_split_count": 0,
+    "shared_substantive_line_cross_split_count": 0,
+    "status": "passed"
+  },
+  "split_statistics": {
+    "test": {
+      "category_distribution": {
+        "Computer Science": 1
+      },
+      "character_count": 12979,
+      "document_count": 1,
+      "document_ids": [
+        "8f4b67fe703c1cdd"
+      ],
+      "document_ratio": 0.076923,
+      "estimated_token_count": 5193,
+      "token_count_method": "independent V2 byte-level BPE, exact count without special tokens"
+    },
+    "train": {
+      "category_distribution": {
+        "Artificial Intelligence": 1,
+        "Computer Science": 7,
+        "General Science": 1,
+        "Mathematics": 1,
+        "Student Learning": 1
+      },
+      "character_count": 155112,
+      "document_count": 11,
+      "document_ids": [
+        "31ca69d786c76ed3",
+        "789b13107075f7f5",
+        "9756884e55d4caf1",
+        "9e8980b5da0650e4",
+        "b0aa2e9dbbd0dc68",
+        "bb9c2c7947924120",
+        "c690a1efa2e3b140",
+        "c80d9c28d833f12b",
+        "e764c0050f66382f",
+        "eb659abed95930b1",
+        "f5ff7ec9ee9907cb"
+      ],
+      "document_ratio": 0.846154,
+      "estimated_token_count": 63079,
+      "token_count_method": "independent V2 byte-level BPE, exact count without special tokens"
+    },
+    "validation": {
+      "category_distribution": {
+        "Computer Science": 1
+      },
+      "character_count": 17473,
+      "document_count": 1,
+      "document_ids": [
+        "742d6782922854a3"
+      ],
+      "document_ratio": 0.076923,
+      "estimated_token_count": 8462,
+      "token_count_method": "independent V2 byte-level BPE, exact count without special tokens"
+    }
+  },
+  "status": "passed with documented limitations",
+  "tokenized_split_statistics": {
+    "test": {
+      "average_tokens_per_document": 5195.0,
+      "bos_token_id": 258,
+      "category_token_counts": {
+        "Computer Science": 5195
+      },
+      "context_policy": "Full document encoded; no truncation. Chunking is required before model input.",
+      "documents_exceeding_model_context_length": 1,
+      "eos_token_id": 259,
+      "maximum_sequence_length": 5195,
+      "model_context_length": 256,
+      "output_path": "data/splits/test/test_tokens.jsonl",
+      "output_sha256": "4abe1ac2e857e5bc1dbbb1a1fa97be9883c5ddb565d23c25401b95b91902b73f",
+      "source_document_count": 1,
+      "token_count_including_bos_eos": 5195,
+      "tokenized_document_count": 1,
+      "unknown_token_count": 0
+    },
+    "train": {
+      "average_tokens_per_document": 5736.454545454545,
+      "bos_token_id": 258,
+      "category_token_counts": {
+        "Artificial Intelligence": 9983,
+        "Computer Science": 27618,
+        "General Science": 11056,
+        "Mathematics": 11257,
+        "Student Learning": 3187
+      },
+      "context_policy": "Full document encoded; no truncation. Chunking is required before model input.",
+      "documents_exceeding_model_context_length": 11,
+      "eos_token_id": 259,
+      "maximum_sequence_length": 11257,
+      "model_context_length": 256,
+      "output_path": "data/splits/train/train_tokens.jsonl",
+      "output_sha256": "1512cec48337557f0a601acc800b81a8a6c4ca848e3c8a280a8e46610c8e0d7a",
+      "source_document_count": 11,
+      "token_count_including_bos_eos": 63101,
+      "tokenized_document_count": 11,
+      "unknown_token_count": 0
+    },
+    "validation": {
+      "average_tokens_per_document": 8464.0,
+      "bos_token_id": 258,
+      "category_token_counts": {
+        "Computer Science": 8464
+      },
+      "context_policy": "Full document encoded; no truncation. Chunking is required before model input.",
+      "documents_exceeding_model_context_length": 1,
+      "eos_token_id": 259,
+      "maximum_sequence_length": 8464,
+      "model_context_length": 256,
+      "output_path": "data/splits/validation/validation_tokens.jsonl",
+      "output_sha256": "561ce1695302f33863e78d7f4d86a2d91988bb1d1c64237d1388d10b1496af06",
+      "source_document_count": 1,
+      "token_count_including_bos_eos": 8464,
+      "tokenized_document_count": 1,
+      "unknown_token_count": 0
+    }
+  },
+  "tokenizer_training_data_leakage": {
+    "evidence": "Tokenizer training report records the training split hash and document IDs; the fit script reads only train/split dataset JSONL.",
+    "status": "resolved for this tokenizer artifact",
+    "test_documents_read_for_fitting": 0,
+    "tokenizer_training_report_sha256": "af2e2ea773b3a722dc8876252818db45dc1ddf38eaa6079deab2ff32eb1000e2",
+    "validation_documents_read_for_fitting": 0
+  },
+  "tokenizer_training_split_sha256": "40de3bb3446317770478a457b6b9e08fead5294afddc6507175780967d7666c9",
+  "tokenizer_vocabulary_matches_model": true,
+  "uncategorized_document_count": 0,
+  "v2_model_compatibility": {
+    "configured_context_length": 256,
+    "status": "Tokenizer vocabulary matches the configured V2 model vocabulary.",
+    "tokenizer_vocabulary_matches_config": true,
+    "v2_transformer_implementation_present": true
+  }
+}

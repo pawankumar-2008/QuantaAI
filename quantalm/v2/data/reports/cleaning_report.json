@@ -1,0 +1,23 @@
+{
+  "characters_removed_by_cleaning": 366,
+  "characters_removed_by_document_deduplication": 13682,
+  "cleaned_character_count_after_deduplication": 185564,
+  "cleaned_character_count_before_deduplication": 199246,
+  "corrupted_documents_excluded": [],
+  "empty_documents_excluded": [],
+  "invalid_encoding_documents_excluded": [],
+  "normalization": [
+    "Decode UTF-8 strictly; remove an optional UTF-8 BOM.",
+    "Normalize CRLF and CR line endings to LF.",
+    "Trim blank lines at document boundaries.",
+    "Limit runs of blank lines to two.",
+    "Remove adjacent identical non-code prose lines only; preserve indented/code-like lines.",
+    "Do not lowercase, strip punctuation, normalize code spacing, or rewrite technical notation."
+  ],
+  "original_raw_character_count": 199612,
+  "removed_consecutive_repeated_prose_lines": 0,
+  "removed_excess_blank_lines": 0,
+  "short_documents_excluded": [],
+  "source_document_count": 15,
+  "uncategorized_documents_excluded": []
+}

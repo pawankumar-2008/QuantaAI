@@ -1,0 +1,148 @@
+{
+  "checkpoint_path": null,
+  "checkpoint_sha256": null,
+  "device": {
+    "cuda_available": false,
+    "device": "cpu",
+    "device_type": "cpu",
+    "gpu_execution_verified": false,
+    "platform": "Windows-11-10.0.26300-SP0",
+    "processor": "Intel64 Family 6 Model 170 Stepping 4, GenuineIntel",
+    "torch_version": "2.14.0+cpu"
+  },
+  "evaluation_dataset_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "evaluation_date": "2026-11-05T22:08:52+00:00",
+  "failed_or_skipped_evaluations": [
+    {
+      "evaluation": "reference_metrics",
+      "reason": "No human-verified reference answers are present."
+    },
+    {
+      "evaluation": "overall_human_quality_score",
+      "reason": "No valid completed human reviews are present."
+    }
+  ],
+  "generation_configuration": {
+    "max_new_tokens": 8,
+    "random_seed": 20261106,
+    "temperature": 0.8,
+    "top_k": 40
+  },
+  "generation_quality": {
+    "answer_length_tokens_mean": null,
+    "empty_response_rate_percentage": null,
+    "eos_termination_rate_percentage": null,
+    "invalid_token_rate_percentage": null,
+    "repeated_ngram_ratio_mean": null,
+    "repeated_token_ratio_mean": null,
+    "repetition_patterns": [],
+    "repetition_quality_percentage": null,
+    "sample_count": 0
+  },
+  "human_evaluation": {
+    "incomplete_review_count": 0,
+    "invalid_review_count": 0,
+    "invalid_reviews": [],
+    "score_conversion": "(mean score - 1) / 4 * 100",
+    "scores": {
+      "coherence_percentage": null,
+      "factual_accuracy_percentage": null,
+      "instruction_following_percentage": null,
+      "relevance_percentage": null
+    },
+    "valid_review_count": 0
+  },
+  "human_verified_reference_count": 0,
+  "limitations": [
+    "No human-verified evaluation questions are currently available; reference-based metrics are unavailable.",
+    "The local corpus has 13 unique documents, with only one validation and one held-out test document.",
+    "The dataset quality report marks source licenses as unknown and does not establish accuracy or reuse rights.",
+    "General Knowledge has no source documents; category coverage is incomplete and imbalanced.",
+    "The untrained baseline is randomly initialized and its generations do not represent trained QuantaLM performance.",
+    "Lexical overlap and perplexity do not establish semantic correctness or factual accuracy.",
+    "The performance probe uses a single BOS token and is not an answer-quality evaluation.",
+    "CUDA was unavailable; GPU execution and GPU performance are unverified."
+  ],
+  "model_configuration": {
+    "architecture_version": "2.0",
+    "context_length": 256,
+    "dropout": 0.1,
+    "embedding_dim": 128,
+    "feed_forward_dim": 512,
+    "num_heads": 4,
+    "num_layers": 4,
+    "vocab_size": 2048
+  },
+  "model_label": "untrained_baseline",
+  "model_state_sha256": "52a55379783f610b55e56064cd8b5e05bbe8042fd259ebaa1ad42a829b8d0943",
+  "overall_human_quality_score": {
+    "available": false,
+    "components": {},
+    "effective_weights": {},
+    "overall_human_quality_percentage": null,
+    "reason": "No valid completed human reviews are available."
+  },
+  "performance": {
+    "average_response_latency_seconds": 0.10135576666895456,
+    "checkpoint_sha256": null,
+    "device_information": {
+      "cuda_available": false,
+      "device": "cpu",
+      "device_type": "cpu",
+      "gpu_execution_verified": false,
+      "platform": "Windows-11-10.0.26300-SP0",
+      "processor": "Intel64 Family 6 Model 170 Stepping 4, GenuineIntel",
+      "torch_version": "2.14.0+cpu"
+    },
+    "first_token_latency_seconds_mean": 0.009101299995866915,
+    "generated_token_count_mean": 8.0,
+    "generated_token_count_total": 24,
+    "generation_parameters": {
+      "max_new_tokens": 8,
+      "random_seed": 20261106,
+      "temperature": 0.8,
+      "top_k": 40
+    },
+    "measured_runs": 3,
+    "model_loading_time_seconds": 0.031990700008464046,
+    "model_state_sha256": "52a55379783f610b55e56064cd8b5e05bbe8042fd259ebaa1ad42a829b8d0943",
+    "peak_cpu_memory_bytes": 245424128,
+    "peak_cpu_memory_method": "Windows process peak working set",
+    "prompt_source": "single_BOS_performance_probe; not an evaluation question or answer",
+    "tokenizer_hash": "91b1a25afa1bc56ce8c6456a1daa7f65ebfe3df177ee1ba66b3a966ddf2c63a0",
+    "tokens_per_second": 78.9298947945348,
+    "total_generation_time_seconds_mean": 0.10135576666895456,
+    "total_generation_time_seconds_median": 0.10207780000928324,
+    "total_generation_time_seconds_p95": 0.13397779999650083,
+    "warmup_runs": 1
+  },
+  "perplexity": {
+    "available": true,
+    "average_negative_log_likelihood": 88.20100836937435,
+    "chunk_count": 38,
+    "evaluated_token_count": 9610,
+    "overlap_policy": "overlapping validation chunk targets are counted per chunk",
+    "padding_policy": "loss_mask positions only; masked padding is excluded",
+    "perplexity": 2.0193483000083173e+38,
+    "perplexity_overflow": false,
+    "target_alignment": "targets are already shifted; no second shift is applied"
+  },
+  "perplexity_chunk_dataset_sha256": "78449ee04bb0b859211551bed16ebc02297b8f4f23cc0a29539c071049f2e715",
+  "question_count": 0,
+  "reference_metrics": {
+    "answer_count": 0,
+    "exact_match_percentage": null,
+    "token_f1_percentage": null,
+    "token_precision_percentage": null,
+    "token_recall_percentage": null
+  },
+  "schema_version": 1,
+  "split": "validation",
+  "tokenizer_artifact_sha256": {
+    "bpe_merges.json": "58311870925135198c8ec425a47aa6438546432bc489c23b6c14d955ffb48ff1",
+    "bpe_vocab.json": "22726c0c72d74a9e7ce0d2957bdd58d869293988471d3b3004b962318273381b",
+    "tokenizer_config.json": "700ded969a20ba865602ffa744301659c48f9da0838ba18c5538c3fb951e8f98"
+  },
+  "tokenizer_sha256": "91b1a25afa1bc56ce8c6456a1daa7f65ebfe3df177ee1ba66b3a966ddf2c63a0",
+  "valid_answer_count": 0
+}

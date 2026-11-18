@@ -1,0 +1,1206 @@
+﻿MATHEMATICS FUNDAMENTALS
+
+1. INTRODUCTION TO MATHEMATICS
+
+Mathematics is the study of numbers, quantities, structures, patterns, and relationships.
+
+Mathematics provides the foundation for computer science, engineering, artificial intelligence, machine learning, statistics, and scientific research.
+
+Major branches include:
+- Algebra.
+- Calculus.
+- Geometry.
+- Trigonometry.
+- Linear algebra.
+- Probability.
+- Statistics.
+- Discrete mathematics.
+- Optimization.
+
+2. NUMBER SYSTEMS
+
+Natural numbers:
+Counting numbers such as 1, 2, 3, 4, and so on.
+
+Whole numbers:
+Natural numbers together with zero.
+
+Integers:
+Positive numbers, negative numbers, and zero.
+
+Rational numbers:
+Numbers that can be expressed as p/q, where p and q are integers and q is not zero.
+
+Examples: 1/2, -3/4, and 5.
+
+Irrational numbers:
+Numbers that cannot be expressed as a ratio of two integers.
+
+Examples: square root of 2 and pi.
+
+Real numbers:
+The collection of rational and irrational numbers.
+
+Complex numbers:
+Numbers expressed as a + bi, where a and b are real numbers and i is the imaginary unit satisfying i^2 = -1.
+
+3. BASIC ARITHMETIC OPERATIONS
+
+Addition:
+Combines two or more quantities.
+
+Subtraction:
+Finds the difference between quantities.
+
+Multiplication:
+Represents repeated addition or scaling.
+
+Division:
+Splits a quantity into equal parts or determines how many times one number fits into another.
+
+Order of operations:
+- Parentheses.
+- Exponents.
+- Multiplication and division from left to right.
+- Addition and subtraction from left to right.
+
+4. EXPONENTS AND POWERS
+
+An exponent indicates how many times a base is multiplied by itself.
+
+Example:
+2^3 = 2 * 2 * 2 = 8.
+
+Laws of exponents:
+
+Product rule:
+a^m * a^n = a^(m+n).
+
+Quotient rule:
+a^m / a^n = a^(m-n), for a not equal to zero.
+
+Power rule:
+(a^m)^n = a^(mn).
+
+Power of a product:
+(ab)^n = a^n * b^n.
+
+Zero exponent:
+a^0 = 1, for a not equal to zero.
+
+Negative exponent:
+a^(-n) = 1/a^n, for a not equal to zero.
+
+Fractional exponent:
+a^(1/n) represents the nth root of a when defined in the real numbers.
+
+5. ALGEBRA
+
+Algebra uses symbols and variables to represent unknown or changing quantities.
+
+An algebraic expression contains variables, constants, and mathematical operations.
+
+Example:
+3x + 5.
+
+A variable is a symbol representing a value that may be unknown or change.
+
+A coefficient is the numerical factor multiplying a variable.
+
+A constant is a fixed value.
+
+An equation states that two expressions are equal.
+
+Example:
+2x + 4 = 10.
+
+Solving:
+2x = 10 - 4.
+2x = 6.
+x = 3.
+
+6. LINEAR EQUATIONS
+
+A linear equation in one variable can be written as:
+
+ax + b = 0, where a is not zero.
+
+Solution:
+x = -b/a.
+
+A linear equation in two variables can be written as:
+
+ax + by = c.
+
+Its graph is a straight line.
+
+Example:
+2x + y = 6.
+
+When x = 0, y = 6.
+When y = 0, x = 3.
+
+7. QUADRATIC EQUATIONS
+
+A quadratic equation has the general form:
+
+ax^2 + bx + c = 0, where a is not zero.
+
+The quadratic formula is:
+
+x = (-b ± sqrt(b^2 - 4ac)) / 2a.
+
+The discriminant is:
+
+D = b^2 - 4ac.
+
+Nature of roots:
+- D > 0: Two distinct real roots.
+- D = 0: Two equal real roots.
+- D < 0: Two complex conjugate roots when coefficients are real.
+
+Example:
+x^2 - 5x + 6 = 0.
+
+Factorization:
+(x - 2)(x - 3) = 0.
+
+Roots:
+x = 2 and x = 3.
+
+8. POLYNOMIALS
+
+A polynomial is an algebraic expression consisting of variables and coefficients with non-negative integer powers.
+
+Example:
+3x^3 + 2x^2 - 5x + 7.
+
+Degree:
+The highest power of the variable with a non-zero coefficient.
+
+Types:
+- Constant polynomial.
+- Linear polynomial.
+- Quadratic polynomial.
+- Cubic polynomial.
+
+Polynomial operations:
+- Addition.
+- Subtraction.
+- Multiplication.
+- Division.
+- Factorization.
+
+9. FACTORIZATION
+
+Factorization expresses an algebraic expression as a product of simpler expressions.
+
+Common identities:
+
+(a + b)^2 = a^2 + 2ab + b^2.
+
+(a - b)^2 = a^2 - 2ab + b^2.
+
+a^2 - b^2 = (a - b)(a + b).
+
+(a + b)^3 = a^3 + 3a^2b + 3ab^2 + b^3.
+
+a^3 + b^3 = (a + b)(a^2 - ab + b^2).
+
+a^3 - b^3 = (a - b)(a^2 + ab + b^2).
+
+10. FUNCTIONS
+
+A function is a relation that assigns exactly one output to each input in its domain.
+
+Notation:
+f(x) = y.
+
+Domain:
+The set of permitted input values.
+
+Codomain:
+The set in which the function's outputs are specified to lie.
+
+Range:
+The set of actual output values produced by the function.
+
+Types of functions:
+- One-to-one function.
+- Many-to-one function.
+- Onto function.
+- Into function.
+- Constant function.
+- Identity function.
+- Polynomial function.
+- Exponential function.
+- Logarithmic function.
+- Trigonometric function.
+
+11. COMPOSITION AND INVERSE FUNCTIONS
+
+Composition of functions:
+If f and g are functions, their composition is:
+
+(f o g)(x) = f(g(x)).
+
+The function g is applied first, followed by f.
+
+Inverse function:
+The inverse of a function reverses its input-output relationship.
+
+Notation:
+f^(-1)(x).
+
+A function must be bijective over the specified domain and codomain to have an inverse function defined over the entire codomain.
+
+12. LOGARITHMS
+
+A logarithm is the inverse operation of exponentiation.
+
+If:
+
+a^x = b,
+
+then:
+
+log_a(b) = x.
+
+Conditions:
+- a > 0.
+- a is not equal to 1.
+- b > 0.
+
+Logarithm rules:
+
+Product rule:
+log_a(xy) = log_a(x) + log_a(y).
+
+Quotient rule:
+log_a(x/y) = log_a(x) - log_a(y).
+
+Power rule:
+log_a(x^n) = n log_a(x).
+
+Change of base:
+log_a(x) = log_b(x) / log_b(a).
+
+13. MATRICES
+
+A matrix is a rectangular arrangement of numbers organized into rows and columns.
+
+Order of a matrix:
+m x n, where m is the number of rows and n is the number of columns.
+
+Types of matrices:
+- Row matrix.
+- Column matrix.
+- Rectangular matrix.
+- Square matrix.
+- Zero matrix.
+- Identity matrix.
+- Diagonal matrix.
+- Scalar matrix.
+- Symmetric matrix.
+- Skew-symmetric matrix.
+
+14. MATRIX OPERATIONS
+
+Matrix addition:
+Matrices of the same order are added by adding corresponding elements.
+
+Matrix subtraction:
+Matrices of the same order are subtracted by subtracting corresponding elements.
+
+Scalar multiplication:
+Every element of a matrix is multiplied by the scalar.
+
+Matrix multiplication:
+For A of order m x n and B of order n x p, the product AB has order m x p.
+
+Matrix multiplication is generally not commutative:
+
+AB is not necessarily equal to BA.
+
+Transpose:
+The transpose of a matrix is obtained by converting its rows into columns.
+
+Notation:
+A^T.
+
+15. DETERMINANTS
+
+A determinant is a scalar value associated with a square matrix.
+
+For a 2 x 2 matrix:
+
+A = [a b; c d]
+
+det(A) = ad - bc.
+
+Properties:
+- Interchanging two rows changes the sign of the determinant.
+- A determinant is zero if two rows or columns are identical.
+- The determinant of a triangular matrix is the product of its diagonal elements.
+- det(AB) = det(A) * det(B).
+
+A square matrix has an inverse if its determinant is non-zero.
+
+16. MATRIX INVERSE
+
+The inverse of a square matrix A is denoted by A^(-1).
+
+It satisfies:
+
+A * A^(-1) = I.
+
+For a 2 x 2 matrix:
+
+A = [a b; c d]
+
+A^(-1) = 1/(ad - bc) * [d -b; -c a].
+
+This formula is valid when ad - bc is not zero.
+
+17. SYSTEMS OF LINEAR EQUATIONS
+
+A system of linear equations contains two or more linear equations involving common variables.
+
+Example:
+
+2x + y = 5.
+x - y = 1.
+
+Adding the equations:
+
+3x = 6.
+
+Therefore:
+x = 2.
+y = 1.
+
+Methods of solution:
+- Substitution.
+- Elimination.
+- Matrix method.
+- Gaussian elimination.
+- Gauss-Jordan elimination.
+- Cramer's rule.
+
+18. VECTORS
+
+A vector is a mathematical quantity having magnitude and direction.
+
+A scalar has magnitude only.
+
+Examples of vectors:
+- Displacement.
+- Velocity.
+- Acceleration.
+- Force.
+
+A vector in three-dimensional space can be represented as:
+
+A = ai + bj + ck.
+
+Magnitude:
+
+|A| = sqrt(a^2 + b^2 + c^2).
+
+19. VECTOR OPERATIONS
+
+Vector addition:
+Corresponding components are added.
+
+A + B = (a1 + b1, a2 + b2).
+
+Scalar multiplication:
+Every component is multiplied by the scalar.
+
+Dot product:
+A . B = a1b1 + a2b2 + a3b3.
+
+Also:
+
+A . B = |A||B|cos(theta).
+
+The dot product produces a scalar.
+
+Cross product:
+A x B produces a vector perpendicular to both A and B in three-dimensional space.
+
+Its magnitude is:
+
+|A x B| = |A||B|sin(theta).
+
+20. INTRODUCTION TO CALCULUS
+
+Calculus is the mathematical study of change and accumulation.
+
+Two main branches:
+- Differential calculus.
+- Integral calculus.
+
+Differential calculus studies rates of change.
+
+Integral calculus studies accumulation and areas under curves.
+
+21. LIMITS
+
+A limit describes the value approached by a function as its input approaches a particular value.
+
+Notation:
+
+lim(x -> a) f(x) = L.
+
+This means that f(x) approaches L as x approaches a.
+
+Important limit:
+
+lim(x -> 0) sin(x)/x = 1.
+
+Important limit:
+
+lim(x -> 0) (1 - cos(x))/x^2 = 1/2.
+
+A function can have a limit at a point even if its value at that point is different or undefined.
+
+22. CONTINUITY
+
+A function is continuous at x = a if:
+1. f(a) is defined.
+2. lim(x -> a) f(x) exists.
+3. lim(x -> a) f(x) = f(a).
+
+Continuity means there is no break or jump in the function at that point.
+
+23. DIFFERENTIATION
+
+Differentiation determines the rate of change of a function with respect to a variable.
+
+The derivative of f(x) is denoted by:
+
+f'(x) or dy/dx.
+
+First-principles definition:
+
+f'(x) = lim(h -> 0) [f(x+h) - f(x)]/h.
+
+24. BASIC DIFFERENTIATION RULES
+
+Constant rule:
+d/dx(c) = 0.
+
+Power rule:
+d/dx(x^n) = n*x^(n-1).
+
+Sum rule:
+d/dx(f + g) = f' + g'.
+
+Product rule:
+d/dx(fg) = f'g + fg'.
+
+Quotient rule:
+d/dx(f/g) = (g f' - f g')/g^2, where g is not zero.
+
+Chain rule:
+d/dx[f(g(x))] = f'(g(x)) * g'(x).
+
+25. COMMON DERIVATIVES
+
+d/dx(sin x) = cos x.
+
+d/dx(cos x) = -sin x.
+
+d/dx(tan x) = sec^2 x.
+
+d/dx(e^x) = e^x.
+
+d/dx(ln x) = 1/x, for x > 0.
+
+d/dx(a^x) = a^x ln(a), for a > 0.
+
+26. APPLICATIONS OF DIFFERENTIATION
+
+Differentiation is used to:
+- Find velocity from displacement.
+- Find acceleration from velocity.
+- Determine increasing and decreasing intervals.
+- Find stationary points.
+- Solve optimization problems.
+- Estimate small changes.
+- Study rates of change in engineering systems.
+
+A stationary point occurs where the first derivative is zero or undefined, subject to the function being defined there.
+
+27. MAXIMA AND MINIMA
+
+A maximum is a point where a function reaches a locally or globally highest value over the specified domain.
+
+A minimum is a point where a function reaches a locally or globally lowest value over the specified domain.
+
+First derivative test:
+The sign change of the first derivative can help identify local maxima and minima.
+
+Second derivative test:
+At a stationary point:
+- If f''(x) > 0, the function has a local minimum.
+- If f''(x) < 0, the function has a local maximum.
+- If f''(x) = 0, the test is inconclusive.
+
+28. INTEGRATION
+
+Integration is the process of finding an antiderivative or calculating accumulated quantities.
+
+Indefinite integral:
+
+Integral f(x) dx = F(x) + C.
+
+Where:
+F'(x) = f(x).
+
+C is the constant of integration.
+
+Definite integral:
+
+Integral from a to b of f(x) dx.
+
+It represents signed accumulation over the interval.
+
+29. BASIC INTEGRATION RULES
+
+Integral of a constant:
+
+Integral c dx = cx + C.
+
+Power rule:
+
+Integral x^n dx = x^(n+1)/(n+1) + C, for n not equal to -1.
+
+Integral of 1/x:
+
+Integral (1/x) dx = ln|x| + C.
+
+Integral of e^x:
+
+Integral e^x dx = e^x + C.
+
+Integral of sin x:
+
+Integral sin x dx = -cos x + C.
+
+Integral of cos x:
+
+Integral cos x dx = sin x + C.
+
+30. METHODS OF INTEGRATION
+
+Substitution:
+Replaces a suitable inner expression with a new variable to simplify an integral.
+
+Integration by parts:
+
+Integral u dv = uv - Integral v du.
+
+Partial fractions:
+Expresses a rational function as a sum of simpler fractions.
+
+Trigonometric substitution:
+Uses trigonometric identities to simplify certain integrals.
+
+31. FUNDAMENTAL THEOREM OF CALCULUS
+
+The Fundamental Theorem of Calculus connects differentiation and integration.
+
+If F'(x) = f(x), then:
+
+Integral from a to b of f(x) dx = F(b) - F(a).
+
+It allows definite integrals to be evaluated using antiderivatives.
+
+32. APPLICATIONS OF INTEGRATION
+
+Integration is used to calculate:
+- Area under a curve.
+- Displacement from velocity.
+- Distance-related accumulated quantities under suitable conditions.
+- Volume of solids.
+- Work done by a variable force.
+- Accumulated probability.
+- Total change in engineering systems.
+
+33. INTRODUCTION TO PROBABILITY
+
+Probability measures the likelihood of an event occurring.
+
+Probability ranges from 0 to 1.
+
+0 represents an impossible event.
+1 represents a certain event.
+
+For equally likely outcomes:
+
+P(A) = Number of favourable outcomes / Total number of outcomes.
+
+34. BASIC PROBABILITY TERMS
+
+Experiment:
+A process that produces an outcome.
+
+Sample space:
+The set of all possible outcomes.
+
+Event:
+A subset of the sample space.
+
+Favourable outcomes:
+Outcomes that satisfy the event.
+
+Complement:
+The event that A does not occur.
+
+Notation:
+P(A') = 1 - P(A).
+
+35. PROBABILITY RULES
+
+Addition rule:
+
+P(A union B) = P(A) + P(B) - P(A intersection B).
+
+If A and B are mutually exclusive:
+
+P(A union B) = P(A) + P(B).
+
+Multiplication rule:
+
+P(A intersection B) = P(A)P(B|A).
+
+If A and B are independent:
+
+P(A intersection B) = P(A)P(B).
+
+36. CONDITIONAL PROBABILITY
+
+Conditional probability is the probability of an event occurring given that another event has already occurred.
+
+P(A|B) = P(A intersection B)/P(B), provided P(B) > 0.
+
+Conditional probability is useful when the occurrence of one event changes the probability of another event.
+
+37. BAYES' THEOREM
+
+Bayes' theorem calculates the probability of a hypothesis given observed evidence.
+
+P(A|B) = [P(B|A)P(A)]/P(B), provided P(B) > 0.
+
+Where:
+P(A) is the prior probability.
+P(B|A) is the likelihood.
+P(A|B) is the posterior probability.
+
+Applications:
+- Medical testing.
+- Spam filtering.
+- Fault diagnosis.
+- Machine learning classification.
+
+38. RANDOM VARIABLES
+
+A random variable assigns a numerical value to each outcome of a random experiment.
+
+Types:
+
+Discrete random variable:
+Takes a finite or countably infinite set of values.
+
+Continuous random variable:
+Takes values over a continuous range.
+
+Examples:
+- Number of heads in coin tosses is discrete.
+- Time required to complete a task is continuous.
+
+39. PROBABILITY DISTRIBUTIONS
+
+A probability distribution describes the possible values of a random variable and their probabilities.
+
+Discrete probability distributions:
+- Bernoulli distribution.
+- Binomial distribution.
+- Poisson distribution.
+
+Continuous probability distributions:
+- Uniform distribution.
+- Normal distribution.
+- Exponential distribution.
+
+40. EXPECTATION AND VARIANCE
+
+Expected value:
+The long-run average value of a random variable.
+
+For a discrete random variable:
+
+E(X) = Sum of x * P(X=x).
+
+Variance:
+Measures the spread of a random variable around its expected value.
+
+Var(X) = E[(X - E(X))^2].
+
+Also:
+
+Var(X) = E(X^2) - [E(X)]^2.
+
+Standard deviation:
+
+SD(X) = sqrt(Var(X)).
+
+41. STATISTICS
+
+Statistics is the branch of mathematics concerned with collecting, organizing, analyzing, interpreting, and presenting data.
+
+Two major branches:
+- Descriptive statistics.
+- Inferential statistics.
+
+Descriptive statistics summarizes observed data.
+
+Inferential statistics uses sample data to draw conclusions about a population.
+
+42. MEASURES OF CENTRAL TENDENCY
+
+Mean:
+The arithmetic average.
+
+Mean = Sum of observations / Number of observations.
+
+Median:
+The middle value after arranging observations in order.
+
+For an even number of observations, the median is the average of the two middle values.
+
+Mode:
+The most frequently occurring value.
+
+43. MEASURES OF DISPERSION
+
+Range:
+Difference between maximum and minimum values.
+
+Variance:
+Average squared deviation from the mean, with the appropriate population or sample denominator.
+
+Population variance:
+
+sigma^2 = Sum((x - mu)^2)/N.
+
+Sample variance:
+
+s^2 = Sum((x - x_bar)^2)/(n - 1).
+
+Standard deviation:
+Square root of variance.
+
+Interquartile range:
+Difference between the third quartile and first quartile.
+
+IQR = Q3 - Q1.
+
+44. CORRELATION
+
+Correlation measures the strength and direction of association between two variables.
+
+The Pearson correlation coefficient is represented by r.
+
+Its value ranges from -1 to +1.
+
+r = +1 indicates perfect positive linear correlation.
+
+r = -1 indicates perfect negative linear correlation.
+
+r = 0 indicates no linear correlation.
+
+Correlation does not necessarily imply causation.
+
+45. REGRESSION
+
+Regression models the relationship between a dependent variable and one or more independent variables.
+
+Simple linear regression:
+
+y = mx + c.
+
+Where:
+- y is the dependent variable.
+- x is the independent variable.
+- m is the slope.
+- c is the intercept.
+
+Applications:
+- Price prediction.
+- Demand forecasting.
+- Trend analysis.
+- Scientific modelling.
+
+46. DISCRETE MATHEMATICS
+
+Discrete mathematics studies mathematical structures that are fundamentally discrete rather than continuous.
+
+It is important in computer science.
+
+Topics include:
+- Sets.
+- Logic.
+- Relations.
+- Functions.
+- Combinatorics.
+- Graph theory.
+- Trees.
+- Boolean algebra.
+- Number theory.
+
+47. SET THEORY
+
+A set is a well-defined collection of distinct objects.
+
+Example:
+A = {1, 2, 3, 4}.
+
+Types:
+- Empty set.
+- Finite set.
+- Infinite set.
+- Universal set.
+- Equal sets.
+- Subsets.
+- Disjoint sets.
+
+Operations:
+
+Union:
+A union B contains elements belonging to A or B or both.
+
+Intersection:
+A intersection B contains elements common to both sets.
+
+Difference:
+A - B contains elements belonging to A but not B.
+
+Complement:
+A' contains elements of the universal set that do not belong to A.
+
+48. SET IDENTITIES
+
+Commutative laws:
+
+A union B = B union A.
+
+A intersection B = B intersection A.
+
+Associative laws:
+
+(A union B) union C = A union (B union C).
+
+(A intersection B) intersection C = A intersection (B intersection C).
+
+Distributive laws:
+
+A intersection (B union C) = (A intersection B) union (A intersection C).
+
+A union (B intersection C) = (A union B) intersection (A union C).
+
+De Morgan's laws:
+
+(A union B)' = A' intersection B'.
+
+(A intersection B)' = A' union B'.
+
+49. MATHEMATICAL LOGIC
+
+Mathematical logic studies statements and reasoning.
+
+A proposition is a declarative statement that is either true or false.
+
+Logical operators:
+
+AND:
+True only when both propositions are true.
+
+OR:
+True when at least one proposition is true.
+
+NOT:
+Reverses the truth value.
+
+Implication:
+p -> q is false only when p is true and q is false.
+
+Biconditional:
+p <-> q is true when p and q have the same truth value.
+
+50. TRUTH TABLES
+
+A truth table lists the truth values of a logical expression for all possible input combinations.
+
+For two propositions p and q:
+
+p q | p AND q | p OR q
+T T | T | T
+T F | F | T
+F T | F | T
+F F | F | F
+
+A tautology is a proposition that is always true.
+
+A contradiction is a proposition that is always false.
+
+A contingency is a proposition that is true for some assignments and false for others.
+
+51. RELATIONS
+
+A relation from set A to set B is a subset of the Cartesian product A x B.
+
+A relation on set A is a subset of A x A.
+
+Properties:
+
+Reflexive:
+Every element is related to itself.
+
+Symmetric:
+If a is related to b, then b is related to a.
+
+Antisymmetric:
+If a is related to b and b is related to a, then a = b.
+
+Transitive:
+If a is related to b and b is related to c, then a is related to c.
+
+52. EQUIVALENCE RELATIONS AND PARTIAL ORDERS
+
+An equivalence relation is reflexive, symmetric, and transitive.
+
+A partial order is reflexive, antisymmetric, and transitive.
+
+A set together with a partial order forms a partially ordered set or poset.
+
+Examples of partial orders include subset inclusion and divisibility on positive integers.
+
+53. COMBINATORICS
+
+Combinatorics studies counting, arrangement, and selection.
+
+Factorial:
+
+n! = n * (n-1) * ... * 2 * 1.
+
+Also:
+
+0! = 1.
+
+Permutation:
+An arrangement in which order matters.
+
+nPr = n!/(n-r)!.
+
+Combination:
+A selection in which order does not matter.
+
+nCr = n!/[r!(n-r)!].
+
+54. GRAPH THEORY
+
+A graph consists of vertices and edges connecting pairs of vertices.
+
+Notation:
+G = (V, E).
+
+Where:
+V is the set of vertices.
+E is the set of edges.
+
+Types:
+- Undirected graph.
+- Directed graph.
+- Weighted graph.
+- Complete graph.
+- Connected graph.
+- Bipartite graph.
+
+Degree:
+The number of edges incident to a vertex in an undirected graph.
+
+Path:
+A sequence of vertices connected by edges.
+
+Cycle:
+A path that begins and ends at the same vertex, with the required distinctness conditions depending on the graph definition.
+
+55. TREES
+
+A tree is a connected undirected graph with no cycles.
+
+Properties:
+- A tree with n vertices has n - 1 edges.
+- There is exactly one simple path between every pair of vertices.
+- Removing any edge disconnects a tree.
+- Adding an edge between two vertices creates a cycle.
+
+Binary tree:
+A tree in which each node has at most two children.
+
+Binary Search Tree:
+A binary tree in which values in the left subtree are ordered below the node and values in the right subtree are ordered above the node, according to the chosen ordering rule.
+
+56. BOOLEAN ALGEBRA
+
+Boolean algebra operates on binary values 0 and 1.
+
+Basic operations:
+- AND.
+- OR.
+- NOT.
+
+Important laws:
+
+Identity:
+A AND 1 = A.
+A OR 0 = A.
+
+Domination:
+A AND 0 = 0.
+A OR 1 = 1.
+
+Idempotent:
+A AND A = A.
+A OR A = A.
+
+Complement:
+A AND NOT A = 0.
+A OR NOT A = 1.
+
+Double negation:
+NOT(NOT A) = A.
+
+De Morgan's laws:
+NOT(A AND B) = NOT A OR NOT B.
+NOT(A OR B) = NOT A AND NOT B.
+
+57. OPTIMIZATION
+
+Optimization is the process of finding the best solution according to an objective function and constraints.
+
+An optimization problem generally includes:
+- Decision variables.
+- Objective function.
+- Constraints.
+- Feasible region.
+
+The objective may be to maximize or minimize a function.
+
+Examples:
+- Minimize production cost.
+- Maximize profit.
+- Minimize network latency.
+- Optimize machine learning parameters.
+
+58. LINEAR PROGRAMMING
+
+Linear programming optimizes a linear objective function subject to linear constraints.
+
+General form:
+
+Maximize or minimize:
+
+Z = c1x1 + c2x2 + ... + cnxn.
+
+Subject to linear constraints.
+
+Decision variables must satisfy the specified restrictions, such as non-negativity.
+
+Methods:
+- Graphical method.
+- Simplex method.
+
+The graphical method is commonly used for problems with two decision variables.
+
+59. GRADIENT DESCENT
+
+Gradient descent is an iterative optimization algorithm used to minimize a differentiable objective function.
+
+Update rule:
+
+theta_new = theta_old - learning_rate * gradient.
+
+The learning rate controls the step size.
+
+Types:
+- Batch gradient descent.
+- Stochastic gradient descent.
+- Mini-batch gradient descent.
+
+Gradient descent is widely used to train machine learning and neural network models.
+
+60. MATHEMATICS QUESTION AND ANSWER EXAMPLES
+
+Q: What is algebra?
+A: Algebra is a branch of mathematics that uses variables and symbols to represent quantities and relationships.
+
+Q: What is a quadratic equation?
+A: A quadratic equation is an equation of degree two, generally written as ax^2 + bx + c = 0.
+
+Q: What is a matrix?
+A: A matrix is a rectangular arrangement of numbers in rows and columns.
+
+Q: What is a determinant?
+A: A determinant is a scalar value associated with a square matrix.
+
+Q: What is a vector?
+A: A vector is a quantity that has both magnitude and direction.
+
+Q: What is differentiation?
+A: Differentiation calculates the instantaneous rate of change of a function.
+
+Q: What is integration?
+A: Integration calculates an antiderivative or accumulated quantity.
+
+Q: What is probability?
+A: Probability measures the likelihood of an event occurring.
+
+Q: What is conditional probability?
+A: Conditional probability measures the probability of an event given that another event has occurred.
+
+Q: What is Bayes' theorem?
+A: Bayes' theorem calculates the probability of a hypothesis using observed evidence and prior information.
+
+Q: What is the mean?
+A: The mean is the arithmetic average of a collection of values.
+
+Q: What is variance?
+A: Variance measures the average squared deviation of values from their mean.
+
+Q: What is correlation?
+A: Correlation measures the strength and direction of association between variables.
+
+Q: What is a set?
+A: A set is a well-defined collection of distinct objects.
+
+Q: What is a graph?
+A: A graph is a mathematical structure consisting of vertices and edges.
+
+Q: What is a tree?
+A: A tree is a connected undirected graph without cycles.
+
+Q: What is a permutation?
+A: A permutation is an arrangement of objects in which order matters.
+
+Q: What is a combination?
+A: A combination is a selection of objects in which order does not matter.
+
+Q: What is linear programming?
+A: Linear programming is a mathematical optimization technique that maximizes or minimizes a linear objective function subject to linear constraints.
+
+Q: What is gradient descent?
+A: Gradient descent is an iterative algorithm that updates parameters in the direction opposite to the gradient to reduce an objective function.

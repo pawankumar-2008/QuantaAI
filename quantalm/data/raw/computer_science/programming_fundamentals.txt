@@ -1,0 +1,77 @@
+﻿PROGRAMMING FUNDAMENTALS
+
+A computer program is a collection of instructions that tells a computer how to perform a specific task.
+
+Programming is the process of designing, writing, testing, and maintaining computer programs.
+
+A programming language is a formal language used to communicate instructions to a computer. Examples include C, C++, Java, and Python.
+
+An algorithm is a finite sequence of well-defined steps used to solve a particular problem.
+
+A flowchart is a graphical representation of an algorithm. It uses symbols and arrows to represent operations and the flow of execution.
+
+A variable is a named memory location used to store data that can change during program execution.
+
+A constant is a value that cannot be modified after it has been defined.
+
+A data type specifies the kind of value a variable can store. Common data types include integers, floating-point numbers, characters, strings, and Boolean values.
+
+An operator is a symbol that performs an operation on one or more operands. Arithmetic operators perform mathematical calculations, while logical operators combine conditions.
+
+An expression is a combination of variables, constants, and operators that produces a value.
+
+A statement is an instruction executed by a program. Assignment statements, conditional statements, and loops are common examples.
+
+A conditional statement allows a program to make decisions based on conditions. The if, else if, and else statements are commonly used for decision-making.
+
+A loop is a control structure that repeatedly executes a block of instructions. Common loops include for, while, and do-while.
+
+A function is a reusable block of code designed to perform a specific task. Functions improve modularity, readability, and code reuse.
+
+A parameter is a variable declared in a function definition. An argument is the actual value passed to a function when it is called.
+
+Recursion occurs when a function calls itself to solve a smaller version of a problem. A recursive function needs a base case to terminate.
+
+An array is a collection of elements of the same data type stored in indexed positions.
+
+A string is a sequence of characters used to represent text.
+
+A compiler translates source code into another form, commonly machine code or intermediate code, before execution.
+
+An interpreter executes program instructions through an interpretation process, generally without producing a standalone native executable.
+
+A syntax error occurs when code violates the grammatical rules of a programming language.
+
+A runtime error occurs while a program is executing. Examples include division by zero and accessing an invalid resource.
+
+A logical error occurs when a program executes but produces an incorrect result because its algorithm or logic is wrong.
+
+Debugging is the process of identifying, analyzing, and correcting errors in a program.
+
+Testing is the process of evaluating software to identify defects and verify that it behaves as expected.
+
+Modularity is the practice of dividing a large program into smaller independent components. It makes software easier to understand, test, and maintain.
+
+An algorithm should have clearly defined inputs, outputs, and instructions. It should eventually terminate after performing a finite number of steps.
+
+QUESTION: What is programming?
+ANSWER: Programming is the process of creating instructions that enable computers to perform specific tasks. It involves designing algorithms, writing code, testing programs, and correcting errors.
+
+QUESTION: What is the difference between a compiler and an interpreter?
+ANSWER: A compiler translates source code into another executable or intermediate representation before execution. An interpreter executes instructions through an interpretation process. Their implementation and execution behaviour depend on the programming language and runtime.
+
+QUESTION: What is the difference between a variable and a constant?
+ANSWER: A variable stores a value that may change during program execution. A constant represents a value that is intended not to change after initialization.
+
+QUESTION: What is recursion?
+ANSWER: Recursion is a programming technique in which a function calls itself. It solves a problem by reducing it into smaller subproblems. A base case prevents infinite recursive calls.
+
+QUESTION: What is debugging?
+ANSWER: Debugging is the process of finding, understanding, and fixing errors in a program. Developers use debugging tools, logs, and test cases to identify problems.
+
+QUESTION: Why are functions important?
+ANSWER: Functions divide programs into reusable components. They reduce code duplication, improve readability, simplify testing, and make maintenance easier.
+
+QUESTION: What is the difference between syntax errors and logical errors?
+ANSWER: Syntax errors occur when code violates programming-language rules. Logical errors occur when a program runs but produces an incorrect result because its logic is incorrect.
+

@@ -1,0 +1,808 @@
+﻿ARTIFICIAL INTELLIGENCE
+
+1. INTRODUCTION TO ARTIFICIAL INTELLIGENCE
+
+Artificial Intelligence (AI) is a branch of computer science concerned with creating systems that can perform tasks that normally require human intelligence.
+
+These tasks include:
+- Learning from experience.
+- Reasoning and problem-solving.
+- Understanding language.
+- Recognizing images and patterns.
+- Making decisions.
+- Planning and prediction.
+
+Examples of AI applications include virtual assistants, recommendation systems, fraud detection, autonomous vehicles, and medical image analysis.
+
+2. GOALS OF ARTIFICIAL INTELLIGENCE
+
+The major goals of AI are:
+- Develop systems that can learn from data.
+- Enable machines to reason and solve problems.
+- Understand and process human language.
+- Recognize objects, speech, and patterns.
+- Automate repetitive and complex tasks.
+- Support intelligent decision-making.
+
+3. HISTORY OF ARTIFICIAL INTELLIGENCE
+
+1950:
+Alan Turing proposed the imitation game, commonly known as the Turing Test.
+
+1956:
+The term Artificial Intelligence was introduced at the Dartmouth Conference.
+
+1960s and 1970s:
+Early AI research focused on symbolic reasoning, problem-solving, and expert systems.
+
+1980s:
+Expert systems became popular in commercial applications.
+
+1990s:
+Machine learning approaches gained importance.
+
+2010s:
+Deep learning made major progress in image recognition, speech recognition, and language processing.
+
+2020s:
+Generative AI and large language models became widely used for text, image, audio, and code generation.
+
+4. TYPES OF ARTIFICIAL INTELLIGENCE BASED ON CAPABILITY
+
+Artificial Narrow Intelligence (ANI):
+AI designed to perform specific tasks. Examples include spam filters, recommendation systems, and voice assistants.
+
+Artificial General Intelligence (AGI):
+A hypothetical form of AI that can understand and perform a broad range of intellectual tasks at a human-like level.
+
+Artificial Superintelligence (ASI):
+A hypothetical form of intelligence that would significantly exceed human intellectual capabilities.
+
+Modern deployed AI systems are generally examples of narrow AI.
+
+5. TYPES OF ARTIFICIAL INTELLIGENCE BASED ON FUNCTIONALITY
+
+Reactive Machines:
+Systems that respond to current inputs without storing experiences for future decisions.
+
+Limited Memory AI:
+Systems that use information from past observations or training to make decisions.
+
+Theory of Mind AI:
+A proposed AI capability involving understanding human emotions, beliefs, and intentions.
+
+Self-Aware AI:
+A hypothetical AI system with consciousness and self-awareness.
+
+6. INTELLIGENT AGENTS
+
+An intelligent agent is a system that perceives its environment through sensors and takes actions through actuators to achieve goals.
+
+Agent components:
+- Sensors: Collect information from the environment.
+- Percepts: Information received by the agent.
+- Decision mechanism: Determines what action to take.
+- Actuators: Perform actions in the environment.
+
+Agent types:
+- Simple reflex agent.
+- Model-based reflex agent.
+- Goal-based agent.
+- Utility-based agent.
+- Learning agent.
+
+A rational agent selects actions that maximize expected performance based on its available information and objectives.
+
+7. PROBLEM-SOLVING IN AI
+
+AI problem-solving involves finding a sequence of actions that transforms an initial state into a desired goal state.
+
+Important components:
+- Initial state.
+- Goal state.
+- Actions.
+- Transition model.
+- Path cost.
+
+Search algorithms:
+
+Breadth-First Search (BFS):
+Explores nodes level by level. It is complete for finite branching factors and finds a shortest path when all step costs are equal.
+
+Depth-First Search (DFS):
+Explores one branch deeply before backtracking. It uses less memory in many cases but does not generally guarantee the shortest path.
+
+Uniform Cost Search:
+Expands the node with the lowest accumulated path cost. It is optimal under suitable non-negative cost assumptions.
+
+Greedy Best-First Search:
+Selects nodes using a heuristic estimate of distance to the goal. It can be fast but is not generally optimal.
+
+A* Search:
+Uses both accumulated path cost and estimated remaining cost.
+
+f(n) = g(n) + h(n)
+
+Where:
+g(n) = Cost from the initial state to node n.
+h(n) = Estimated cost from node n to the goal.
+
+A* is optimal under suitable conditions, such as an admissible heuristic and appropriate graph-search handling.
+
+8. KNOWLEDGE REPRESENTATION
+
+Knowledge representation is the method of storing facts, concepts, and relationships so an AI system can reason with them.
+
+Common techniques:
+- Logical representation.
+- Semantic networks.
+- Frames.
+- Production rules.
+- Ontologies.
+
+Example:
+Rule: If a person has a fever and cough, they may have a respiratory infection.
+This is a simplified rule and does not establish a medical diagnosis.
+
+9. MACHINE LEARNING
+
+Machine Learning (ML) is a subfield of AI that enables systems to learn patterns from data and improve their performance without being explicitly programmed with every rule.
+
+A machine learning workflow:
+1. Define the problem.
+2. Collect data.
+3. Clean and preprocess data.
+4. Select relevant features.
+5. Split data into training, validation, and test sets.
+6. Select a model.
+7. Train the model.
+8. Evaluate performance.
+9. Tune parameters.
+10. Deploy and monitor the model.
+
+10. TYPES OF MACHINE LEARNING
+
+Supervised Learning:
+The model learns from labelled training data containing input-output pairs.
+
+Common tasks:
+- Classification: Predicts categories.
+- Regression: Predicts continuous numerical values.
+
+Examples:
+- Email spam detection.
+- House price prediction.
+- Student performance prediction.
+
+Unsupervised Learning:
+The model discovers patterns in unlabelled data.
+
+Common tasks:
+- Clustering.
+- Dimensionality reduction.
+- Association rule mining.
+
+Examples:
+- Customer segmentation.
+- Grouping similar documents.
+
+Semi-Supervised Learning:
+Uses a small amount of labelled data together with a larger amount of unlabelled data.
+
+Reinforcement Learning:
+An agent learns by interacting with an environment and receiving rewards or penalties.
+
+11. SUPERVISED LEARNING ALGORITHMS
+
+Linear Regression:
+Predicts a continuous value using a linear relationship between input features and the target.
+
+Logistic Regression:
+A classification algorithm that estimates class probabilities using a logistic function in binary classification.
+
+Decision Tree:
+Uses a tree-like structure of decisions to make predictions.
+
+Random Forest:
+Combines predictions from multiple decision trees to improve robustness and predictive performance.
+
+K-Nearest Neighbours (KNN):
+Predicts the class or value of a data point using nearby training examples.
+
+Support Vector Machine (SVM):
+Finds a decision boundary that separates classes with a large margin.
+
+Naive Bayes:
+Uses Bayes' theorem with a conditional independence assumption between features.
+
+12. UNSUPERVISED LEARNING ALGORITHMS
+
+K-Means Clustering:
+Partitions data into K clusters by assigning each point to the nearest cluster centroid and updating the centroids.
+
+Hierarchical Clustering:
+Builds a hierarchy of clusters by repeatedly merging or splitting groups.
+
+DBSCAN:
+Groups closely packed data points and identifies noise using density-based rules.
+
+Principal Component Analysis (PCA):
+A dimensionality-reduction technique that transforms features into orthogonal components capturing decreasing amounts of variance.
+
+13. REINFORCEMENT LEARNING
+
+Reinforcement Learning (RL) is a learning approach in which an agent interacts with an environment and learns actions that maximize cumulative reward.
+
+Main components:
+- Agent: Learner or decision-maker.
+- Environment: The world in which the agent operates.
+- State: Current situation.
+- Action: Decision taken by the agent.
+- Reward: Feedback received after an action.
+- Policy: Strategy used to select actions.
+
+The agent aims to maximize expected cumulative reward.
+
+Important concepts:
+- Exploration: Trying actions to discover their outcomes.
+- Exploitation: Choosing actions based on current knowledge.
+- Discount factor: Determines the importance of future rewards.
+
+14. DEEP LEARNING
+
+Deep Learning is a subfield of machine learning that uses neural networks with multiple layers to learn complex patterns from data.
+
+Applications:
+- Image recognition.
+- Speech recognition.
+- Language translation.
+- Object detection.
+- Text generation.
+- Medical image analysis.
+
+Deep learning generally requires substantial training data and computational resources.
+
+15. ARTIFICIAL NEURAL NETWORKS
+
+An Artificial Neural Network (ANN) is a computational model inspired by the interconnected structure of biological neurons.
+
+Main components:
+- Input layer: Receives input features.
+- Hidden layers: Learn intermediate representations.
+- Output layer: Produces predictions.
+
+A neuron computes a weighted sum of its inputs, adds a bias, and applies an activation function.
+
+z = w1x1 + w2x2 + ... + wnxn + b
+
+Output = Activation(z)
+
+Where:
+- x represents input values.
+- w represents weights.
+- b represents bias.
+- Activation introduces non-linearity.
+
+16. ACTIVATION FUNCTIONS
+
+Activation functions introduce non-linearity into neural networks.
+
+Sigmoid:
+Maps an input to a value between 0 and 1.
+
+ReLU:
+Returns zero for negative inputs and the input itself for positive inputs.
+
+ReLU(x) = max(0, x)
+
+Tanh:
+Maps inputs to values between -1 and 1.
+
+Softmax:
+Converts a vector of values into a probability distribution.
+
+17. FORWARD PROPAGATION
+
+Forward propagation is the process of passing input data through a neural network to calculate its output.
+
+Steps:
+1. Input data enters the input layer.
+2. Each layer calculates weighted sums and biases.
+3. Activation functions are applied.
+4. The result is passed to the next layer.
+5. The output layer generates the prediction.
+
+18. BACKPROPAGATION
+
+Backpropagation is an algorithm used to calculate gradients of a neural network's loss function with respect to its parameters.
+
+Steps:
+1. Perform forward propagation.
+2. Calculate prediction error using a loss function.
+3. Compute gradients using the chain rule.
+4. Propagate gradient information backward through the network.
+5. Use an optimizer to update weights and biases.
+
+Backpropagation computes gradients; an optimizer such as gradient descent or Adam uses them to update parameters.
+
+19. LOSS FUNCTIONS
+
+A loss function measures the difference between model predictions and actual target values.
+
+Mean Squared Error (MSE):
+Commonly used for regression.
+
+MSE = (1/n) * sum((actual - predicted)^2)
+
+Mean Absolute Error (MAE):
+Calculates the average absolute prediction error.
+
+Binary Cross-Entropy:
+Commonly used for binary classification.
+
+Categorical Cross-Entropy:
+Commonly used for multi-class classification.
+
+The training process aims to minimize the selected loss function.
+
+20. OPTIMIZATION ALGORITHMS
+
+Gradient Descent:
+Updates model parameters in the direction opposite to the loss gradient.
+
+Stochastic Gradient Descent (SGD):
+Updates parameters using one training example or a small sample at a time.
+
+Mini-Batch Gradient Descent:
+Updates parameters using a small batch of training examples.
+
+Adam:
+An adaptive optimization algorithm that maintains moving averages of gradients and squared gradients.
+
+Learning Rate:
+Controls the size of parameter updates during training.
+
+21. CONVOLUTIONAL NEURAL NETWORKS
+
+A Convolutional Neural Network (CNN) is a neural network architecture commonly used for image and spatial data.
+
+Main components:
+- Convolutional layer: Extracts local patterns using filters.
+- Activation layer: Introduces non-linearity.
+- Pooling layer: Reduces spatial dimensions.
+- Fully connected layer: Produces final predictions.
+
+Applications:
+- Image classification.
+- Face recognition.
+- Object detection.
+- Medical image analysis.
+
+22. RECURRENT NEURAL NETWORKS
+
+A Recurrent Neural Network (RNN) is designed to process sequential data by maintaining information from previous time steps.
+
+Applications:
+- Text processing.
+- Speech recognition.
+- Time-series forecasting.
+
+Limitations:
+Traditional RNNs can struggle with long-term dependencies because of vanishing and exploding gradients.
+
+23. LSTM AND GRU
+
+Long Short-Term Memory (LSTM) is a type of recurrent neural network designed to learn long-term dependencies.
+
+LSTM uses:
+- Forget gate.
+- Input gate.
+- Output gate.
+- Cell state.
+
+Gated Recurrent Unit (GRU) is another recurrent architecture that uses update and reset gates to control information flow.
+
+Both architectures help address limitations of traditional RNNs.
+
+24. NATURAL LANGUAGE PROCESSING
+
+Natural Language Processing (NLP) is a field of AI that enables computers to process, understand, and generate human language.
+
+Common NLP tasks:
+- Text classification.
+- Sentiment analysis.
+- Named Entity Recognition.
+- Machine translation.
+- Question answering.
+- Text summarization.
+- Language generation.
+
+25. TEXT PREPROCESSING
+
+Text preprocessing transforms raw text into a suitable format for analysis or model training.
+
+Common operations:
+- Lowercasing.
+- Tokenization.
+- Removing unwanted characters.
+- Normalization.
+- Stop-word removal where appropriate.
+- Stemming.
+- Lemmatization.
+
+Tokenization:
+Splits text into smaller units called tokens.
+
+Stemming:
+Reduces words to approximate root forms by removing prefixes or suffixes.
+
+Lemmatization:
+Converts words into dictionary base forms using linguistic information.
+
+26. WORD EMBEDDINGS
+
+Word embeddings represent words as numerical vectors in a continuous vector space.
+
+Similar words may have vectors that are close to each other according to a similarity measure.
+
+Examples of embedding approaches:
+- Word2Vec.
+- GloVe.
+- FastText.
+
+Embeddings help machine learning systems process semantic relationships between words.
+
+27. TRANSFORMER ARCHITECTURE
+
+A Transformer is a neural network architecture based on attention mechanisms rather than recurrence as its main sequence-processing mechanism.
+
+Major components:
+- Token embeddings.
+- Positional information.
+- Self-attention.
+- Feed-forward networks.
+- Residual connections.
+- Layer normalization.
+
+Transformers can process sequence positions in parallel during training, subject to attention-mask and architectural constraints.
+
+28. SELF-ATTENTION MECHANISM
+
+Self-attention allows each token to calculate how much attention it should give to other tokens in a sequence.
+
+Three important vectors:
+- Query (Q).
+- Key (K).
+- Value (V).
+
+Scaled dot-product attention:
+
+Attention(Q, K, V) = softmax(QK^T / sqrt(d_k))V
+
+Where d_k is the dimension of the key vectors.
+
+Attention helps the model capture relationships between different positions in a sequence.
+
+29. MULTI-HEAD ATTENTION
+
+Multi-head attention performs multiple attention operations in parallel.
+
+Each attention head can learn different relationships between tokens.
+
+The outputs of the heads are combined and projected to produce the final representation.
+
+Benefits:
+- Captures different types of relationships.
+- Learns multiple contextual representations.
+- Improves the model's ability to represent sequence information.
+
+30. LARGE LANGUAGE MODELS
+
+A Large Language Model (LLM) is a neural network trained on large amounts of text to learn language patterns and predict tokens.
+
+Many modern LLMs use Transformer architectures.
+
+Typical training stages:
+- Data collection and preparation.
+- Tokenization.
+- Pretraining.
+- Instruction tuning or other adaptation.
+- Evaluation.
+- Deployment.
+
+An autoregressive language model predicts the next token based on previous tokens.
+
+31. TOKENIZATION IN LANGUAGE MODELS
+
+Tokenization converts text into tokens that a language model can process.
+
+Common approaches:
+- Word-level tokenization.
+- Character-level tokenization.
+- Subword tokenization.
+
+Subword tokenization divides text into frequently occurring smaller units and can represent many unseen words using known pieces.
+
+Examples of subword methods include Byte Pair Encoding (BPE) and WordPiece.
+
+Special tokens may represent:
+- Beginning of sequence.
+- End of sequence.
+- Padding.
+- Unknown tokens.
+- Instruction or role boundaries.
+
+32. AUTOREGRESSIVE TEXT GENERATION
+
+Autoregressive generation produces text one token at a time.
+
+Process:
+1. Receive a prompt.
+2. Convert the prompt into token IDs.
+3. Pass the tokens through the model.
+4. Obtain next-token scores or logits.
+5. Convert scores into a probability distribution.
+6. Select the next token.
+7. Append the token to the sequence.
+8. Repeat until a stopping condition is reached.
+
+33. TEXT GENERATION PARAMETERS
+
+Temperature:
+Controls the randomness of token selection.
+
+Lower temperature generally produces more predictable output. Higher temperature generally produces more varied output.
+
+Top-K Sampling:
+Restricts token selection to the K highest-scoring candidates.
+
+Top-P Sampling:
+Selects from the smallest group of candidates whose cumulative probability reaches a specified threshold.
+
+Repetition Penalty:
+Reduces the likelihood of repeatedly generating the same tokens.
+
+Maximum New Tokens:
+Limits how many tokens can be generated after the prompt.
+
+34. RETRIEVAL-AUGMENTED GENERATION
+
+Retrieval-Augmented Generation (RAG) combines information retrieval with language generation.
+
+Typical workflow:
+1. Receive a user question.
+2. Search a knowledge source for relevant information.
+3. Retrieve the most relevant documents or passages.
+4. Add retrieved information to the model's prompt.
+5. Generate an answer grounded in the retrieved context.
+6. Present source references when available.
+
+Benefits:
+- Uses external or updated information.
+- Can answer questions about private documents.
+- Reduces dependence on information stored only in model parameters.
+
+RAG does not automatically guarantee factual accuracy. Retrieval quality and generated answers must be evaluated.
+
+35. VECTOR DATABASES
+
+A vector database stores and searches numerical vector representations.
+
+Typical uses:
+- Semantic search.
+- Document retrieval.
+- Recommendation systems.
+- RAG applications.
+
+Similarity measures:
+- Cosine similarity.
+- Euclidean distance.
+- Dot product.
+
+A vector database is one possible retrieval technology. A RAG system can also use keyword search, full-text search, or other retrieval methods.
+
+36. COMPUTER VISION
+
+Computer Vision is a field of AI that enables machines to interpret and analyze visual information.
+
+Major tasks:
+- Image classification.
+- Object detection.
+- Image segmentation.
+- Face recognition.
+- Optical Character Recognition.
+- Image generation.
+
+Image classification:
+Assigns a category to an image.
+
+Object detection:
+Identifies objects and their locations, often using bounding boxes.
+
+Image segmentation:
+Assigns labels to individual pixels or image regions.
+
+37. GENERATIVE ARTIFICIAL INTELLIGENCE
+
+Generative AI refers to AI systems that generate new content based on patterns learned from training data.
+
+Generated content can include:
+- Text.
+- Images.
+- Audio.
+- Video.
+- Computer code.
+
+Examples of model families:
+- Autoregressive language models.
+- Generative adversarial networks.
+- Variational autoencoders.
+- Diffusion models.
+
+38. GENERATIVE ADVERSARIAL NETWORKS
+
+A Generative Adversarial Network (GAN) consists of two neural networks:
+
+Generator:
+Creates synthetic samples.
+
+Discriminator:
+Attempts to distinguish real samples from generated samples.
+
+The two networks are trained in competition. The generator learns to produce increasingly realistic samples.
+
+Applications:
+- Image generation.
+- Image enhancement.
+- Data augmentation.
+- Synthetic data generation.
+
+39. AI MODEL EVALUATION
+
+Model evaluation measures how well an AI system performs on data not used for training.
+
+Classification metrics:
+- Accuracy.
+- Precision.
+- Recall.
+- F1-score.
+- Confusion matrix.
+
+Regression metrics:
+- Mean Absolute Error.
+- Mean Squared Error.
+- Root Mean Squared Error.
+- R-squared.
+
+Language model evaluation may examine:
+- Perplexity.
+- Next-token prediction accuracy.
+- Instruction-following ability.
+- Factual correctness.
+- Relevance.
+- Coherence.
+- Safety.
+
+40. OVERFITTING AND UNDERFITTING
+
+Overfitting:
+A model performs well on training data but poorly on unseen data because it has learned patterns that do not generalize.
+
+Underfitting:
+A model fails to learn important patterns even from its training data.
+
+Methods to reduce overfitting:
+- More representative training data.
+- Data augmentation.
+- Regularization.
+- Dropout.
+- Early stopping.
+- Appropriate model complexity.
+
+41. TRAINING, VALIDATION, AND TEST DATA
+
+Training set:
+Used to learn model parameters.
+
+Validation set:
+Used to tune hyperparameters and make model-development decisions.
+
+Test set:
+Used for final evaluation on data not used for training or tuning.
+
+Separating these datasets helps estimate how well a model generalizes to unseen examples.
+
+42. ETHICAL AND RESPONSIBLE AI
+
+Responsible AI involves designing and using AI systems in ways that are safe, fair, transparent, and accountable.
+
+Important concerns:
+- Bias and fairness.
+- Privacy.
+- Security.
+- Explainability.
+- Accountability.
+- Reliability.
+- Misuse.
+- Environmental and computational cost.
+
+AI systems can produce incorrect or biased outputs. Important decisions should include suitable human oversight.
+
+43. APPLICATIONS OF ARTIFICIAL INTELLIGENCE
+
+Education:
+Personalized learning, automated feedback, and question generation.
+
+Healthcare:
+Medical image analysis, clinical decision support, and health data analysis.
+
+Finance:
+Fraud detection, risk analysis, and transaction monitoring.
+
+Transportation:
+Traffic prediction, route optimization, and driver assistance.
+
+Agriculture:
+Crop monitoring, disease detection, and yield prediction.
+
+Cybersecurity:
+Anomaly detection, malware classification, and threat analysis.
+
+Manufacturing:
+Predictive maintenance, quality inspection, and process optimization.
+
+44. ARTIFICIAL INTELLIGENCE QUESTION AND ANSWER EXAMPLES
+
+Q: What is Artificial Intelligence?
+A: Artificial Intelligence is a branch of computer science that develops systems capable of performing tasks that normally require human intelligence.
+
+Q: What is Machine Learning?
+A: Machine Learning is a subfield of AI in which systems learn patterns from data to make predictions or decisions.
+
+Q: What is Deep Learning?
+A: Deep Learning uses neural networks with multiple layers to learn complex patterns from data.
+
+Q: What is supervised learning?
+A: Supervised learning trains a model using labelled input-output examples.
+
+Q: What is unsupervised learning?
+A: Unsupervised learning discovers patterns in data without labelled target outputs.
+
+Q: What is reinforcement learning?
+A: Reinforcement learning trains an agent through interaction with an environment and feedback in the form of rewards.
+
+Q: What is an artificial neural network?
+A: An artificial neural network is a computational model consisting of interconnected units that process information using weights, biases, and activation functions.
+
+Q: What is backpropagation?
+A: Backpropagation calculates gradients of a neural network's loss with respect to its parameters.
+
+Q: What is a Transformer?
+A: A Transformer is a neural network architecture that uses attention mechanisms to process sequence data.
+
+Q: What is self-attention?
+A: Self-attention allows tokens in a sequence to calculate relationships with other tokens.
+
+Q: What is an LLM?
+A: A Large Language Model is a neural network trained on large amounts of text to learn language patterns and generate text.
+
+Q: What is RAG?
+A: Retrieval-Augmented Generation retrieves relevant external information and supplies it as context to a language model.
+
+Q: What is tokenization?
+A: Tokenization converts text into smaller units called tokens that a model can process.
+
+Q: What is overfitting?
+A: Overfitting occurs when a model learns training-specific patterns and performs poorly on unseen data.
+
+Q: What is the difference between AI, ML, and DL?
+A: AI is the broad field of intelligent systems. ML is a subset of AI that learns from data. DL is a subset of ML that uses multi-layer neural networks.
+
+Q: What is generative AI?
+A: Generative AI creates new content such as text, images, audio, video, or code based on learned patterns.
+
+Q: What is a loss function?
+A: A loss function measures the difference between a model's predictions and the expected outputs.
+
+Q: What is an intelligent agent?
+A: An intelligent agent perceives its environment and takes actions to achieve objectives.

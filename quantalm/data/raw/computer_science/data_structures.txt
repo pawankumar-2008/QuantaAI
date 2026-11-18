@@ -1,0 +1,197 @@
+﻿DATA STRUCTURES
+
+A data structure is a way of organizing and storing data so that it can be accessed, modified, and processed efficiently.
+
+Data structures are classified into linear and non-linear structures. Linear structures organize elements sequentially, while non-linear structures organize elements hierarchically or as networks.
+
+An Abstract Data Type (ADT) defines the behaviour and operations of a data structure without specifying its internal implementation.
+
+An array is a collection of elements stored in indexed positions. Array elements are commonly stored in contiguous memory locations.
+
+Array indexing allows an element to be accessed using its position. In a zero-indexed array, the first element is located at index zero.
+
+Array traversal means visiting each element of an array to perform an operation.
+
+Array insertion adds a new element at a specified position. Inserting into the middle of an array may require shifting existing elements.
+
+Array deletion removes an element from a specified position. Elements following the deleted position may need to be shifted.
+
+A multidimensional array is an array containing other arrays. A two-dimensional array is commonly used to represent a matrix.
+
+A linked list is a linear data structure consisting of nodes connected through references or pointers.
+
+A node in a singly linked list contains data and a reference to the next node.
+
+The head of a linked list refers to its first node. The last node usually contains a null reference as its next pointer.
+
+A singly linked list allows traversal in one direction.
+
+A doubly linked list contains references to both the previous and next nodes. It supports traversal in both directions.
+
+A circular linked list connects the last node back to the first node.
+
+Linked list insertion can be performed at the beginning, end, or a specified position. The exact time complexity depends on whether the insertion position is already known.
+
+Linked list deletion removes a node by adjusting the references connecting neighbouring nodes.
+
+A stack is a linear data structure that follows the Last In First Out principle, also called LIFO.
+
+Push is the operation that inserts an element onto the top of a stack.
+
+Pop removes and returns the top element of a stack.
+
+Peek or top returns the top element without removing it.
+
+Stack overflow occurs when an insertion is attempted into a full fixed-capacity stack.
+
+Stack underflow occurs when a removal is attempted from an empty stack.
+
+Stacks are used in function calls, recursion, expression evaluation, undo operations, and backtracking.
+
+A queue is a linear data structure that commonly follows the First In First Out principle, also called FIFO.
+
+Enqueue inserts an element at the rear of a queue.
+
+Dequeue removes an element from the front of a queue.
+
+A circular queue connects the logical end of its storage back to the beginning. It allows efficient reuse of available array positions.
+
+A priority queue removes elements according to their priority rather than simply their insertion order.
+
+A deque is a double-ended queue that supports insertion and deletion at both ends.
+
+A tree is a non-linear hierarchical data structure consisting of nodes connected by edges.
+
+The root is the topmost node of a tree. A parent node has one or more child nodes.
+
+A leaf node is a node that has no children.
+
+The height of a tree is the number of edges on the longest downward path from the root to a leaf.
+
+The depth of a node is the number of edges from the root to that node.
+
+A binary tree is a tree in which each node has at most two children, commonly called the left child and right child.
+
+A full binary tree is a binary tree in which every node has either zero or two children.
+
+A complete binary tree has every level completely filled except possibly the last, which is filled from left to right.
+
+A binary search tree is a binary tree in which values in the left subtree are smaller than the node value and values in the right subtree are larger, assuming distinct keys.
+
+Searching in a balanced binary search tree takes logarithmic time on average and in the worst case. An unbalanced tree can require linear time.
+
+Tree traversal is the process of visiting every node in a tree.
+
+Preorder traversal visits the root, then the left subtree, and finally the right subtree.
+
+Inorder traversal visits the left subtree, then the root, and finally the right subtree.
+
+Postorder traversal visits the left subtree, then the right subtree, and finally the root.
+
+Level-order traversal visits tree nodes level by level, commonly using a queue.
+
+A heap is a complete binary tree that satisfies the heap property.
+
+A max heap maintains the property that every parent is greater than or equal to its children.
+
+A min heap maintains the property that every parent is less than or equal to its children.
+
+A heap is commonly used to implement priority queues.
+
+A hash table stores key-value pairs using a hash function that maps keys to array positions or buckets.
+
+A hash function converts a key into a hash value used to determine where the associated data should be stored.
+
+A collision occurs when two different keys map to the same hash position.
+
+Collision resolution techniques include separate chaining and open addressing.
+
+Separate chaining stores multiple entries that map to the same position in a collection associated with that position.
+
+Open addressing searches for another available position within the hash table when a collision occurs.
+
+A graph is a non-linear data structure consisting of vertices and edges.
+
+A vertex represents an entity in a graph, while an edge represents a connection between two vertices.
+
+An undirected graph has edges without a specified direction.
+
+A directed graph has edges with a specified direction.
+
+A weighted graph assigns a weight or cost to its edges.
+
+An adjacency matrix represents a graph using a two-dimensional matrix. Its entries indicate whether an edge exists between pairs of vertices or store edge weights.
+
+An adjacency list represents each vertex together with a list of its neighbouring vertices.
+
+Breadth First Search (BFS) explores a graph level by level using a queue.
+
+Depth First Search (DFS) explores a graph by following a path as deeply as possible before backtracking. It can be implemented using recursion or an explicit stack.
+
+A connected graph is an undirected graph in which a path exists between every pair of vertices.
+
+A cycle is a path that starts and ends at the same vertex without repeating other vertices.
+
+TIME AND SPACE COMPLEXITY
+
+Time complexity describes how the running time of an algorithm grows as the input size increases.
+
+Space complexity describes how memory requirements grow as the input size increases.
+
+Big O notation describes an asymptotic upper bound on the growth of an algorithm's resource requirements.
+
+O(1) represents constant time complexity. The number of operations does not grow with input size.
+
+O(log n) represents logarithmic time complexity. The problem size is repeatedly reduced by a constant factor.
+
+O(n) represents linear time complexity. The number of operations grows proportionally to input size.
+
+O(n log n) commonly occurs in efficient comparison-based sorting algorithms such as merge sort and average-case heap sort.
+
+O(n squared) represents quadratic time complexity and commonly occurs in algorithms with two nested loops over the input.
+
+QUESTION: What is a data structure?
+ANSWER: A data structure is a method of organizing and storing data so that operations such as searching, insertion, deletion, and traversal can be performed efficiently.
+
+QUESTION: What is the difference between an array and a linked list?
+ANSWER: An array stores elements in indexed positions and commonly uses contiguous memory. A linked list stores elements in separate nodes connected through references. Arrays provide constant-time indexed access, while linked lists require traversal to access an element by position.
+
+QUESTION: What is the difference between a stack and a queue?
+ANSWER: A stack follows Last In First Out, meaning the most recently inserted element is removed first. A queue follows First In First Out, meaning the earliest inserted element is removed first.
+
+QUESTION: What are the basic operations of a stack?
+ANSWER: Push inserts an element, pop removes the top element, and peek returns the top element without removing it.
+
+QUESTION: What are the applications of a stack?
+ANSWER: Stacks are used in recursion, function call management, expression evaluation, undo operations, browser history, and backtracking algorithms.
+
+QUESTION: What is a circular queue?
+ANSWER: A circular queue is a queue in which the last position is logically connected to the first position. It allows previously occupied positions to be reused after elements are removed.
+
+QUESTION: What is a binary tree?
+ANSWER: A binary tree is a hierarchical data structure in which each node can have at most two children, known as the left child and right child.
+
+QUESTION: What is a binary search tree?
+ANSWER: A binary search tree is a binary tree in which values in the left subtree are smaller than the node value and values in the right subtree are larger, assuming distinct keys.
+
+QUESTION: What is the difference between BFS and DFS?
+ANSWER: BFS explores neighbouring vertices level by level using a queue. DFS explores a path deeply before backtracking and commonly uses recursion or a stack.
+
+QUESTION: What is a hash collision?
+ANSWER: A hash collision occurs when two different keys produce the same hash-table position. Collision resolution techniques include separate chaining and open addressing.
+
+QUESTION: What is the difference between a min heap and a max heap?
+ANSWER: A min heap maintains the smallest element at the root, while a max heap maintains the largest element at the root.
+
+QUESTION: What is the difference between an adjacency matrix and an adjacency list?
+ANSWER: An adjacency matrix represents graph connections using a two-dimensional matrix. An adjacency list stores the neighbours of each vertex. Adjacency matrices use O(V squared) space, while adjacency lists generally use O(V + E) space.
+
+QUESTION: What is Big O notation?
+ANSWER: Big O notation describes an asymptotic upper bound on the growth of an algorithm's resource requirements as input size increases.
+
+QUESTION: What is the time complexity of accessing an array element by index?
+ANSWER: Accessing an array element by index takes O(1) time because its location can be calculated directly.
+
+QUESTION: What is the time complexity of searching for an element in an unsorted array?
+ANSWER: Linear search takes O(n) time in the worst case because it may need to examine every element.
+

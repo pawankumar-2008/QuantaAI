@@ -1,0 +1,690 @@
+{
+  "exact_duplicate_documents_removed": 2,
+  "exact_duplicate_groups": [
+    {
+      "canonical_source": "data/raw/computer_science/fundamentals.txt",
+      "duplicate_sources": [
+        "data/raw/training.txt"
+      ],
+      "sha256": "5afb3e3b76c6ceb2bc541e96a273991070ced36cd88862ba8d4b4ad4b5556433",
+      "type": "exact_cleaned_document"
+    },
+    {
+      "canonical_source": "data/raw/student_learning/question_answers.txt",
+      "duplicate_sources": [
+        "data/raw/training_v2.txt"
+      ],
+      "sha256": "69c7cfc3b2ceeedbcda0504fedacfb31bf423d9a4bc2eb738273fba00771f270",
+      "type": "exact_cleaned_document"
+    }
+  ],
+  "near_duplicate_detection": {
+    "method": "5-word shingle Jaccard",
+    "near_duplicate_documents_removed": 0,
+    "pairs": [],
+    "threshold": 0.85
+  },
+  "normalized_duplicate_documents_removed": 0,
+  "normalized_duplicate_groups": [],
+  "original_raw_document_count": 15,
+  "repeated_lines": {
+    "action": "preserve line content and group documents sharing lines into one split",
+    "minimum_line_length": 16,
+    "shared_substantive_line_count": 78,
+    "shared_substantive_lines": [
+      {
+        "line": "A Transformer uses attention to process relationships between tokens.",
+        "source_documents": [
+          "data/raw/computer_science/fundamentals.txt",
+          "data/raw/student_learning/question_answers.txt"
+        ]
+      },
+      {
+        "line": "A class defines the structure and behavior of objects.",
+        "source_documents": [
+          "data/raw/computer_science/fundamentals.txt",
+          "data/raw/student_learning/question_answers.txt"
+        ]
+      },
+      {
+        "line": "A computer network connects devices so they can exchange information.",
+        "source_documents": [
+          "data/raw/computer_science/fundamentals.txt",
+          "data/raw/student_learning/question_answers.txt"
+        ]
+      },
+      {
+        "line": "A computer program is a set of instructions that tells a computer how to perform a task.",
+        "source_documents": [
+          "data/raw/computer_science/fundamentals.txt",
+          "data/raw/student_learning/question_answers.txt"
+        ]
+      },
+      {
+        "line": "A conditional statement selects an action based on whether a condition is true or false.",
+        "source_documents": [
+          "data/raw/computer_science/fundamentals.txt",
+          "data/raw/student_learning/question_answers.txt"
+        ]
+      },
+      {
+        "line": "A data structure organizes information so that it can be stored and accessed efficiently.",
+        "source_documents": [
+          "data/raw/computer_science/fundamentals.txt",
+          "data/raw/student_learning/question_answers.txt"
+        ]
+      },
+      {
+        "line": "A database management system provides tools to create, read, update, and delete data.",
+        "source_documents": [
+          "data/raw/computer_science/fundamentals.txt",
+          "data/raw/student_learning/question_answers.txt"
+        ]
+      },
+      {
+        "line": "A database stores organized information.",
+        "source_documents": [
+          "data/raw/computer_science/fundamentals.txt",
+          "data/raw/student_learning/question_answers.txt"
+        ]
+      },
+      {
+        "line": "A database transaction groups operations into a logical unit of work.",
+        "source_documents": [
+          "data/raw/computer_science/fundamentals.txt",
+          "data/raw/student_learning/question_answers.txt"
+        ]
+      },
+      {
+        "line": "A file system organizes files and directories on storage devices.",
+        "source_documents": [
+          "data/raw/computer_science/fundamentals.txt",
+          "data/raw/student_learning/question_answers.txt"
+        ]
+      },
+      {
+        "line": "A foreign key represents a relationship between tables.",
+        "source_documents": [
+          "data/raw/computer_science/fundamentals.txt",
+          "data/raw/student_learning/question_answers.txt"
+        ]
+      },
+      {
+        "line": "A function is a reusable block of code that performs a particular operation.",
+        "source_documents": [
+          "data/raw/computer_science/fundamentals.txt",
+          "data/raw/student_learning/question_answers.txt"
+        ]
+      },
+      {
+        "line": "A function maps inputs to outputs according to a defined rule.",
+        "source_documents": [
+          "data/raw/computer_science/fundamentals.txt",
+          "data/raw/student_learning/question_answers.txt"
+        ]
+      },
+      {
+        "line": "A graph represents relationships between vertices connected by edges.",
+        "source_documents": [
+          "data/raw/computer_science/fundamentals.txt",
+          "data/raw/student_learning/question_answers.txt"
+        ]
+      },
+      {
+        "line": "A hash table stores key and value pairs using a hashing function.",
+        "source_documents": [
+          "data/raw/computer_science/fundamentals.txt",
+          "data/raw/student_learning/question_answers.txt"
+        ]
+      },
+      {
+        "line": "A language model learns statistical patterns from sequences of tokens.",
+        "source_documents": [
+          "data/raw/computer_science/fundamentals.txt",
+          "data/raw/student_learning/question_answers.txt"
+        ]
+      },
+      {
+        "line": "A language model trained from scratch begins with randomly initialized parameters.",
+        "source_documents": [
+          "data/raw/computer_science/fundamentals.txt",
+          "data/raw/student_learning/question_answers.txt"
+        ]
+      },
+      {
+        "line": "A linked list consists of nodes connected through references.",
+        "source_documents": [
+          "data/raw/computer_science/fundamentals.txt",
+          "data/raw/student_learning/question_answers.txt"
+        ]
+      },
+      {
+        "line": "A loop repeats a block of instructions while a condition is satisfied.",
+        "source_documents": [
+          "data/raw/computer_science/fundamentals.txt",
+          "data/raw/student_learning/question_answers.txt"
+        ]
+      },
+      {
+        "line": "A loss function measures how far a prediction is from its target.",
+        "source_documents": [
+          "data/raw/computer_science/fundamentals.txt",
+          "data/raw/student_learning/question_answers.txt"
+        ]
+      },
+      {
+        "line": "A matrix is a rectangular arrangement of values.",
+        "source_documents": [
+          "data/raw/computer_science/fundamentals.txt",
+          "data/raw/student_learning/question_answers.txt"
+        ]
+      },
+      {
+        "line": "A neural network contains layers of parameterized computations.",
+        "source_documents": [
+          "data/raw/computer_science/fundamentals.txt",
+          "data/raw/student_learning/question_answers.txt"
+        ]
+      },
+      {
+        "line": "A primary key uniquely identifies a row.",
+        "source_documents": [
+          "data/raw/computer_science/fundamentals.txt",
+          "data/raw/student_learning/question_answers.txt"
+        ]
+      },
+      {
+        "line": "A probability measures the likelihood of an event.",
+        "source_documents": [
+          "data/raw/computer_science/fundamentals.txt",
+          "data/raw/student_learning/question_answers.txt"
+        ]
+      },
+      {
+        "line": "A process is a program in execution.",
+        "source_documents": [
+          "data/raw/computer_science/fundamentals.txt",
+          "data/raw/student_learning/question_answers.txt"
+        ]
+      },
+      {
+        "line": "A queue follows the first in first out principle.",
+        "source_documents": [
+          "data/raw/computer_science/fundamentals.txt",
+          "data/raw/student_learning/question_answers.txt"
+        ]
+      },
+      {
+        "line": "A relational database organizes information into tables.",
+        "source_documents": [
+          "data/raw/computer_science/fundamentals.txt",
+          "data/raw/student_learning/question_answers.txt"
+        ]
+      },
+      {
+        "line": "A set is a collection of distinct elements.",
+        "source_documents": [
+          "data/raw/computer_science/fundamentals.txt",
+          "data/raw/student_learning/question_answers.txt"
+        ]
+      },
+      {
+        "line": "A stack follows the last in first out principle.",
+        "source_documents": [
+          "data/raw/computer_science/fundamentals.txt",
+          "data/raw/student_learning/question_answers.txt"
+        ]
+      },
+      {
+        "line": "A table contains rows and columns.",
+        "source_documents": [
+          "data/raw/computer_science/fundamentals.txt",
+          "data/raw/student_learning/question_answers.txt"
+        ]
+      },
+      {
+        "line": "A thread is a unit of execution within a process.",
+        "source_documents": [
+          "data/raw/computer_science/fundamentals.txt",
+          "data/raw/student_learning/question_answers.txt"
+        ]
+      },
+      {
+        "line": "A tokenizer converts text into token identifiers.",
+        "source_documents": [
+          "data/raw/computer_science/fundamentals.txt",
+          "data/raw/student_learning/question_answers.txt"
+        ]
+      },
+      {
+        "line": "A tree organizes data into parent and child relationships.",
+        "source_documents": [
+          "data/raw/computer_science/fundamentals.txt",
+          "data/raw/student_learning/question_answers.txt"
+        ]
+      },
+      {
+        "line": "A variable is a named location used to store a value.",
+        "source_documents": [
+          "data/raw/computer_science/fundamentals.txt",
+          "data/raw/student_learning/question_answers.txt"
+        ]
+      },
+      {
+        "line": "An IP address identifies a network interface within an IP network.",
+        "source_documents": [
+          "data/raw/computer_science/fundamentals.txt",
+          "data/raw/student_learning/question_answers.txt"
+        ]
+      },
+      {
+        "line": "An algorithm is a sequence of steps used to solve a problem.",
+        "source_documents": [
+          "data/raw/computer_science/fundamentals.txt",
+          "data/raw/student_learning/question_answers.txt"
+        ]
+      },
+      {
+        "line": "An array stores elements in indexed positions.",
+        "source_documents": [
+          "data/raw/computer_science/fundamentals.txt",
+          "data/raw/student_learning/question_answers.txt"
+        ]
+      },
+      {
+        "line": "An embedding maps a token identifier to a vector of numbers.",
+        "source_documents": [
+          "data/raw/computer_science/fundamentals.txt",
+          "data/raw/student_learning/question_answers.txt"
+        ]
+      },
+      {
+        "line": "An exception represents an error or unusual condition during program execution.",
+        "source_documents": [
+          "data/raw/computer_science/fundamentals.txt",
+          "data/raw/student_learning/question_answers.txt"
+        ]
+      },
+      {
+        "line": "An interface defines a contract that implementing classes must follow.",
+        "source_documents": [
+          "data/raw/computer_science/fundamentals.txt",
+          "data/raw/student_learning/question_answers.txt"
+        ]
+      },
+      {
+        "line": "An object is an instance of a class.",
+        "source_documents": [
+          "data/raw/computer_science/fundamentals.txt",
+          "data/raw/student_learning/question_answers.txt"
+        ]
+      },
+      {
+        "line": "An operating system manages computer hardware and software resources.",
+        "source_documents": [
+          "data/raw/computer_science/fundamentals.txt",
+          "data/raw/student_learning/question_answers.txt"
+        ]
+      },
+      {
+        "line": "Atomicity means a transaction completes entirely or does not take effect.",
+        "source_documents": [
+          "data/raw/computer_science/fundamentals.txt",
+          "data/raw/student_learning/question_answers.txt"
+        ]
+      },
+      {
+        "line": "Backpropagation computes gradients used to update model parameters.",
+        "source_documents": [
+          "data/raw/computer_science/fundamentals.txt",
+          "data/raw/student_learning/question_answers.txt"
+        ]
+      },
+      {
+        "line": "Binary search has logarithmic time complexity.",
+        "source_documents": [
+          "data/raw/computer_science/fundamentals.txt",
+          "data/raw/student_learning/question_answers.txt"
+        ]
+      },
+      {
+        "line": "Binary search repeatedly divides a sorted search range into smaller parts.",
+        "source_documents": [
+          "data/raw/computer_science/fundamentals.txt",
+          "data/raw/student_learning/question_answers.txt"
+        ]
+      },
+      {
+        "line": "Consistency preserves database rules and constraints.",
+        "source_documents": [
+          "data/raw/computer_science/fundamentals.txt",
+          "data/raw/student_learning/question_answers.txt"
+        ]
+      },
+      {
+        "line": "Deadlock can occur when processes wait indefinitely for resources.",
+        "source_documents": [
+          "data/raw/computer_science/fundamentals.txt",
+          "data/raw/student_learning/question_answers.txt"
+        ]
+      },
+      {
+        "line": "Durability means committed changes persist.",
+        "source_documents": [
+          "data/raw/computer_science/fundamentals.txt",
+          "data/raw/student_learning/question_answers.txt"
+        ]
+      },
+      {
+        "line": "Encapsulation combines data and methods while controlling access to internal state.",
+        "source_documents": [
+          "data/raw/computer_science/fundamentals.txt",
+          "data/raw/student_learning/question_answers.txt"
+        ]
+      },
+      {
+        "line": "Gradient descent adjusts parameters to reduce the training loss.",
+        "source_documents": [
+          "data/raw/computer_science/fundamentals.txt",
+          "data/raw/student_learning/question_answers.txt"
+        ]
+      },
+      {
+        "line": "HTTP is a protocol used to transfer web resources.",
+        "source_documents": [
+          "data/raw/computer_science/fundamentals.txt",
+          "data/raw/student_learning/question_answers.txt"
+        ]
+      },
+      {
+        "line": "HTTPS protects HTTP communication using Transport Layer Security.",
+        "source_documents": [
+          "data/raw/computer_science/fundamentals.txt",
+          "data/raw/student_learning/question_answers.txt"
+        ]
+      },
+      {
+        "line": "Inheritance allows a class to reuse or extend the behavior of another class.",
+        "source_documents": [
+          "data/raw/computer_science/fundamentals.txt",
+          "data/raw/student_learning/question_answers.txt"
+        ]
+      },
+      {
+        "line": "Isolation controls how concurrent transactions interact.",
+        "source_documents": [
+          "data/raw/computer_science/fundamentals.txt",
+          "data/raw/student_learning/question_answers.txt"
+        ]
+      },
+      {
+        "line": "Java is an object-oriented programming language.",
+        "source_documents": [
+          "data/raw/computer_science/fundamentals.txt",
+          "data/raw/student_learning/question_answers.txt"
+        ]
+      },
+      {
+        "line": "Linear search checks elements one by one.",
+        "source_documents": [
+          "data/raw/computer_science/fundamentals.txt",
+          "data/raw/student_learning/question_answers.txt"
+        ]
+      },
+      {
+        "line": "Logic uses formal rules to evaluate statements and arguments.",
+        "source_documents": [
+          "data/raw/computer_science/fundamentals.txt",
+          "data/raw/student_learning/question_answers.txt"
+        ]
+      },
+      {
+        "line": "Mathematics provides tools for reasoning about quantities and relationships.",
+        "source_documents": [
+          "data/raw/computer_science/fundamentals.txt",
+          "data/raw/student_learning/question_answers.txt"
+        ]
+      },
+      {
+        "line": "Normalization organizes relational tables to reduce unnecessary duplication.",
+        "source_documents": [
+          "data/raw/computer_science/fundamentals.txt",
+          "data/raw/student_learning/question_answers.txt"
+        ]
+      },
+      {
+        "line": "Overfitting occurs when a model learns training examples without generalizing well.",
+        "source_documents": [
+          "data/raw/computer_science/fundamentals.txt",
+          "data/raw/student_learning/question_answers.txt"
+        ]
+      },
+      {
+        "line": "Polymorphism allows the same interface to support different implementations.",
+        "source_documents": [
+          "data/raw/computer_science/fundamentals.txt",
+          "data/raw/student_learning/question_answers.txt"
+        ]
+      },
+      {
+        "line": "Programming languages allow humans to express these instructions in a structured form.",
+        "source_documents": [
+          "data/raw/computer_science/fundamentals.txt",
+          "data/raw/student_learning/question_answers.txt"
+        ]
+      },
+      {
+        "line": "QUESTION: What is recursion?",
+        "source_documents": [
+          "data/raw/computer_science/algorithms.txt",
+          "data/raw/computer_science/programming_fundamentals.txt"
+        ]
+      },
+      {
+        "line": "QUESTION: What is the difference between BFS and DFS?",
+        "source_documents": [
+          "data/raw/computer_science/algorithms.txt",
+          "data/raw/computer_science/data_structures.txt"
+        ]
+      },
+      {
+        "line": "SQL is a language used to work with relational databases.",
+        "source_documents": [
+          "data/raw/computer_science/fundamentals.txt",
+          "data/raw/student_learning/question_answers.txt"
+        ]
+      },
+      {
+        "line": "Self-attention allows a token representation to incorporate information from other tokens.",
+        "source_documents": [
+          "data/raw/computer_science/fundamentals.txt",
+          "data/raw/student_learning/question_answers.txt"
+        ]
+      },
+      {
+        "line": "Sorting algorithms arrange data according to a chosen order.",
+        "source_documents": [
+          "data/raw/computer_science/fundamentals.txt",
+          "data/raw/student_learning/question_answers.txt"
+        ]
+      },
+      {
+        "line": "Space complexity describes how memory requirements grow with input size.",
+        "source_documents": [
+          "data/raw/computer_science/fundamentals.txt",
+          "data/raw/student_learning/question_answers.txt"
+        ]
+      },
+      {
+        "line": "The Domain Name System maps domain names to network records.",
+        "source_documents": [
+          "data/raw/computer_science/fundamentals.txt",
+          "data/raw/student_learning/question_answers.txt"
+        ]
+      },
+      {
+        "line": "The Transmission Control Protocol provides reliable ordered byte delivery.",
+        "source_documents": [
+          "data/raw/computer_science/fundamentals.txt",
+          "data/raw/student_learning/question_answers.txt"
+        ]
+      },
+      {
+        "line": "The User Datagram Protocol sends datagrams without guaranteeing delivery.",
+        "source_documents": [
+          "data/raw/computer_science/fundamentals.txt",
+          "data/raw/student_learning/question_answers.txt"
+        ]
+      },
+      {
+        "line": "The model predicts tokens based on patterns learned during training.",
+        "source_documents": [
+          "data/raw/computer_science/fundamentals.txt",
+          "data/raw/student_learning/question_answers.txt"
+        ]
+      },
+      {
+        "line": "The scheduler allocates processor time to runnable tasks.",
+        "source_documents": [
+          "data/raw/computer_science/fundamentals.txt",
+          "data/raw/student_learning/question_answers.txt"
+        ]
+      },
+      {
+        "line": "Time complexity describes how an algorithm's running time grows with input size.",
+        "source_documents": [
+          "data/raw/computer_science/fundamentals.txt",
+          "data/raw/student_learning/question_answers.txt"
+        ]
+      },
+      {
+        "line": "Training data is used to update model parameters.",
+        "source_documents": [
+          "data/raw/computer_science/fundamentals.txt",
+          "data/raw/student_learning/question_answers.txt"
+        ]
+      },
+      {
+        "line": "Validation data helps estimate performance on unseen examples.",
+        "source_documents": [
+          "data/raw/computer_science/fundamentals.txt",
+          "data/raw/student_learning/question_answers.txt"
+        ]
+      },
+      {
+        "line": "Virtual memory gives processes an abstraction of available memory.",
+        "source_documents": [
+          "data/raw/computer_science/fundamentals.txt",
+          "data/raw/student_learning/question_answers.txt"
+        ]
+      }
+    ],
+    "within_document_duplicate_line_occurrences": {
+      "data/raw/artificial_intelligence/ai_fundamentals.txt": 19,
+      "data/raw/computer_science/algorithms.txt": 0,
+      "data/raw/computer_science/computer_networks.txt": 10,
+      "data/raw/computer_science/data_structures.txt": 0,
+      "data/raw/computer_science/dbms.txt": 0,
+      "data/raw/computer_science/fundamentals.txt": 0,
+      "data/raw/computer_science/java.txt": 0,
+      "data/raw/computer_science/operating_systems.txt": 3,
+      "data/raw/computer_science/programming_fundamentals.txt": 0,
+      "data/raw/computer_science/python.txt": 0,
+      "data/raw/mathematics/mathematics_fundamentals.txt": 43,
+      "data/raw/science/science_fundamentals.txt": 19,
+      "data/raw/student_learning/question_answers.txt": 0
+    }
+  },
+  "repeated_passages": {
+    "action": "preserve passage text and group documents sharing a passage into one split",
+    "method": "exact normalized paragraph comparison",
+    "minimum_normalized_characters": 80,
+    "shared_passage_count": 8,
+    "shared_passages": [
+      {
+        "character_count": 463,
+        "passage_sha256": "76dcdc209af55b91f905e53a3d6708dfbbcb42db2e8f440a151d99a625f4810b",
+        "source_documents": [
+          "data/raw/computer_science/fundamentals.txt",
+          "data/raw/student_learning/question_answers.txt"
+        ]
+      },
+      {
+        "character_count": 466,
+        "passage_sha256": "dd9d5a503ff9ccb8cb4d4a307c219d27ecf6d6bf15dec83c7c30b6115563c95d",
+        "source_documents": [
+          "data/raw/computer_science/fundamentals.txt",
+          "data/raw/student_learning/question_answers.txt"
+        ]
+      },
+      {
+        "character_count": 492,
+        "passage_sha256": "97836885157f25aedf8282bd2ee5e1c27a70bffc4197467efeed80776e776d6f",
+        "source_documents": [
+          "data/raw/computer_science/fundamentals.txt",
+          "data/raw/student_learning/question_answers.txt"
+        ]
+      },
+      {
+        "character_count": 749,
+        "passage_sha256": "b0edfd214df06e3d0c1f4959ec7d1f806b8d499f5de82e0a87c9573a5b940f90",
+        "source_documents": [
+          "data/raw/computer_science/fundamentals.txt",
+          "data/raw/student_learning/question_answers.txt"
+        ]
+      },
+      {
+        "character_count": 439,
+        "passage_sha256": "aea0efd2158643c1b3b539146dc7ceb789ba4bcec999be1659fd40c5153b9c45",
+        "source_documents": [
+          "data/raw/computer_science/fundamentals.txt",
+          "data/raw/student_learning/question_answers.txt"
+        ]
+      },
+      {
+        "character_count": 414,
+        "passage_sha256": "14de58947ee85f280bd4da91714a43b6bb394854e0823404ee6da3e2dc86d366",
+        "source_documents": [
+          "data/raw/computer_science/fundamentals.txt",
+          "data/raw/student_learning/question_answers.txt"
+        ]
+      },
+      {
+        "character_count": 529,
+        "passage_sha256": "1f42750885d59a2fc9a5676bfa47d9bdc0e79efae2db1960e24445dac3281755",
+        "source_documents": [
+          "data/raw/computer_science/fundamentals.txt",
+          "data/raw/student_learning/question_answers.txt"
+        ]
+      },
+      {
+        "character_count": 345,
+        "passage_sha256": "4833d04154d7e0659877ccb007ee023e4cc7d7bbf0dd0ab07c1c291c1e7729ca",
+        "source_documents": [
+          "data/raw/computer_science/fundamentals.txt",
+          "data/raw/student_learning/question_answers.txt"
+        ]
+      }
+    ]
+  },
+  "retained_unique_document_count": 13,
+  "split_leakage_groups": [
+    {
+      "group_id": "group-002",
+      "reason": "shared substantive line and/or detected near duplicate",
+      "sources": [
+        "data/raw/computer_science/algorithms.txt",
+        "data/raw/computer_science/data_structures.txt",
+        "data/raw/computer_science/programming_fundamentals.txt"
+      ]
+    },
+    {
+      "group_id": "group-005",
+      "reason": "shared substantive line and/or detected near duplicate",
+      "sources": [
+        "data/raw/computer_science/fundamentals.txt",
+        "data/raw/student_learning/question_answers.txt"
+      ]
+    }
+  ]
+}

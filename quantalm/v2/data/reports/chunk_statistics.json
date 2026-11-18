@@ -1,0 +1,92 @@
+{
+  "chunk_overlap": 32,
+  "chunk_stride": 225,
+  "chunk_window_token_count": 257,
+  "context_length": 256,
+  "minimum_final_chunk_tokens": 128,
+  "splits": {
+    "test": {
+      "average_chunk_length": 255.47826086956522,
+      "average_realized_window_overlap_tokens": 32.0,
+      "category_chunk_counts": {
+        "Computer Science": 23
+      },
+      "configured_overlap_tokens": 32,
+      "configured_stride_tokens": 225,
+      "context_length": 256,
+      "documents_successfully_chunked": 1,
+      "generated_chunk_count": 23,
+      "input_padding_token_count": 12,
+      "maximum_chunk_length": 256,
+      "maximum_sequence_length": 256,
+      "minimum_chunk_length": 244,
+      "original_document_count": 1,
+      "original_token_count_including_bos_eos": 5195,
+      "overlap_input_token_count": 704,
+      "overlap_token_count": 682,
+      "padding_token_count": 12,
+      "target_padding_token_count": 12,
+      "target_token_positions": 5876,
+      "total_padding_positions_in_input_and_target": 24,
+      "total_represented_tokens": 5195,
+      "total_target_tokens_represented": 5194
+    },
+    "train": {
+      "average_chunk_length": 252.57543859649124,
+      "average_realized_window_overlap_tokens": 33.45985401459854,
+      "category_chunk_counts": {
+        "Artificial Intelligence": 45,
+        "Computer Science": 126,
+        "General Science": 49,
+        "Mathematics": 50,
+        "Student Learning": 15
+      },
+      "configured_overlap_tokens": 32,
+      "configured_stride_tokens": 225,
+      "context_length": 256,
+      "documents_successfully_chunked": 11,
+      "generated_chunk_count": 285,
+      "input_padding_token_count": 976,
+      "maximum_chunk_length": 256,
+      "maximum_sequence_length": 256,
+      "minimum_chunk_length": 127,
+      "original_document_count": 11,
+      "original_token_count_including_bos_eos": 63101,
+      "overlap_input_token_count": 9168,
+      "overlap_token_count": 8894,
+      "padding_token_count": 976,
+      "target_padding_token_count": 976,
+      "target_token_positions": 71984,
+      "total_padding_positions_in_input_and_target": 1952,
+      "total_represented_tokens": 63101,
+      "total_target_tokens_represented": 63090
+    },
+    "validation": {
+      "average_chunk_length": 252.89473684210526,
+      "average_realized_window_overlap_tokens": 32.0,
+      "category_chunk_counts": {
+        "Computer Science": 38
+      },
+      "configured_overlap_tokens": 32,
+      "configured_stride_tokens": 225,
+      "context_length": 256,
+      "documents_successfully_chunked": 1,
+      "generated_chunk_count": 38,
+      "input_padding_token_count": 118,
+      "maximum_chunk_length": 256,
+      "maximum_sequence_length": 256,
+      "minimum_chunk_length": 138,
+      "original_document_count": 1,
+      "original_token_count_including_bos_eos": 8464,
+      "overlap_input_token_count": 1184,
+      "overlap_token_count": 1147,
+      "padding_token_count": 118,
+      "target_padding_token_count": 118,
+      "target_token_positions": 9610,
+      "total_padding_positions_in_input_and_target": 236,
+      "total_represented_tokens": 8464,
+      "total_target_tokens_represented": 8463
+    }
+  },
+  "tokenizer_sha256": "91b1a25afa1bc56ce8c6456a1daa7f65ebfe3df177ee1ba66b3a966ddf2c63a0"
+}

@@ -1,0 +1,129 @@
+A computer program is a set of instructions that tells a computer how to perform a task.
+Programming languages allow humans to express these instructions in a structured form.
+A variable is a named location used to store a value.
+A function is a reusable block of code that performs a particular operation.
+A loop repeats a block of instructions while a condition is satisfied.
+A conditional statement selects an action based on whether a condition is true or false.
+
+Java is an object-oriented programming language.
+A class defines the structure and behavior of objects.
+An object is an instance of a class.
+Encapsulation combines data and methods while controlling access to internal state.
+Inheritance allows a class to reuse or extend the behavior of another class.
+Polymorphism allows the same interface to support different implementations.
+An interface defines a contract that implementing classes must follow.
+An exception represents an error or unusual condition during program execution.
+
+A data structure organizes information so that it can be stored and accessed efficiently.
+An array stores elements in indexed positions.
+A linked list consists of nodes connected through references.
+A stack follows the last in first out principle.
+A queue follows the first in first out principle.
+A tree organizes data into parent and child relationships.
+A graph represents relationships between vertices connected by edges.
+A hash table stores key and value pairs using a hashing function.
+
+An algorithm is a sequence of steps used to solve a problem.
+Linear search checks elements one by one.
+Binary search repeatedly divides a sorted search range into smaller parts.
+Binary search has logarithmic time complexity.
+Sorting algorithms arrange data according to a chosen order.
+Time complexity describes how an algorithm's running time grows with input size.
+Space complexity describes how memory requirements grow with input size.
+
+A database stores organized information.
+A database management system provides tools to create, read, update, and delete data.
+A relational database organizes information into tables.
+A table contains rows and columns.
+A primary key uniquely identifies a row.
+A foreign key represents a relationship between tables.
+SQL is a language used to work with relational databases.
+Normalization organizes relational tables to reduce unnecessary duplication.
+A database transaction groups operations into a logical unit of work.
+Atomicity means a transaction completes entirely or does not take effect.
+Consistency preserves database rules and constraints.
+Isolation controls how concurrent transactions interact.
+Durability means committed changes persist.
+
+An operating system manages computer hardware and software resources.
+A process is a program in execution.
+A thread is a unit of execution within a process.
+The scheduler allocates processor time to runnable tasks.
+Virtual memory gives processes an abstraction of available memory.
+Deadlock can occur when processes wait indefinitely for resources.
+A file system organizes files and directories on storage devices.
+
+A computer network connects devices so they can exchange information.
+An IP address identifies a network interface within an IP network.
+The Transmission Control Protocol provides reliable ordered byte delivery.
+The User Datagram Protocol sends datagrams without guaranteeing delivery.
+The Domain Name System maps domain names to network records.
+HTTP is a protocol used to transfer web resources.
+HTTPS protects HTTP communication using Transport Layer Security.
+
+Mathematics provides tools for reasoning about quantities and relationships.
+A set is a collection of distinct elements.
+A function maps inputs to outputs according to a defined rule.
+A probability measures the likelihood of an event.
+A matrix is a rectangular arrangement of values.
+Logic uses formal rules to evaluate statements and arguments.
+
+A language model learns statistical patterns from sequences of tokens.
+A tokenizer converts text into token identifiers.
+An embedding maps a token identifier to a vector of numbers.
+A neural network contains layers of parameterized computations.
+A Transformer uses attention to process relationships between tokens.
+Self-attention allows a token representation to incorporate information from other tokens.
+A loss function measures how far a prediction is from its target.
+Backpropagation computes gradients used to update model parameters.
+Gradient descent adjusts parameters to reduce the training loss.
+Training data is used to update model parameters.
+Validation data helps estimate performance on unseen examples.
+Overfitting occurs when a model learns training examples without generalizing well.
+A language model trained from scratch begins with randomly initialized parameters.
+The model predicts tokens based on patterns learned during training.
+Question: What is a database?
+Answer: A database is an organized collection of information that can be stored, managed, retrieved, and updated efficiently. For example, a college database stores student names, roll numbers, courses, and marks.
+
+Question: Why do we use databases?
+Answer: Databases help applications store and manage large amounts of information. They support searching, updating, deleting, and organizing records. They also help maintain data consistency and reduce unnecessary duplication.
+
+Question: What is a primary key?
+Answer: A primary key is a column or combination of columns that uniquely identifies every row in a database table. For example, StudentID can uniquely identify each student in a student table.
+
+Question: What is a foreign key?
+Answer: A foreign key is a column that refers to a key in another table. It establishes relationships between tables. For example, a DepartmentID in an Employee table can refer to DepartmentID in a Department table.
+
+Question: Explain the difference between a stack and a queue.
+Answer: A stack follows Last In First Out, also called LIFO. The last inserted element is removed first. A queue follows First In First Out, also called FIFO. The first inserted element is removed first. A stack is similar to a pile of plates, while a queue is similar to people waiting in a line.
+
+Question: What is inheritance in Java?
+Answer: Inheritance is an object-oriented programming feature in which one class acquires the properties and methods of another class. The existing class is called the parent class, and the new class is called the child class. It promotes code reuse.
+
+Question: Give an example of inheritance in Java.
+Answer: Consider a class Animal containing a method eat(). A class Dog can extend Animal and inherit the eat() method. The Dog class can also define its own method bark(). In Java, inheritance can be implemented using the extends keyword.
+
+Question: What is polymorphism?
+Answer: Polymorphism means one interface can represent different forms of behaviour. In Java, method overloading and method overriding are two ways to achieve polymorphism. It makes programs more flexible and reusable.
+
+Question: What is an algorithm?
+Answer: An algorithm is a finite sequence of well-defined instructions used to solve a problem. An algorithm accepts input, performs operations, and produces an output.
+
+Question: Explain binary search.
+Answer: Binary search is a searching algorithm used on sorted data. It compares the target value with the middle element. If the target is smaller, it searches the left half. If the target is larger, it searches the right half. This process continues until the element is found or the search range becomes empty.
+
+Question: What is an operating system?
+Answer: An operating system is system software that manages computer hardware and software resources. It manages processes, memory, files, and input and output devices. Examples include Windows and Linux.
+
+Question: What is a computer network?
+Answer: A computer network is a collection of interconnected devices that communicate and exchange information. Networks allow devices to share files, resources, and services.
+
+Question: What is a Transformer?
+Answer: A Transformer is a neural network architecture that uses attention mechanisms to process relationships between tokens in a sequence. Transformers are widely used in language modelling because they can learn contextual relationships between words and tokens.
+
+Question: What is self-attention?
+Answer: Self-attention is a mechanism that allows each token to consider information from other tokens in the same sequence. It helps a Transformer identify relationships between different parts of the input.
+
+Question: What is a language model?
+Answer: A language model is a machine learning model that learns statistical patterns in sequences of tokens. It uses these patterns to predict the next token and generate text.
+

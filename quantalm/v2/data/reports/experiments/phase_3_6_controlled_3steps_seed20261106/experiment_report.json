@@ -1,0 +1,466 @@
+{
+  "baseline": {
+    "generation": {
+      "answer": "................................",
+      "generated_token_ids": [
+        46,
+        46,
+        46,
+        46,
+        46,
+        46,
+        46,
+        46,
+        46,
+        46,
+        46,
+        46,
+        46,
+        46,
+        46,
+        46,
+        46,
+        46,
+        46,
+        46,
+        46,
+        46,
+        46,
+        46,
+        46,
+        46,
+        46,
+        46,
+        46,
+        46,
+        46,
+        46
+      ],
+      "generation_config": {
+        "max_new_tokens": 32,
+        "random_seed": 20261106,
+        "temperature": 0.8,
+        "top_k": 40
+      },
+      "prompt": "Explain the relationship between an algorithm and a program.",
+      "prompt_token_count": 21,
+      "quality": {
+        "answer_length_tokens": 32,
+        "empty_response": false,
+        "eos_terminated": false,
+        "invalid_token_count": 0,
+        "invalid_token_rate": 0.0,
+        "repeated_ngram_ratio": 0.9666666666666667,
+        "repeated_token_ratio": 0.96875,
+        "repetition_patterns": [
+          {
+            "count": 31,
+            "text": "..",
+            "token_ids": [
+              46,
+              46
+            ]
+          },
+          {
+            "count": 30,
+            "text": "...",
+            "token_ids": [
+              46,
+              46,
+              46
+            ]
+          },
+          {
+            "count": 29,
+            "text": "....",
+            "token_ids": [
+              46,
+              46,
+              46,
+              46
+            ]
+          }
+        ]
+      }
+    },
+    "label": "untrained_random_initialization",
+    "model_state_sha256": "52a55379783f610b55e56064cd8b5e05bbe8042fd259ebaa1ad42a829b8d0943",
+    "performance": {
+      "average_response_latency_seconds": 0.10043023333128076,
+      "device_information": {
+        "cuda_available": false,
+        "device": "cpu",
+        "device_type": "cpu",
+        "gpu_execution_verified": false,
+        "platform": "Windows-11-10.0.26300-SP0",
+        "processor": "Intel64 Family 6 Model 170 Stepping 4, GenuineIntel",
+        "torch_version": "2.14.0+cpu"
+      },
+      "first_token_latency_seconds_mean": 0.008156833335912475,
+      "generated_token_count_mean": 8.0,
+      "generated_token_count_total": 24,
+      "generation_parameters": {
+        "max_new_tokens": 8,
+        "random_seed": 20261106,
+        "temperature": 0.8,
+        "top_k": 40
+      },
+      "measured_runs": 3,
+      "peak_cpu_memory_bytes": 334331904,
+      "peak_cpu_memory_method": "Windows process peak working set",
+      "prompt_source": "single_BOS_performance_probe; not an evaluation question or answer",
+      "tokens_per_second": 79.65728779710263,
+      "total_generation_time_seconds_mean": 0.10043023333128076,
+      "total_generation_time_seconds_median": 0.10223420000693295,
+      "total_generation_time_seconds_p95": 0.128616999994847,
+      "warmup_runs": 1
+    },
+    "validation_perplexity": {
+      "available": true,
+      "average_negative_log_likelihood": 88.20100836937435,
+      "chunk_count": 38,
+      "evaluated_token_count": 9610,
+      "overlap_policy": "overlapping validation chunk targets are counted per chunk",
+      "padding_policy": "loss_mask positions only; masked padding is excluded",
+      "perplexity": 2.0193483000083173e+38,
+      "perplexity_overflow": false,
+      "target_alignment": "targets are already shifted; no second shift is applied"
+    }
+  },
+  "comparison": {
+    "generation_text_changed": false,
+    "human_evaluation_score": null,
+    "quality_metrics_are_human_assessed": false,
+    "validation_nll_delta": -2.4751161509820463,
+    "validation_perplexity_delta": -1.8494136479316664e+38
+  },
+  "created_at": "2026-11-05T22:20:12Z",
+  "dataset_audit": {
+    "data_quality_report_sha256": "f7763d8e45f5b943bb6feba1bf585584e8c8d0bbd151d7e7ee6e6f2f5dcc60a6",
+    "duplicate_report_sha256": "71ad58e3e0e92d7061b7c9c1581191b462a8df34b39426b219f59de7d986dadb",
+    "dataset_manifest_sha256": "008559015bb0eed9e3267bd46c13aa7fab1646df45979f1b9826a7a2afcfef1c",
+    "corpus_duplicate_content_summary": {
+      "exact_duplicate_documents_removed": 2,
+      "normalized_duplicate_documents_removed": 0,
+      "near_duplicate_documents_removed": 0,
+      "shared_substantive_line_count": 78,
+      "shared_passage_count": 8,
+      "duplicate_documents_are_removed_or_grouped_before_split": true
+    },
+    "document_counts": {
+      "test": 1,
+      "train": 11,
+      "validation": 1
+    },
+    "duplicate_and_shared_passage_audit": {
+      "exact_duplicate_cross_split_count": 0,
+      "near_duplicate_or_shared_line_group_cross_split_count": 0,
+      "normalized_duplicate_cross_split_count": 0,
+      "shared_line_minimum_length": 16,
+      "shared_passage_cross_split_count": 0,
+      "shared_substantive_line_cross_split_count": 0,
+      "status": "passed"
+    },
+    "licensing": "unknown for all source documents",
+    "permitted_scope": "No external material added. The run is a controlled experiment on existing local data only; source reuse authorization remains unresolved.",
+    "source_document_split_sha256": {
+      "test": "1bfcd9ea2cd91e08f576a20aea8befa6f3869f8ed9e1ea324a008227d32a441e",
+      "train": "40de3bb3446317770478a457b6b9e08fead5294afddc6507175780967d7666c9",
+      "validation": "391ca17b2c8ef9f8b1f38362f08fce50648722c022dfcb5050b049ee853848df"
+    },
+    "split_document_overlap_counts": {
+      "train_test": 0,
+      "train_validation": 0,
+      "validation_test": 0
+    }
+  },
+  "dataset_usage": {
+    "external_data_used": false,
+    "held_out_test_evaluated": false,
+    "tokenizer_artifact_sha256": {
+      "bpe_merges.json": "58311870925135198c8ec425a47aa6438546432bc489c23b6c14d955ffb48ff1",
+      "bpe_vocab.json": "22726c0c72d74a9e7ce0d2957bdd58d869293988471d3b3004b962318273381b",
+      "tokenizer_config.json": "700ded969a20ba865602ffa744301659c48f9da0838ba18c5538c3fb951e8f98"
+    },
+    "tokenizer_sha256": "91b1a25afa1bc56ce8c6456a1daa7f65ebfe3df177ee1ba66b3a966ddf2c63a0",
+    "training_chunk_sha256": "180c30d025eccd7a246275848e360d13f76fa60c62a4cd5bc607c76a0090a366",
+    "training_chunks": 285,
+    "training_documents": 11,
+    "validation_chunk_sha256": "78449ee04bb0b859211551bed16ebc02297b8f4f23cc0a29539c071049f2e715",
+    "validation_chunks": 38,
+    "validation_documents": 1,
+    "validation_used_for_gradients": false
+  },
+  "experiment_configuration": {
+    "benchmark": {
+      "measured_runs": 3,
+      "warmup_runs": 1
+    },
+    "data_policy": {
+      "experiment_scope": "controlled research probe on existing local corpus only",
+      "external_data_used": false,
+      "monitoring_split": "validation",
+      "source_license_status": "unknown; research-use authorization is not established by repository presence",
+      "test_split_used": false,
+      "train_split": "train"
+    },
+    "description": "Bounded three-step CPU training experiment on the existing V2 training split; not a full-corpus run.",
+    "experiment_id": "phase_3_6_controlled_3steps_seed20261106",
+    "generation": {
+      "max_new_tokens": 32,
+      "prompt": "Explain the relationship between an algorithm and a program.",
+      "random_seed": 20261106,
+      "temperature": 0.8,
+      "top_k": 40
+    },
+    "max_steps": 3,
+    "training": {
+      "batch_size": 1,
+      "checkpoint_interval": 3,
+      "device": "cpu",
+      "early_stopping_patience": 3,
+      "epochs": 1,
+      "evaluation_interval": 1,
+      "gradient_clip_norm": 1.0,
+      "learning_rate": 0.0001,
+      "min_learning_rate_ratio": 0.1,
+      "num_workers": 0,
+      "random_seed": 20261106,
+      "warmup_steps": 1,
+      "weight_decay": 0.01
+    }
+  },
+  "experiment_id": "phase_3_6_controlled_3steps_seed20261106",
+  "experimental_checkpoint": {
+    "best_checkpoint_path": "checkpoints\\experiments\\phase_3_6_controlled_3steps_seed20261106\\best.pt",
+    "best_checkpoint_sha256": "a98ec4c854b8861e4a47ea38d7b68eb1bbc23be377f8401880b71ba4025e4d01",
+    "label": "controlled three-step experiment; not a production or quality claim",
+    "latest_checkpoint_path": "checkpoints\\experiments\\phase_3_6_controlled_3steps_seed20261106\\latest.pt",
+    "model_state_sha256": "b827859bd69e2d82ef0e65fc5268af573f02b0a28919ebe47da47fc9300150cf",
+    "resume_checkpoint_path": "checkpoints\\experiments\\phase_3_6_controlled_3steps_seed20261106\\resume.pt",
+    "training_global_step": 3
+  },
+  "limitations": [
+    "All source-document license statuses are unknown; this experiment adds no external data and does not establish reuse authorization.",
+    "The 11-document training corpus and one-document validation set are too small and imbalanced for meaningful generalization claims.",
+    "A three-step run is only an optimization-pipeline experiment, not evidence that the model is capable or intelligent.",
+    "There are no human-verified evaluation questions; generation comparison is a fixed diagnostic prompt, not correctness evaluation.",
+    "Validation perplexity reuses one document and overlapping chunks; it is monitoring only and can be overfit.",
+    "Peak process working set is process-wide and not an isolated measurement of model-only memory.",
+    "No held-out test evaluation, full-corpus training, or GPU execution was performed."
+  ],
+  "model_configuration": {
+    "architecture_version": "2.0",
+    "context_length": 256,
+    "dropout": 0.1,
+    "embedding_dim": 128,
+    "feed_forward_dim": 512,
+    "num_heads": 4,
+    "num_layers": 4,
+    "vocab_size": 2048
+  },
+  "model_label": "three_step_experimental_checkpoint_not_trained_model_claim",
+  "model_parameter_count": 1088256,
+  "schema_version": 1,
+  "scope": "Bounded three-step CPU training experiment on the existing V2 training split; not a full-corpus run.",
+  "status": "controlled_experiment_complete",
+  "trained_experiment": {
+    "generation": {
+      "answer": "................................",
+      "generated_token_ids": [
+        46,
+        46,
+        46,
+        46,
+        46,
+        46,
+        46,
+        46,
+        46,
+        46,
+        46,
+        46,
+        46,
+        46,
+        46,
+        46,
+        46,
+        46,
+        46,
+        46,
+        46,
+        46,
+        46,
+        46,
+        46,
+        46,
+        46,
+        46,
+        46,
+        46,
+        46,
+        46
+      ],
+      "generation_config": {
+        "max_new_tokens": 32,
+        "random_seed": 20261106,
+        "temperature": 0.8,
+        "top_k": 40
+      },
+      "prompt": "Explain the relationship between an algorithm and a program.",
+      "prompt_token_count": 21,
+      "quality": {
+        "answer_length_tokens": 32,
+        "empty_response": false,
+        "eos_terminated": false,
+        "invalid_token_count": 0,
+        "invalid_token_rate": 0.0,
+        "repeated_ngram_ratio": 0.9666666666666667,
+        "repeated_token_ratio": 0.96875,
+        "repetition_patterns": [
+          {
+            "count": 31,
+            "text": "..",
+            "token_ids": [
+              46,
+              46
+            ]
+          },
+          {
+            "count": 30,
+            "text": "...",
+            "token_ids": [
+              46,
+              46,
+              46
+            ]
+          },
+          {
+            "count": 29,
+            "text": "....",
+            "token_ids": [
+              46,
+              46,
+              46,
+              46
+            ]
+          }
+        ]
+      }
+    },
+    "performance": {
+      "average_response_latency_seconds": 0.05813266667246353,
+      "device_information": {
+        "cuda_available": false,
+        "device": "cpu",
+        "device_type": "cpu",
+        "gpu_execution_verified": false,
+        "platform": "Windows-11-10.0.26300-SP0",
+        "processor": "Intel64 Family 6 Model 170 Stepping 4, GenuineIntel",
+        "torch_version": "2.14.0+cpu"
+      },
+      "first_token_latency_seconds_mean": 0.0028006666689179838,
+      "generated_token_count_mean": 8.0,
+      "generated_token_count_total": 24,
+      "generation_parameters": {
+        "max_new_tokens": 8,
+        "random_seed": 20261106,
+        "temperature": 0.8,
+        "top_k": 40
+      },
+      "measured_runs": 3,
+      "peak_cpu_memory_bytes": 383221760,
+      "peak_cpu_memory_method": "Windows process peak working set",
+      "prompt_source": "single_BOS_performance_probe; not an evaluation question or answer",
+      "tokens_per_second": 137.61625705344542,
+      "total_generation_time_seconds_mean": 0.05813266667246353,
+      "total_generation_time_seconds_median": 0.06110350000381004,
+      "total_generation_time_seconds_p95": 0.06560860000899993,
+      "warmup_runs": 1
+    },
+    "validation_perplexity": {
+      "available": true,
+      "average_negative_log_likelihood": 85.7258922183923,
+      "chunk_count": 38,
+      "evaluated_token_count": 9610,
+      "overlap_policy": "overlapping validation chunk targets are counted per chunk",
+      "padding_policy": "loss_mask positions only; masked padding is excluded",
+      "perplexity": 1.6993465207665097e+37,
+      "perplexity_overflow": false,
+      "target_alignment": "targets are already shifted; no second shift is applied"
+    }
+  },
+  "training": {
+    "best_validation_loss": 85.7258922183923,
+    "cpu_initial_memory_measurement": "Windows process peak working set",
+    "cpu_memory_measurement": "Windows process peak working set",
+    "cpu_peak_working_set_bytes_after_run": 383221760,
+    "cpu_peak_working_set_bytes_before_training": 224067584,
+    "optimizer_steps": 3,
+    "step_metrics": [
+      {
+        "cumulative_training_seconds": 0.29081289999885485,
+        "gradient_norm": 23.57489013671875,
+        "learning_rate": 0.0001,
+        "step": 1,
+        "step_duration_seconds": 0.29081289999885485,
+        "training_loss": 81.85332489013672,
+        "training_valid_tokens": 256,
+        "validation_loss": 87.38879950897503,
+        "validation_valid_tokens": 9610
+      },
+      {
+        "cumulative_training_seconds": 0.5154157999932067,
+        "gradient_norm": 24.969390869140625,
+        "learning_rate": 9.999724677848423e-05,
+        "step": 2,
+        "step_duration_seconds": 0.2246028999943519,
+        "training_loss": 83.15116119384766,
+        "training_valid_tokens": 256,
+        "validation_loss": 86.56940056744277,
+        "validation_valid_tokens": 9610
+      },
+      {
+        "cumulative_training_seconds": 0.8499709999887273,
+        "gradient_norm": 30.914775848388672,
+        "learning_rate": 9.998898745083595e-05,
+        "step": 3,
+        "step_duration_seconds": 0.3345551999955205,
+        "training_loss": 84.16452026367188,
+        "training_valid_tokens": 256,
+        "validation_loss": 85.7258922183923,
+        "validation_valid_tokens": 9610
+      }
+    ],
+    "total_experiment_time_seconds": 4.002474000008078,
+    "training_loss_by_step": [
+      81.85332489013672,
+      83.15116119384766,
+      84.16452026367188
+    ],
+    "training_metrics_csv": "data\\reports\\experiments\\phase_3_6_controlled_3steps_seed20261106\\training_steps.csv",
+    "training_metrics_json": "data\\reports\\experiments\\phase_3_6_controlled_3steps_seed20261106\\training_metrics.json",
+    "training_time_seconds": 0.8499709999887273,
+    "validation_loss_by_step": [
+      87.38879950897503,
+      86.56940056744277,
+      85.7258922183923
+    ]
+  },
+  "training_configuration": {
+    "batch_size": 1,
+    "checkpoint_interval": 3,
+    "device": "cpu",
+    "early_stopping_patience": 3,
+    "epochs": 1,
+    "evaluation_interval": 1,
+    "gradient_clip_norm": 1.0,
+    "learning_rate": 0.0001,
+    "min_learning_rate_ratio": 0.1,
+    "num_workers": 0,
+    "random_seed": 20261106,
+    "warmup_steps": 1,
+    "weight_decay": 0.01
+  },
+  "training_enabled_setting_remains": false
+}

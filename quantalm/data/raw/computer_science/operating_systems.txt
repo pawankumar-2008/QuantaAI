@@ -1,0 +1,469 @@
+﻿OPERATING SYSTEMS
+
+1. INTRODUCTION TO OPERATING SYSTEMS
+
+An Operating System (OS) is system software that acts as an interface between users and computer hardware. It manages hardware resources and provides services to application programs.
+
+Main objectives:
+- Convenience: Makes computers easier to use.
+- Efficiency: Utilizes hardware resources effectively.
+- Resource management: Allocates CPU, memory, storage, and I/O devices.
+- Security: Protects data and system resources.
+
+Examples include Windows, Linux, macOS, Android, and Unix.
+
+2. FUNCTIONS OF AN OPERATING SYSTEM
+
+The major functions of an OS are:
+- Process management: Creates, schedules, and terminates processes.
+- Memory management: Allocates and deallocates main memory.
+- File management: Organizes files and directories.
+- Device management: Controls input and output devices.
+- Security management: Controls access to resources.
+- User interface: Provides command-line or graphical interaction.
+- Resource allocation: Distributes resources among programs.
+- Error detection: Detects and handles hardware and software errors.
+
+3. TYPES OF OPERATING SYSTEMS
+
+Batch Operating System:
+Jobs are collected and executed in batches without direct interaction during execution.
+
+Multiprogramming Operating System:
+Multiple programs are kept in memory. The CPU switches to another job when one job waits for I/O.
+
+Multitasking Operating System:
+Allows multiple tasks to make progress during the same period by sharing CPU time.
+
+Time-Sharing Operating System:
+CPU time is divided into small time slices and shared among multiple users or processes.
+
+Multiprocessing Operating System:
+Uses two or more processors or CPU cores to execute processes.
+
+Distributed Operating System:
+Manages multiple networked computers and makes them appear as a coordinated system.
+
+Real-Time Operating System:
+Provides responses within specified timing constraints.
+Hard real-time systems must meet critical deadlines. Soft real-time systems aim to meet deadlines but may tolerate occasional delays.
+
+4. KERNEL AND SYSTEM CALLS
+
+The kernel is the central component of an operating system. It manages CPU scheduling, memory, devices, and system resources.
+
+Kernel responsibilities:
+- Process management.
+- Memory management.
+- Device management.
+- Interrupt handling.
+- System call handling.
+
+A system call is a mechanism through which a user program requests a service from the operating system kernel.
+
+Categories of system calls:
+- Process control: Create, execute, and terminate processes.
+- File management: Create, read, write, and delete files.
+- Device management: Request and release devices.
+- Information maintenance: Obtain system information.
+- Communication: Exchange information between processes.
+- Protection: Control access permissions.
+
+5. PROCESS CONCEPT
+
+A process is a program in execution. It includes program code, data, stack, heap, CPU registers, and other execution information.
+
+A program is a passive set of instructions stored on disk, whereas a process is an active execution of those instructions.
+
+Process states:
+- New: The process is being created.
+- Ready: The process is waiting for CPU allocation.
+- Running: The process is currently executing.
+- Waiting or Blocked: The process is waiting for an event or I/O operation.
+- Terminated: The process has completed execution.
+
+Typical process state transitions:
+New -> Ready -> Running -> Terminated.
+Running -> Waiting -> Ready.
+Running -> Ready when preempted by the scheduler.
+
+6. PROCESS CONTROL BLOCK (PCB)
+
+A Process Control Block is a data structure maintained by the operating system to store information about a process.
+
+A PCB commonly contains:
+- Process ID: Unique process identifier.
+- Process state: Current state of the process.
+- Program counter: Address of the next instruction.
+- CPU registers: Register values of the process.
+- CPU scheduling information: Priority and scheduling data.
+- Memory management information: Memory allocation details.
+- Accounting information: CPU usage and other statistics.
+- I/O status information: Open files and allocated devices.
+
+The operating system uses the PCB during process scheduling and context switching.
+
+7. CONTEXT SWITCHING
+
+Context switching is the process of saving the CPU state of one process and restoring the state of another process.
+
+Steps:
+1. An interrupt or scheduling event occurs.
+2. The operating system saves the current process state in its PCB.
+3. The scheduler selects another ready process.
+4. The operating system restores the selected process state.
+5. The CPU resumes execution of the selected process.
+
+Context switching enables multitasking but introduces overhead because the CPU spends time switching rather than executing application instructions.
+
+8. THREADS
+
+A thread is the smallest unit of CPU execution within a process.
+
+A process may contain multiple threads. Threads belonging to the same process share code, data, and resources, but each thread has its own stack, registers, and program counter.
+
+Benefits:
+- Responsiveness: One thread can continue while another waits.
+- Resource sharing: Threads share process resources.
+- Economy: Creating threads is generally less expensive than creating processes.
+- Parallelism: Threads can execute simultaneously on multiple CPU cores.
+
+Types of threads:
+- User-level threads: Managed by a user-level thread library.
+- Kernel-level threads: Managed by the operating system kernel.
+
+9. CPU SCHEDULING
+
+CPU scheduling is the process of selecting a process from the ready queue and allocating the CPU to it.
+
+Objectives:
+- Maximize CPU utilization.
+- Maximize throughput.
+- Minimize turnaround time.
+- Minimize waiting time.
+- Minimize response time.
+
+Scheduling algorithms:
+
+First Come First Served (FCFS):
+Processes are executed in the order in which they arrive. It is generally non-preemptive and may cause the convoy effect.
+
+Shortest Job First (SJF):
+The process with the shortest estimated CPU burst is selected first. It can be non-preemptive.
+
+Shortest Remaining Time First (SRTF):
+Preemptive version of SJF. The process with the smallest remaining CPU burst is selected.
+
+Priority Scheduling:
+The CPU is allocated to the process with the highest priority. It may be preemptive or non-preemptive. Starvation can occur.
+
+Round Robin (RR):
+Each process receives a fixed time quantum. If it does not finish within the quantum, it returns to the ready queue.
+
+10. CPU SCHEDULING TERMS
+
+Arrival Time:
+The time at which a process enters the ready queue.
+
+Burst Time:
+The amount of CPU time required by a process.
+
+Completion Time:
+The time at which a process finishes execution.
+
+Turnaround Time:
+Turnaround Time = Completion Time - Arrival Time.
+
+Waiting Time:
+Waiting Time = Turnaround Time - Burst Time.
+
+Response Time:
+Response Time = First CPU Start Time - Arrival Time.
+
+Throughput:
+Number of processes completed per unit of time.
+
+CPU Utilization:
+Percentage of time the CPU is busy executing processes.
+
+11. PROCESS SYNCHRONIZATION
+
+Process synchronization coordinates concurrent processes or threads that share data and resources.
+
+A race condition occurs when the result of program execution depends on the unpredictable timing or order of concurrent operations.
+
+A critical section is the part of a program where shared data or resources are accessed.
+
+A correct critical-section solution should satisfy:
+- Mutual exclusion: Only one process can execute the critical section at a time.
+- Progress: If no process is in the critical section, the selection of the next process should not be postponed indefinitely.
+- Bounded waiting: A process should not wait indefinitely to enter its critical section.
+
+12. SEMAPHORES
+
+A semaphore is a synchronization variable used to control access to shared resources.
+
+Two fundamental operations:
+- wait(): Decreases the semaphore value or blocks the process when the resource is unavailable.
+- signal(): Increases the semaphore value or wakes a waiting process.
+
+Types:
+- Binary semaphore: Has two logical states, commonly used for mutual exclusion.
+- Counting semaphore: Represents multiple available instances of a resource.
+
+A mutex is a mutual-exclusion lock that allows only one thread to hold the lock at a time. Unlike a general semaphore, a mutex normally has ownership: the thread that locks it is responsible for unlocking it.
+
+13. DEADLOCK
+
+A deadlock is a situation in which a group of processes is permanently blocked because each process is waiting for a resource held by another process in the group.
+
+Four necessary conditions for deadlock:
+1. Mutual exclusion: At least one resource cannot be shared.
+2. Hold and wait: A process holds resources while requesting additional resources.
+3. No preemption: Resources cannot be forcibly taken away.
+4. Circular wait: A circular chain of processes exists, with each waiting for a resource held by the next.
+
+Deadlock handling methods:
+- Prevention: Ensure at least one necessary condition cannot hold.
+- Avoidance: Allocate resources only when the system remains in a safe state.
+- Detection and recovery: Detect deadlocks and recover by terminating processes or preempting resources where possible.
+- Ignore: Some systems assume deadlocks are sufficiently rare and do not handle them explicitly.
+
+14. BANKER'S ALGORITHM
+
+Banker's Algorithm is a deadlock-avoidance algorithm that checks whether granting a resource request leaves the system in a safe state.
+
+A safe state is one in which there exists at least one sequence of process execution that allows every process to complete using the available resources and resources released by completed processes.
+
+Important data structures:
+- Available: Number of available instances of each resource.
+- Max: Maximum resource requirement of each process.
+- Allocation: Resources currently allocated to each process.
+- Need: Remaining resource requirement.
+
+Need = Max - Allocation.
+
+The algorithm grants a request only if the resulting state is safe.
+
+15. MEMORY MANAGEMENT
+
+Memory management is the operating system function responsible for allocating and deallocating main memory to processes.
+
+Responsibilities:
+- Keep track of used and free memory.
+- Allocate memory to processes.
+- Deallocate memory after process completion.
+- Protect process address spaces.
+- Support virtual memory.
+
+Contiguous memory allocation:
+Each process is allocated one continuous block of physical memory.
+
+Common placement strategies:
+- First Fit: Selects the first sufficiently large free block.
+- Best Fit: Selects the smallest sufficiently large free block.
+- Worst Fit: Selects the largest available free block.
+
+16. FRAGMENTATION
+
+Internal fragmentation:
+Wasted space inside an allocated memory block because the allocated block is larger than the requested memory.
+
+External fragmentation:
+Free memory is available, but it is divided into small non-contiguous blocks, making it difficult to satisfy a large allocation request.
+
+Compaction can reduce external fragmentation by moving allocated blocks together, when the system supports it.
+
+17. PAGING
+
+Paging is a memory-management technique that divides logical memory into fixed-size pages and physical memory into fixed-size frames.
+
+A page table maps virtual page numbers to physical frame numbers.
+
+Logical address consists of:
+- Page number.
+- Page offset.
+
+The page number is used to locate the corresponding frame through the page table. The offset identifies the location within that frame.
+
+Advantages:
+- Eliminates external fragmentation in physical memory allocation.
+- Allows non-contiguous allocation of a process.
+- Supports virtual memory.
+
+Disadvantage:
+- May cause internal fragmentation, especially in the last page.
+- Page tables require memory.
+
+18. SEGMENTATION
+
+Segmentation divides a program into variable-sized logical units called segments.
+
+Examples:
+- Code segment.
+- Data segment.
+- Stack segment.
+- Heap segment.
+
+A logical address consists of a segment number and an offset.
+
+The segment table stores the base address and limit of each segment.
+
+Advantages:
+- Reflects the logical structure of a program.
+- Supports protection and sharing at segment level.
+
+Disadvantage:
+- Can cause external fragmentation because segments have variable sizes.
+
+19. VIRTUAL MEMORY
+
+Virtual memory is a memory-management technique that allows a process to execute without requiring all of its pages to be present in physical memory at the same time.
+
+It provides each process with a virtual address space and uses secondary storage to support memory demands beyond available physical memory.
+
+Advantages:
+- Allows execution of programs larger than physical memory.
+- Improves memory utilization.
+- Supports more processes in memory.
+- Provides process isolation.
+
+20. DEMAND PAGING AND PAGE FAULT
+
+Demand paging loads a page into physical memory only when it is needed.
+
+A page fault occurs when a process accesses a page that is not currently present in physical memory.
+
+Page fault handling:
+1. The CPU references a page.
+2. The memory-management hardware detects that the page is absent.
+3. A page-fault trap transfers control to the operating system.
+4. The OS checks whether the memory reference is valid.
+5. The OS locates the required page on secondary storage.
+6. A free frame is selected, or a victim page is replaced.
+7. The required page is loaded into memory.
+8. The page table is updated.
+9. The interrupted instruction is restarted.
+
+21. PAGE REPLACEMENT ALGORITHMS
+
+When no free frame is available, the OS selects a page to remove.
+
+FIFO (First In First Out):
+Replaces the page that entered memory earliest. It may suffer from Belady's anomaly.
+
+Optimal Page Replacement:
+Replaces the page that will not be used for the longest time in the future. It provides the theoretical minimum number of page faults but requires future knowledge, so it is mainly used for comparison.
+
+LRU (Least Recently Used):
+Replaces the page that has not been used for the longest time in the past.
+
+22. THRASHING
+
+Thrashing is a condition in which the system spends most of its time handling page faults and swapping pages rather than executing useful instructions.
+
+Causes:
+- Insufficient physical memory.
+- Too many active processes.
+- High page-fault rate.
+- Poor allocation of frames.
+
+Methods to reduce thrashing:
+- Reduce the degree of multiprogramming.
+- Allocate sufficient frames.
+- Use working-set or page-fault-frequency techniques.
+
+23. FILE SYSTEM
+
+A file system is the method used by an operating system to organize, store, retrieve, and manage files on storage devices.
+
+File attributes:
+- Name.
+- Type.
+- Size.
+- Location.
+- Protection permissions.
+- Creation and modification timestamps.
+
+File operations:
+- Create.
+- Open.
+- Read.
+- Write.
+- Close.
+- Delete.
+- Rename.
+
+Directory structures:
+- Single-level directory.
+- Two-level directory.
+- Tree-structured directory.
+- Acyclic graph directory.
+- General graph directory.
+
+24. DISK SCHEDULING
+
+Disk scheduling determines the order in which pending disk I/O requests are serviced.
+
+Algorithms:
+- FCFS: Services requests in arrival order.
+- SSTF: Services the request closest to the current disk-head position.
+- SCAN: Disk head moves in one direction, servicing requests, then reverses direction.
+- C-SCAN: Services requests in one direction and returns to the beginning without servicing requests during the return.
+- LOOK: Similar to SCAN, but reverses at the last pending request rather than going to the physical disk end.
+- C-LOOK: Similar to C-SCAN, but jumps between the last and first pending requests.
+
+25. IMPORTANT DIFFERENCES
+
+Process vs Thread:
+A process is an independent program in execution with its own address space. A thread is an execution unit within a process and shares process resources with other threads.
+
+Paging vs Segmentation:
+Paging divides memory into fixed-size pages and frames. Segmentation divides programs into variable-sized logical segments.
+
+Internal vs External Fragmentation:
+Internal fragmentation is wasted space inside an allocated block. External fragmentation is free space scattered between allocated blocks.
+
+Deadlock Prevention vs Avoidance:
+Prevention ensures at least one necessary deadlock condition cannot occur. Avoidance checks resource allocation requests and grants them only when the system remains safe.
+
+Preemptive vs Non-Preemptive Scheduling:
+Preemptive scheduling can take the CPU away from a running process. Non-preemptive scheduling allows a process to continue until it terminates or blocks.
+
+26. OPERATING SYSTEMS QUESTION AND ANSWER EXAMPLES
+
+Q: What is an operating system?
+A: An operating system is system software that manages computer hardware and provides services to application programs.
+
+Q: What is a process?
+A: A process is a program in execution, together with its current state and allocated resources.
+
+Q: What is a PCB?
+A: A Process Control Block stores information required by the operating system to manage a process.
+
+Q: What is context switching?
+A: Context switching saves the state of one process and restores the state of another so the CPU can switch execution.
+
+Q: What is a race condition?
+A: A race condition occurs when concurrent operations access shared data and the result depends on their execution order.
+
+Q: What is a semaphore?
+A: A semaphore is a synchronization variable used to coordinate processes or threads and control access to shared resources.
+
+Q: What are the four necessary conditions for deadlock?
+A: Mutual exclusion, hold and wait, no preemption, and circular wait.
+
+Q: What is paging?
+A: Paging divides logical memory into fixed-size pages and physical memory into fixed-size frames.
+
+Q: What is a page fault?
+A: A page fault occurs when a process accesses a virtual-memory page that is not currently present in physical memory.
+
+Q: What is thrashing?
+A: Thrashing occurs when excessive page faults cause the system to spend more time swapping pages than executing useful work.
+
+Q: What is virtual memory?
+A: Virtual memory allows processes to use a virtual address space larger than the available physical memory, loading required pages as needed.
+
+Q: What is CPU scheduling?
+A: CPU scheduling selects a process from the ready queue and allocates the CPU to it.

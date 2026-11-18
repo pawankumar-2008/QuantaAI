@@ -1,0 +1,257 @@
+﻿DATABASE MANAGEMENT SYSTEMS (DBMS)
+
+A database is an organized collection of related data that can be stored, accessed, modified, and managed efficiently.
+
+A Database Management System (DBMS) is software that allows users and applications to create, store, retrieve, update, and manage databases.
+
+A database system consists of the database, DBMS software, users, applications, and supporting hardware.
+
+A DBMS provides data storage, retrieval, security, integrity, concurrency control, and backup facilities.
+
+Data redundancy occurs when the same data is unnecessarily stored in multiple locations. It can increase storage requirements and create inconsistencies.
+
+Data inconsistency occurs when different copies of the same information contain conflicting values.
+
+Data integrity refers to the accuracy, validity, and consistency of stored data.
+
+Data independence is the ability to change the database schema at one level without requiring changes at the next higher level.
+
+The three-schema architecture separates a database into external, conceptual, and internal levels.
+
+The external level describes how individual users or applications view the data.
+
+The conceptual level describes the overall logical structure of the database, including entities, relationships, and constraints.
+
+The internal level describes how data is physically stored and organized.
+
+A database schema defines the logical structure of a database, including tables, attributes, relationships, and constraints.
+
+A database instance is the actual data stored in the database at a particular moment.
+
+The relational model represents data using relations, commonly implemented as tables.
+
+A relation is a table consisting of rows and columns.
+
+A tuple is a row in a relational table.
+
+An attribute is a named column in a relation.
+
+A domain defines the permitted set of values for an attribute.
+
+A candidate key is a minimal set of attributes that uniquely identifies every tuple in a relation.
+
+A primary key is the candidate key selected to uniquely identify rows in a table. It must be unique and cannot contain NULL values.
+
+A foreign key is an attribute or set of attributes that references a candidate key, usually the primary key, in another or the same table.
+
+A super key is a set of one or more attributes that uniquely identifies a tuple. It may contain unnecessary attributes.
+
+A composite key consists of two or more attributes that together uniquely identify a tuple.
+
+A unique constraint prevents duplicate values in the constrained column or combination of columns. NULL handling depends on the database system.
+
+Entity integrity requires that primary key values are unique and not NULL.
+
+Referential integrity ensures that foreign key values refer to valid referenced rows, subject to the defined constraints.
+
+An Entity Relationship (ER) model represents real-world entities, their attributes, and relationships.
+
+An entity is a distinguishable real-world object, such as a student, employee, or department.
+
+An entity set is a collection of similar entities.
+
+An attribute describes a property of an entity. Examples include student name, roll number, and age.
+
+A simple attribute cannot be divided into smaller meaningful components.
+
+A composite attribute can be divided into smaller components. For example, an address may contain street, city, and postal code.
+
+A multivalued attribute can contain multiple values for a single entity.
+
+A derived attribute is calculated from other stored attributes. For example, age can be derived from date of birth.
+
+A relationship represents an association between entities.
+
+A one-to-one relationship associates one entity in one set with at most one entity in another set, and vice versa.
+
+A one-to-many relationship allows one entity to be associated with multiple entities in another set.
+
+A many-to-many relationship allows multiple entities on both sides to be associated with one another.
+
+An ER diagram graphically represents entities, attributes, and relationships.
+
+SQL
+
+Structured Query Language (SQL) is used to define, manipulate, retrieve, and control data in relational database systems.
+
+Data Definition Language (DDL) defines or modifies database structures. CREATE, ALTER, and DROP are common DDL commands.
+
+Data Manipulation Language (DML) inserts, modifies, and deletes records. INSERT, UPDATE, and DELETE are common DML commands.
+
+Data Query Language (DQL) retrieves information from tables. SELECT is its primary command.
+
+Data Control Language (DCL) manages database privileges. GRANT and REVOKE are common DCL commands.
+
+Transaction Control Language (TCL) manages transactions. COMMIT, ROLLBACK, and SAVEPOINT are common TCL commands.
+
+The CREATE TABLE statement creates a new table with specified columns and constraints.
+
+The INSERT statement adds new records to a table.
+
+The SELECT statement retrieves data from one or more tables.
+
+The WHERE clause filters records based on a condition.
+
+The ORDER BY clause sorts query results in ascending or descending order.
+
+The GROUP BY clause groups rows that share common values in specified columns.
+
+The HAVING clause filters groups after grouping and aggregation.
+
+The UPDATE statement modifies existing records in a table.
+
+The DELETE statement removes selected records from a table.
+
+The DROP TABLE statement removes a table definition and its associated data.
+
+The ALTER TABLE statement changes the structure of an existing table.
+
+The DISTINCT keyword removes duplicate rows from a query result.
+
+Aggregate functions perform calculations over groups of values. COUNT, SUM, AVG, MIN, and MAX are common aggregate functions.
+
+A SQL join combines related rows from two or more tables based on a specified relationship or condition.
+
+An INNER JOIN returns rows that satisfy the join condition in both tables.
+
+A LEFT JOIN returns all rows from the left table and matching rows from the right table. Unmatched right-side columns contain NULL values.
+
+A RIGHT JOIN returns all rows from the right table and matching rows from the left table. Unmatched left-side columns contain NULL values.
+
+A FULL OUTER JOIN returns matching rows and unmatched rows from both tables, with NULL values for missing matches.
+
+A CROSS JOIN returns the Cartesian product of two tables.
+
+A self join joins a table with itself, commonly using table aliases.
+
+A subquery is a query nested inside another SQL statement.
+
+A correlated subquery refers to columns from an outer query and is evaluated in relation to the outer query.
+
+A view is a virtual table defined by a query. It can simplify complex queries and restrict access to selected data.
+
+An index is a database structure that helps retrieve rows more efficiently. Indexes require additional storage and can increase the cost of data modifications.
+
+DATABASE NORMALIZATION
+
+Normalization is the process of organizing relational tables to reduce unnecessary data redundancy and prevent undesirable modification anomalies.
+
+An insertion anomaly occurs when a record cannot be inserted without adding unrelated information.
+
+An update anomaly occurs when the same fact must be updated in multiple locations, potentially producing inconsistent data.
+
+A deletion anomaly occurs when deleting one record unintentionally removes other useful information.
+
+A functional dependency describes a relationship in which one set of attributes determines another set of attributes.
+
+In a functional dependency X determines Y, written X -> Y, whenever two tuples agreeing on X must also agree on Y.
+
+First Normal Form (1NF) requires each attribute value to be atomic within the relational model and prohibits repeating groups.
+
+Second Normal Form (2NF) requires a relation to be in 1NF and every non-prime attribute to be fully functionally dependent on every candidate key, with no partial dependency.
+
+Third Normal Form (3NF) requires a relation to be in 2NF and to have no inappropriate transitive dependency of non-prime attributes on candidate keys. Formally, for every non-trivial functional dependency X -> A, either X is a super key or A is a prime attribute.
+
+Boyce-Codd Normal Form (BCNF) requires every non-trivial functional dependency X -> Y to have X as a super key.
+
+Decomposition divides a relation into smaller relations to reduce redundancy.
+
+Lossless decomposition ensures that joining decomposed relations reconstructs exactly the original relation without introducing spurious tuples.
+
+Dependency preservation means that functional dependencies can be enforced on the decomposed relations without requiring joins.
+
+DATABASE TRANSACTIONS
+
+A transaction is a logical unit of database operations that must be managed as a single unit of work.
+
+The ACID properties describe important guarantees of reliable database transactions.
+
+Atomicity means a transaction completes entirely or has no effect on the database.
+
+Consistency means a transaction preserves defined database rules and constraints.
+
+Isolation means concurrent transactions are controlled so that their execution does not produce unacceptable interference.
+
+Durability means committed changes persist even after failures, subject to the database's durability guarantees.
+
+COMMIT permanently records the successful changes of a transaction.
+
+ROLLBACK cancels uncommitted changes made by a transaction.
+
+SAVEPOINT establishes a point within a transaction to which a partial rollback can be performed.
+
+Concurrency control manages simultaneous transactions to preserve database correctness.
+
+A dirty read occurs when a transaction reads data written by another transaction that has not yet committed.
+
+A non-repeatable read occurs when the same row is read twice by one transaction and another committed transaction changes that row between the reads.
+
+A phantom read occurs when repeating a query returns a different set of rows because another transaction inserted or deleted matching rows.
+
+Serializability is the correctness criterion that requires concurrent transaction execution to produce an effect equivalent to some serial execution.
+
+A schedule is a sequence of operations from one or more transactions.
+
+A deadlock occurs when transactions wait indefinitely for resources held by one another.
+
+A database lock controls access to a data item during concurrent transaction execution.
+
+A shared lock generally permits multiple transactions to read the same data item.
+
+An exclusive lock generally prevents other transactions from acquiring conflicting locks on the same data item.
+
+QUESTION: What is a DBMS?
+ANSWER: A Database Management System is software that allows users and applications to create, store, retrieve, update, and manage databases. It provides security, integrity, concurrency control, and data management facilities.
+
+QUESTION: What is the difference between DBMS and RDBMS?
+ANSWER: DBMS is a general term for software that manages databases. An RDBMS is a type of DBMS based on the relational model, where data is organized into relations or tables with defined relationships and constraints.
+
+QUESTION: What is the difference between a primary key and a foreign key?
+ANSWER: A primary key uniquely identifies each row in its own table and cannot contain NULL values. A foreign key references a candidate key in another or the same table and helps maintain referential integrity.
+
+QUESTION: What is the difference between a primary key and a candidate key?
+ANSWER: A candidate key is a minimal set of attributes that uniquely identifies rows. A primary key is the candidate key selected as the main identifier for a table.
+
+QUESTION: What is normalization?
+ANSWER: Normalization organizes relational tables to reduce unnecessary redundancy and prevent insertion, update, and deletion anomalies. It uses normal forms such as 1NF, 2NF, 3NF, and BCNF.
+
+QUESTION: What is the difference between 2NF and 3NF?
+ANSWER: Second Normal Form eliminates partial dependencies of non-prime attributes on candidate keys. Third Normal Form additionally restricts inappropriate transitive dependencies and requires every non-trivial functional dependency X -> A to have X as a super key or A as a prime attribute.
+
+QUESTION: What is the difference between DELETE, DROP, and TRUNCATE?
+ANSWER: DELETE removes selected rows from a table and can use a WHERE condition. DROP removes the table definition and its associated data. TRUNCATE removes all rows from a table using a database-specific operation. Transaction and rollback behaviour varies by database system.
+
+QUESTION: What is the difference between WHERE and HAVING?
+ANSWER: WHERE filters individual rows before grouping and aggregation. HAVING filters groups after GROUP BY has formed them.
+
+QUESTION: What is a join in SQL?
+ANSWER: A join combines related rows from two or more tables using a specified condition. Common joins include INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL OUTER JOIN, and CROSS JOIN.
+
+QUESTION: What are ACID properties?
+ANSWER: ACID stands for Atomicity, Consistency, Isolation, and Durability. These properties describe important guarantees of reliable database transactions.
+
+QUESTION: What is a database transaction?
+ANSWER: A transaction is a logical unit of database operations. Its operations are managed together so that the transaction can be committed or rolled back.
+
+QUESTION: What is a functional dependency?
+ANSWER: A functional dependency X -> Y means that whenever two rows agree on attribute set X, they must also agree on attribute set Y. It describes how attributes determine other attributes in a relation.
+
+QUESTION: What is the difference between 3NF and BCNF?
+ANSWER: Third Normal Form permits a non-trivial functional dependency X -> A when X is a super key or A is a prime attribute. BCNF requires X to be a super key for every non-trivial functional dependency. Therefore, BCNF is stricter than 3NF.
+
+QUESTION: What is an index in a database?
+ANSWER: An index is a data structure that helps a database locate records more efficiently. It can improve read performance but consumes storage and may increase the cost of insert, update, and delete operations.
+
+QUESTION: What is the difference between COMMIT and ROLLBACK?
+ANSWER: COMMIT makes a transaction's changes permanent according to the database's transaction guarantees. ROLLBACK cancels uncommitted changes.
+

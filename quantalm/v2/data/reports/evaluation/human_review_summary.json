@@ -1,0 +1,41 @@
+{
+  "evaluation_metadata": {
+    "checkpoint_sha256": null,
+    "device": {
+      "cuda_available": false,
+      "device": "cpu",
+      "device_type": "cpu",
+      "gpu_execution_verified": false,
+      "platform": "Windows-11-10.0.26300-SP0",
+      "processor": "Intel64 Family 6 Model 170 Stepping 4, GenuineIntel",
+      "torch_version": "2.14.0+cpu"
+    },
+    "evaluation_dataset_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "evaluation_date": "2026-11-05T22:08:52+00:00",
+    "model_configuration": {
+      "architecture_version": "2.0",
+      "context_length": 256,
+      "dropout": 0.1,
+      "embedding_dim": 128,
+      "feed_forward_dim": 512,
+      "num_heads": 4,
+      "num_layers": 4,
+      "vocab_size": 2048
+    },
+    "model_label": "untrained_baseline",
+    "model_state_sha256": "52a55379783f610b55e56064cd8b5e05bbe8042fd259ebaa1ad42a829b8d0943",
+    "split": "validation",
+    "tokenizer_sha256": "91b1a25afa1bc56ce8c6456a1daa7f65ebfe3df177ee1ba66b3a966ddf2c63a0"
+  },
+  "incomplete_review_count": 0,
+  "invalid_review_count": 0,
+  "invalid_reviews": [],
+  "score_conversion": "(mean score - 1) / 4 * 100",
+  "scores": {
+    "coherence_percentage": null,
+    "factual_accuracy_percentage": null,
+    "instruction_following_percentage": null,
+    "relevance_percentage": null
+  },
+  "valid_review_count": 0
+}

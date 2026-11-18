@@ -1,0 +1,46 @@
+{
+  "report_type": "QuantaLM V1 baseline integrity metadata",
+  "recorded_date": "2026-11-06",
+  "source_root": "../..",
+  "checkpoint_hash_algorithm": "SHA-256",
+  "checkpoints": [
+    {
+      "path": "../../checkpoints/quantalm.pth",
+      "sha256": "49824fbdbc6e58bd56928939597f5ae9a68ab092c8c27c320f729600e7f39af2"
+    },
+    {
+      "path": "../../checkpoints/quantalm_baseline.pth",
+      "sha256": "49824fbdbc6e58bd56928939597f5ae9a68ab092c8c27c320f729600e7f39af2"
+    }
+  ],
+  "tokenizer": {
+    "implementation_path": "../../src/tokenizer.py",
+    "implementation_sha256": "547c323639152877932608da121dee470e6e43cb395926a32e4830583abe34d0",
+    "vocabulary_path": "../../tokenizer/vocab.json",
+    "vocabulary_sha256": "17782f2d89f7471ec30091fee6ed16353d2bb9be154ed63f61b04fce688fa465",
+    "vocabulary_size": 378
+  },
+  "model": {
+    "unique_parameter_count": 858112,
+    "context_length": 128,
+    "vocabulary_size": 378,
+    "architecture": {
+      "family": "decoder-only causal Transformer",
+      "layers": 4,
+      "attention_heads": 4,
+      "embedding_dimension": 128,
+      "head_dimension": 32,
+      "feed_forward_dimension": 512,
+      "feed_forward_activation": "GELU",
+      "normalization": "pre-LayerNorm",
+      "position_encoding": "learned absolute position embeddings",
+      "dropout": 0.1,
+      "token_embedding_and_output_weights_tied": true
+    }
+  },
+  "checkpoint_metadata_observed": {
+    "vocabulary_size": 378,
+    "context_length": 128
+  },
+  "integrity_note": "The two checkpoint files have the same SHA-256 hash and are byte-identical as of this report."
+}

@@ -1,0 +1,44 @@
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Node.js
+node_modules/
+
+# Build files
+dist/
+build/
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+
+# Logs
+*.log
+
+# Large experimental models (not required for this Render deployment)
+models/Qwen3-4B-Q4_K_M.gguf
+quantalm/v2/checkpoints/
+
+# Local llama.cpp executable
+llm/llama-connect.exe
+
+# Sensitive diagnostic report
+API_KEY_DIAGNOSTIC_REPORT.md
+
+# Local llama.cpp runtime binaries
+llm/*.dll
+llm/*.exe
+
+# Separate friend project
+friend-project/
+
+# Local Java database configuration backup
+java-backend/src/main/resources/application.properties.backup

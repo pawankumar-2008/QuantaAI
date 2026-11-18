@@ -1,0 +1,205 @@
+﻿ALGORITHMS
+
+An algorithm is a finite sequence of well-defined instructions used to solve a computational problem.
+
+An algorithm accepts zero or more inputs, processes them through a sequence of steps, and produces an output.
+
+An algorithm should have clearly defined inputs, outputs, unambiguous instructions, and a finite number of steps.
+
+Algorithm analysis evaluates the resources required by an algorithm, particularly execution time and memory usage.
+
+Time complexity describes how the number of operations performed by an algorithm grows with input size.
+
+Space complexity describes how the memory requirements of an algorithm grow with input size.
+
+Best-case complexity describes the minimum resources required for an input of a particular size.
+
+Average-case complexity describes the expected resources required over a distribution of possible inputs.
+
+Worst-case complexity describes the maximum resources required for inputs of a particular size.
+
+Asymptotic analysis studies algorithm behaviour as input size becomes large.
+
+Big O notation represents an asymptotic upper bound on an algorithm's growth rate.
+
+Big Omega notation represents an asymptotic lower bound on an algorithm's growth rate.
+
+Big Theta notation represents a tight asymptotic bound when matching upper and lower bounds exist.
+
+LINEAR SEARCH
+
+Linear search examines elements one by one until the target is found or all elements have been checked.
+
+Linear search works on both sorted and unsorted collections.
+
+The best-case time complexity of linear search is O(1), when the target is the first element.
+
+The worst-case time complexity of linear search is O(n), when the target is last or absent.
+
+The auxiliary space complexity of iterative linear search is O(1).
+
+BINARY SEARCH
+
+Binary search finds an element in a sorted collection by repeatedly dividing the search interval into two halves.
+
+Binary search compares the target with the middle element.
+
+If the target equals the middle element, the search succeeds.
+
+If the target is smaller than the middle element, binary search continues in the left half.
+
+If the target is larger than the middle element, binary search continues in the right half.
+
+Binary search requires sorted input and a collection that supports efficient middle-element access.
+
+The time complexity of binary search is O(log n) in the worst case.
+
+The iterative implementation of binary search uses O(1) auxiliary space.
+
+SORTING ALGORITHMS
+
+Sorting is the process of arranging elements according to a specified order, such as ascending or descending order.
+
+Bubble sort repeatedly compares adjacent elements and swaps them if they are in the wrong order.
+
+Bubble sort has O(n squared) average and worst-case time complexity. An optimized implementation can achieve O(n) best-case time when no swaps are needed.
+
+Selection sort repeatedly selects the smallest remaining element and places it at the beginning of the unsorted portion.
+
+Selection sort has O(n squared) best, average, and worst-case time complexity.
+
+Insertion sort builds a sorted portion by inserting each new element into its correct position.
+
+Insertion sort has O(n squared) average and worst-case time complexity and O(n) best-case time complexity on already sorted input.
+
+Merge sort follows the divide and conquer approach. It divides an array into smaller parts, sorts them, and merges the sorted parts.
+
+Merge sort has O(n log n) time complexity in the best, average, and worst cases.
+
+A typical array implementation of merge sort requires O(n) auxiliary space.
+
+Quick sort selects a pivot element and partitions the array so that smaller elements are placed before the pivot and larger elements after it.
+
+Quick sort recursively sorts the partitions.
+
+Quick sort has O(n log n) average-case time complexity and O(n squared) worst-case time complexity.
+
+Heap sort uses a binary heap to repeatedly extract the maximum or minimum element and build a sorted sequence.
+
+Heap sort has O(n log n) best, average, and worst-case time complexity.
+
+The divide and conquer technique divides a problem into smaller subproblems, solves them, and combines their results.
+
+Merge sort and quick sort are common examples of divide and conquer algorithms.
+
+RECURSION AND BACKTRACKING
+
+Recursion is a technique in which a function calls itself to solve smaller instances of a problem.
+
+A base case defines the condition under which recursive calls stop.
+
+A recursive case reduces the problem into a smaller subproblem.
+
+The call stack stores information about active function calls, including their local variables and return addresses.
+
+Excessive recursion can cause stack overflow when the call stack exceeds its available capacity.
+
+Backtracking explores possible solutions and abandons a path when it cannot lead to a valid solution.
+
+Backtracking is commonly used in maze solving, Sudoku, the N-Queens problem, and generating combinations.
+
+GREEDY ALGORITHMS
+
+A greedy algorithm makes a locally optimal choice at each step in the hope of constructing a globally optimal solution.
+
+A greedy choice is an immediate decision made according to a selection rule.
+
+Greedy algorithms are effective for problems that satisfy suitable properties such as the greedy-choice property and optimal substructure.
+
+Activity selection is a greedy problem in which the goal is to select the maximum number of non-overlapping activities.
+
+Fractional knapsack uses a greedy strategy based on value per unit weight. It allows taking fractions of items.
+
+Greedy algorithms do not always produce optimal solutions for every optimization problem.
+
+DYNAMIC PROGRAMMING
+
+Dynamic programming solves problems by breaking them into overlapping subproblems and storing their results to avoid repeated computation.
+
+Optimal substructure means an optimal solution can be constructed from optimal solutions to smaller subproblems.
+
+Overlapping subproblems occur when the same smaller problems are solved repeatedly.
+
+Memoization is a top-down dynamic programming technique that stores results of previously solved subproblems.
+
+Tabulation is a bottom-up dynamic programming technique that fills a table of subproblem results.
+
+The Fibonacci sequence is a common example used to demonstrate dynamic programming.
+
+The 0/1 knapsack problem is a dynamic programming problem in which each item must either be selected completely or not selected.
+
+Dynamic programming can reduce repeated computation, but it may require additional memory to store intermediate results.
+
+GRAPH ALGORITHMS
+
+Breadth First Search (BFS) explores graph vertices level by level using a queue.
+
+BFS can find shortest paths in an unweighted graph when the graph is represented appropriately.
+
+Depth First Search (DFS) explores a graph deeply before backtracking. It uses recursion or an explicit stack.
+
+With an adjacency list, BFS and DFS have O(V + E) time complexity, where V is the number of vertices and E is the number of edges.
+
+Dijkstra's algorithm finds shortest paths from a source vertex to other vertices in a weighted graph with non-negative edge weights.
+
+Dijkstra's algorithm is not generally correct when negative-weight edges are present.
+
+Bellman-Ford is a shortest-path algorithm that supports negative edge weights and can detect reachable negative-weight cycles.
+
+A minimum spanning tree is a subset of edges that connects every vertex of a connected, undirected, weighted graph without cycles and with minimum total weight.
+
+Kruskal's algorithm constructs a minimum spanning tree by sorting edges by weight and selecting edges that do not create cycles.
+
+Prim's algorithm constructs a minimum spanning tree by repeatedly adding the minimum-weight edge that connects the current tree to a new vertex.
+
+Topological sorting produces a linear ordering of vertices in a directed acyclic graph such that every directed edge points from an earlier vertex to a later vertex.
+
+QUESTION: What is an algorithm?
+ANSWER: An algorithm is a finite sequence of well-defined instructions used to solve a problem. It accepts inputs, performs operations, and produces outputs.
+
+QUESTION: What is the difference between linear search and binary search?
+ANSWER: Linear search examines elements one by one and works on unsorted data. Binary search repeatedly divides a sorted search interval into halves and has O(log n) worst-case time complexity.
+
+QUESTION: Why does binary search require sorted data?
+ANSWER: Binary search decides which half of the collection can be discarded by comparing the target with the middle element. This decision is valid only when the elements are arranged in sorted order.
+
+QUESTION: What is the difference between merge sort and quick sort?
+ANSWER: Merge sort divides the input into halves and merges sorted results. It has O(n log n) worst-case time complexity and typically requires O(n) auxiliary space for arrays. Quick sort partitions elements around a pivot and has O(n log n) average-case time complexity, but O(n squared) worst-case time complexity.
+
+QUESTION: What is recursion?
+ANSWER: Recursion is a programming technique in which a function calls itself to solve smaller versions of a problem. A base case stops further recursive calls.
+
+QUESTION: What is backtracking?
+ANSWER: Backtracking explores possible solution paths and abandons a path when it cannot produce a valid solution. It is useful for constraint-based problems such as Sudoku and N-Queens.
+
+QUESTION: What is a greedy algorithm?
+ANSWER: A greedy algorithm selects the locally best available choice at each step. It produces an optimal solution only when the problem has suitable mathematical properties.
+
+QUESTION: What is dynamic programming?
+ANSWER: Dynamic programming solves problems by storing results of overlapping subproblems so that they do not need to be computed repeatedly. It can use memoization or tabulation.
+
+QUESTION: What is the difference between memoization and tabulation?
+ANSWER: Memoization is a top-down technique that stores results when recursive subproblems are solved. Tabulation is a bottom-up technique that computes and stores results in an organized order.
+
+QUESTION: What is Dijkstra's algorithm?
+ANSWER: Dijkstra's algorithm computes shortest paths from a source vertex to other vertices in a weighted graph with non-negative edge weights.
+
+QUESTION: What is a minimum spanning tree?
+ANSWER: A minimum spanning tree is a set of edges connecting all vertices of a connected, undirected, weighted graph without cycles and with minimum total edge weight.
+
+QUESTION: What is the difference between BFS and DFS?
+ANSWER: BFS explores vertices level by level using a queue. DFS explores a path deeply before backtracking and uses a stack or recursion.
+
+QUESTION: What are the three common asymptotic notations?
+ANSWER: Big O represents an asymptotic upper bound, Big Omega represents an asymptotic lower bound, and Big Theta represents a tight asymptotic bound.
+

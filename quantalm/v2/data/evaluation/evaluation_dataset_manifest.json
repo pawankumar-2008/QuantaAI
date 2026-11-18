@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "evaluation_categories": [
+    "Computer Science",
+    "Artificial Intelligence",
+    "Mathematics",
+    "Science",
+    "General Knowledge",
+    "Student Learning"
+  ],
+  "splits": {
+    "validation": {
+      "path": "data/evaluation/validation.jsonl",
+      "question_count": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_split": "validation"
+    },
+    "test": {
+      "path": "data/evaluation/test.jsonl",
+      "question_count": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_split": "test",
+      "access": "explicit final evaluation only"
+    }
+  },
+  "category_source_availability": {
+    "Computer Science": "available in local corpus; validation source is one document; no reviewed QA records",
+    "Artificial Intelligence": "available in training corpus only; no reviewed QA records",
+    "Mathematics": "available in training corpus only; no reviewed QA records",
+    "Science": "available in training corpus only; no reviewed QA records",
+    "General Knowledge": "no source document available",
+    "Student Learning": "available in training corpus only; no reviewed QA records"
+  },
+  "source_licensing": "unknown for all inspected local documents",
+  "candidate_generation_status": "No candidate questions or reference answers were added because they have not been human reviewed and source licensing is unknown.",
+  "reference_policy": "Only human-verified reference answers are included in reference-based metrics.",
+  "test_policy": "Do not use the test split during development; the evaluator requires explicit final-evaluation opt-in."
+}

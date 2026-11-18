@@ -1,0 +1,137 @@
+﻿PYTHON PROGRAMMING
+
+Python is a high-level, interpreted, general-purpose programming language. It emphasizes readable syntax and supports procedural, object-oriented, and functional programming.
+
+Python source files commonly use the .py extension. The Python interpreter executes Python programs.
+
+Python uses indentation to define blocks of code. Consistent indentation is required to represent the structure of conditional statements, loops, functions, and classes.
+
+A variable is a name that refers to an object in memory. Python uses dynamic typing, so a variable can refer to objects of different types during execution.
+
+A comment is text ignored by the Python interpreter. Single-line comments begin with the hash symbol.
+
+Python supports integers, floating-point numbers, complex numbers, strings, and Boolean values as built-in data types.
+
+A list is an ordered, mutable collection that allows duplicate elements. Lists are created using square brackets.
+
+A tuple is an ordered, immutable collection. Tuples are commonly created using parentheses.
+
+A set is an unordered collection of unique elements. Sets are useful for removing duplicates and performing mathematical set operations.
+
+A dictionary stores data as key-value pairs. Keys must be hashable and unique within the dictionary.
+
+A string is an immutable sequence of characters. Strings support operations such as indexing, slicing, concatenation, and searching.
+
+Type conversion changes a value from one data type to another. Functions such as int(), float(), str(), and bool() perform common conversions.
+
+An operator performs an operation on values or variables. Python supports arithmetic, comparison, logical, assignment, identity, and membership operators.
+
+A conditional statement controls program execution based on a condition. Python uses if, elif, and else for decision-making.
+
+A for loop iterates over the elements of an iterable such as a list, tuple, string, or range.
+
+A while loop repeatedly executes a block while its condition remains true.
+
+The break statement terminates the nearest enclosing loop. The continue statement skips the remaining statements in the current iteration and proceeds to the next iteration.
+
+The pass statement is a placeholder that performs no operation.
+
+A function is a reusable block of code defined using the def keyword. Functions can accept parameters and return values.
+
+A parameter is a variable in a function definition. An argument is a value supplied when the function is called.
+
+Python supports positional arguments, keyword arguments, default arguments, and variable-length arguments.
+
+The return statement sends a result from a function to its caller. A function without an explicit return statement returns None.
+
+A lambda function is a small anonymous function created using the lambda keyword. It can contain a single expression.
+
+Recursion occurs when a function calls itself. A recursive function requires a base case to stop further recursive calls.
+
+A module is a Python file containing reusable definitions and statements. Modules can be imported into other Python programs.
+
+A package is a way to organize related Python modules into a directory structure.
+
+The import statement makes definitions from another module available to the current program.
+
+An exception is an event that occurs during execution and interrupts the normal flow of a program.
+
+Python uses try and except blocks to handle exceptions. The else block executes when no exception occurs, while finally is used for cleanup operations.
+
+The raise statement explicitly raises an exception.
+
+File handling allows programs to read from and write to files. Python provides the open() function for working with files.
+
+The read() method reads file content. The readline() method reads one line, while readlines() returns the lines as a list.
+
+The write() method writes text to a file. The writelines() method writes a sequence of strings.
+
+The with statement manages resources such as files and ensures that the file is closed when the block finishes.
+
+Object-oriented programming organizes programs around classes and objects.
+
+A class is a blueprint that defines the attributes and methods of objects.
+
+An object is an instance of a class. It contains state and supports behaviour defined by its class.
+
+The __init__ method initializes a newly created object. It is commonly used to assign initial attribute values.
+
+The self parameter refers to the current instance of a class and is used to access its attributes and methods.
+
+Encapsulation combines data and methods within a class. Python uses naming conventions and properties to manage access to attributes.
+
+Inheritance allows a class to reuse or extend the functionality of another class.
+
+Polymorphism allows different objects to respond to the same method call in different ways.
+
+Abstraction hides implementation details and exposes essential functionality. Python supports abstract base classes through the abc module.
+
+An iterator is an object that provides values one at a time using the __iter__() and __next__() methods.
+
+A generator produces values lazily instead of creating the entire sequence in memory at once. Generator functions use the yield keyword.
+
+A list comprehension provides a concise way to create a list from an iterable, optionally applying a condition.
+
+A decorator modifies or extends the behaviour of a function or class without directly changing its original source code.
+
+A virtual environment provides an isolated Python environment for a project. It helps manage project-specific dependencies.
+
+QUESTION: What is Python?
+ANSWER: Python is a high-level, general-purpose programming language known for its readable syntax. It supports procedural, object-oriented, and functional programming.
+
+QUESTION: What is the difference between a list and a tuple?
+ANSWER: A list is mutable, so its elements can be changed after creation. A tuple is immutable, so its elements cannot be reassigned after creation. Both are ordered collections and can contain duplicate values.
+
+QUESTION: What is the difference between a set and a dictionary?
+ANSWER: A set stores unique elements without associated values. A dictionary stores key-value pairs, where each key is unique.
+
+QUESTION: What is the difference between break and continue?
+ANSWER: Break terminates the nearest enclosing loop. Continue skips the remaining statements in the current iteration and moves to the next iteration.
+
+QUESTION: What is a function in Python?
+ANSWER: A function is a reusable block of code defined using the def keyword. It can accept input through parameters and return a result.
+
+QUESTION: What is a lambda function?
+ANSWER: A lambda function is a small anonymous function defined using the lambda keyword. It contains a single expression and returns its evaluated result.
+
+QUESTION: What is the difference between an argument and a parameter?
+ANSWER: A parameter is a variable declared in a function definition. An argument is the actual value passed to that function when it is called.
+
+QUESTION: What is exception handling in Python?
+ANSWER: Exception handling is a mechanism for managing runtime errors. Python uses try, except, else, and finally blocks to handle exceptional conditions.
+
+QUESTION: What is the purpose of the with statement?
+ANSWER: The with statement manages resources using a context manager. When used with files, it ensures that the file is properly closed after the block finishes.
+
+QUESTION: What is inheritance in Python?
+ANSWER: Inheritance allows a child class to acquire and extend the attributes and methods of a parent class. It promotes code reuse and supports class hierarchies.
+
+QUESTION: What is the difference between an iterator and a generator?
+ANSWER: An iterator is an object that provides values one at a time using the iterator protocol. A generator is a convenient way to create an iterator, commonly using a function containing yield.
+
+QUESTION: What is a decorator?
+ANSWER: A decorator is a callable that takes another function or class and returns a modified or extended version of it. It allows behaviour to be added without directly changing the original implementation.
+
+QUESTION: What is a virtual environment?
+ANSWER: A virtual environment is an isolated Python environment that maintains project-specific packages and dependencies. It helps prevent dependency conflicts between projects.
+

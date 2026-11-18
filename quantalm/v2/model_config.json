@@ -1,0 +1,74 @@
+{
+  "name": "QuantaLM-V2",
+  "status": "architecture and training pipeline implemented; full training remains opt-in",
+  "framework": "PyTorch",
+  "device": "cpu",
+  "dtype": "float32",
+  "tokenizer": {
+    "type": "byte-level BPE",
+    "vocabulary_size": 2048,
+    "implementation": "src/bpe_tokenizer.py",
+    "vocabulary": "tokenizer/bpe_vocab.json",
+    "merges": "tokenizer/bpe_merges.json",
+    "configuration": "tokenizer/tokenizer_config.json",
+    "special_tokens": {
+      "<pad>": 256,
+      "<unk>": 257,
+      "<bos>": 258,
+      "<eos>": 259
+    },
+    "usage": "independent V2 tokenizer; trained on V2 training documents only"
+  },
+  "architecture": {
+    "family": "decoder-only causal Transformer",
+    "context_length": 256,
+    "vocabulary_size": 2048,
+    "embedding_dimension": 128,
+    "layer_count": 4,
+    "attention_heads": 4,
+    "head_dimension": 32,
+    "feed_forward_dimension": 512,
+    "feed_forward_activation": "GELU",
+    "normalization": "pre-LayerNorm",
+    "position_encoding": "learned absolute position embeddings",
+    "attention_mask": "causal",
+    "residual_connections": true,
+    "dropout": 0.1,
+    "token_embedding_and_output_weights_tied": true,
+    "unique_trainable_parameter_count": 1088256
+  },
+  "training": {
+    "enabled": true,
+    "configuration": "src/training_config.py",
+    "engine": "src/trainer.py",
+    "requires_explicit_approval": true,
+    "full_training_run_completed": false,
+    "initial_device": "CPU",
+    "batch_size": 1,
+    "learning_rate": 0.0001,
+    "epochs": 10,
+    "note": "Conservative CPU-first defaults; execution requires --confirm-training. No full training run has been started."
+  },
+  "evaluation": {
+    "engine": "src/evaluator.py",
+    "question_dataset_directory": "data/evaluation/",
+    "question_dataset_status": "empty pending human-reviewed source-grounded questions",
+    "reference_metrics_require_human_verified_answers": true,
+    "perplexity_uses_masked_validation_or_explicitly_approved_test_chunks": true,
+    "test_evaluation_requires_explicit_opt_in": true,
+    "automatic_external_judge": false,
+    "current_model_label": "untrained_baseline",
+    "note": "No verified QA labels or licensed evaluation corpus are currently available; generated quality scores must not be presented as absolute model quality."
+  },
+  "checkpoint_policy": {
+    "directory": "checkpoints/",
+    "must_not_overwrite_v1": true,
+    "required_metadata": [
+      "model configuration",
+      "tokenizer identity and hashes",
+      "dataset and split hashes",
+      "training step",
+      "validation metrics"
+    ]
+  }
+}

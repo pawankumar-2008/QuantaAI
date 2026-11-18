@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "review_date": "2026-11-08",
+  "network_downloaded": false,
+  "notice": "Source review is informational, not legal advice. Verify the exact work, version, item-level license, attribution, third-party material, and applicable terms before acquisition or training.",
+  "accepted_license_policy": {
+    "licenses": [
+      "0BSD",
+      "CC-BY-4.0",
+      "CC-BY-SA-2.5",
+      "CC-BY-SA-3.0",
+      "CC-BY-SA-4.0",
+      "CC0-1.0",
+      "PSF-2.0"
+    ],
+    "share_alike_requires_explicit_review": true,
+    "non_commercial_no_derivatives_and_unknown_licenses": "rejected"
+  },
+  "sources": [
+    {
+      "name": "Project Gutenberg",
+      "official_url": "https://www.gutenberg.org/",
+      "license_reference": "https://www.gutenberg.org/policy/license.html",
+      "terms_reference": "https://www.gutenberg.org/policy/terms_of_use.html",
+      "license_summary": "Rights are work- and jurisdiction-specific; Project Gutenberg's own license and title record must be inspected for each item.",
+      "acquisition_constraints": "The main site says it is intended for human use and automated bulk access may be blocked. For many books use its offline catalog and approved mirrors, follow robot/download terms, and do not assume US public-domain status applies elsewhere.",
+      "status": "candidate_not_approved"
+    },
+    {
+      "name": "Wikimedia text dumps",
+      "official_url": "https://dumps.wikimedia.org/",
+      "terms_reference": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use#7._Licensing_of_Content",
+      "license_summary": "User text is generally CC BY-SA 4.0 and GFDL under the terms; imported text can have additional source licenses and attribution notices. Non-text media has varied licenses.",
+      "acquisition_constraints": "Keep page/revision identity and attribution; exclude GFDL-only, fair-use, incompatible, and third-party material unless separately reviewed. Respect dump/API policies.",
+      "share_alike_review_required": true,
+      "status": "candidate_requires_per_revision_review"
+    },
+    {
+      "name": "Stack Exchange Data Dump",
+      "official_url": "https://archive.org/details/stackexchange",
+      "license_reference": "https://stackoverflow.com/help/licensing",
+      "terms_reference": "https://stackoverflow.com/legal/terms-of-service/public#licensing",
+      "license_summary": "Public user contributions have date-dependent CC BY-SA terms: 2.5 before 2011-04-08 UTC, 3.0 until 2018-05-02 UTC, and 4.0 thereafter. Revisions may have distinct details.",
+      "acquisition_constraints": "Record post/revision identifiers, dates, authorship attribution, license version, and dump version; exclude deleted, non-public, or otherwise uncleared content. Review share-alike obligations before use.",
+      "share_alike_review_required": true,
+      "status": "candidate_requires_per_post_and_revision_review"
+    },
+    {
+      "name": "OpenStax College Algebra 2e",
+      "official_url": "https://openstax.org/books/college-algebra-2e/pages/preface",
+      "license_summary": "The inspected title page declares CC BY-NC-SA 4.0 and describes third-party art attribution conditions.",
+      "acquisition_constraints": "Excluded by the default release policy because NonCommercial is not allowlisted. Other OpenStax books may have different terms; verify each title and embedded item.",
+      "status": "not_approved_non_commercial_license"
+    },
+    {
+      "name": "Python 3 documentation",
+      "official_url": "https://docs.python.org/3/",
+      "license_reference": "https://docs.python.org/3/license.html",
+      "license_summary": "Documentation is PSF-2.0; examples, recipes, and code from Python 3.8.6 onward are additionally dual-licensed under 0BSD. The license page lists incorporated third-party components.",
+      "acquisition_constraints": "Record documentation version and page URL. Review embedded third-party material and examples separately; do not treat all bundled snippets as PSF-2.0 only.",
+      "status": "candidate_requires_page_and_embedded_material_review"
+    }
+  ]
+}

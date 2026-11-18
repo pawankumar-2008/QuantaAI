@@ -1,0 +1,62 @@
+{
+  "average_response_latency_seconds": 0.10135576666895456,
+  "checkpoint_sha256": null,
+  "device_information": {
+    "cuda_available": false,
+    "device": "cpu",
+    "device_type": "cpu",
+    "gpu_execution_verified": false,
+    "platform": "Windows-11-10.0.26300-SP0",
+    "processor": "Intel64 Family 6 Model 170 Stepping 4, GenuineIntel",
+    "torch_version": "2.14.0+cpu"
+  },
+  "evaluation_metadata": {
+    "checkpoint_sha256": null,
+    "device": {
+      "cuda_available": false,
+      "device": "cpu",
+      "device_type": "cpu",
+      "gpu_execution_verified": false,
+      "platform": "Windows-11-10.0.26300-SP0",
+      "processor": "Intel64 Family 6 Model 170 Stepping 4, GenuineIntel",
+      "torch_version": "2.14.0+cpu"
+    },
+    "evaluation_dataset_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "evaluation_date": "2026-11-05T22:08:52+00:00",
+    "model_configuration": {
+      "architecture_version": "2.0",
+      "context_length": 256,
+      "dropout": 0.1,
+      "embedding_dim": 128,
+      "feed_forward_dim": 512,
+      "num_heads": 4,
+      "num_layers": 4,
+      "vocab_size": 2048
+    },
+    "model_label": "untrained_baseline",
+    "model_state_sha256": "52a55379783f610b55e56064cd8b5e05bbe8042fd259ebaa1ad42a829b8d0943",
+    "split": "validation",
+    "tokenizer_sha256": "91b1a25afa1bc56ce8c6456a1daa7f65ebfe3df177ee1ba66b3a966ddf2c63a0"
+  },
+  "first_token_latency_seconds_mean": 0.009101299995866915,
+  "generated_token_count_mean": 8.0,
+  "generated_token_count_total": 24,
+  "generation_parameters": {
+    "max_new_tokens": 8,
+    "random_seed": 20261106,
+    "temperature": 0.8,
+    "top_k": 40
+  },
+  "measured_runs": 3,
+  "model_loading_time_seconds": 0.031990700008464046,
+  "model_state_sha256": "52a55379783f610b55e56064cd8b5e05bbe8042fd259ebaa1ad42a829b8d0943",
+  "peak_cpu_memory_bytes": 245424128,
+  "peak_cpu_memory_method": "Windows process peak working set",
+  "prompt_source": "single_BOS_performance_probe; not an evaluation question or answer",
+  "tokenizer_hash": "91b1a25afa1bc56ce8c6456a1daa7f65ebfe3df177ee1ba66b3a966ddf2c63a0",
+  "tokens_per_second": 78.9298947945348,
+  "total_generation_time_seconds_mean": 0.10135576666895456,
+  "total_generation_time_seconds_median": 0.10207780000928324,
+  "total_generation_time_seconds_p95": 0.13397779999650083,
+  "warmup_runs": 1
+}

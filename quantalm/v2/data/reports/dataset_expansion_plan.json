@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "status": "recommendations_only_no_sources_ingested",
+  "project_policy": "Do not ingest a source until the specific work's rights, license, attribution obligations, and redistribution implications have been verified and recorded.",
+  "priority_areas": [
+    {
+      "priority": 1,
+      "subject": "Programming fundamentals",
+      "recommendation": "Use selected Python documentation pages and examples with provenance, version, and PSF-2.0 notices recorded; exclude embedded third-party material unless separately cleared.",
+      "candidate_source": {
+        "name": "Python 3 Documentation",
+        "url": "https://docs.python.org/3/",
+        "license_id": "PSF-2.0",
+        "license_url": "https://docs.python.org/3/license.html",
+        "license_basis": "The official documentation states that Python software and documentation are licensed under PSF License Version 2, and that examples and recipes from Python 3.8.6 onward are dual-licensed under PSF-2.0 and Zero-Clause BSD.",
+        "ingested": false
+      }
+    },
+    {
+      "priority": 2,
+      "subject": "Computer science, mathematics, reasoning, and explanations",
+      "recommendation": "Author original lessons and worked examples with subject-matter review; obtain written rights-holder permission and explicitly release each source under CC0-1.0 or CC-BY-4.0 before ingestion.",
+      "candidate_source": {
+        "name": "QuantaAI-created material",
+        "license_id": "CC0-1.0 or CC-BY-4.0",
+        "license_url": "https://creativecommons.org/share-your-work/cclicenses/",
+        "license_basis": "Future original material only; the creator or rights holder must document the selected license and permission.",
+        "ingested": false
+      }
+    },
+    {
+      "priority": 3,
+      "subject": "Educational question-answer pairs",
+      "recommendation": "Create source-grounded questions and answers from approved materials, keep citations and source-document hashes, and require human verification before marking items approved.",
+      "candidate_source": {
+        "name": "Human-authored, source-grounded Q&A",
+        "license_id": "CC0-1.0 or CC-BY-4.0",
+        "license_url": "https://creativecommons.org/share-your-work/cclicenses/",
+        "license_basis": "The author or rights holder must explicitly license the new work and verify each answer against an approved source.",
+        "ingested": false
+      }
+    },
+    {
+      "priority": 4,
+      "subject": "General knowledge and science",
+      "recommendation": "No source is currently cleared. Select specific works with explicit CC0-1.0 or CC-BY-4.0 terms and source-level attribution; do not infer rights from free access or government affiliation.",
+      "candidate_source": null
+    }
+  ],
+  "reviewed_but_not_approved": [
+    {
+      "name": "OpenStax College Algebra 2e",
+      "url": "https://openstax.org/books/college-algebra-2e/pages/preface",
+      "declared_license": "CC-BY-NC-SA-4.0",
+      "decision": "Do not ingest under the current allowlist; non-commercial and share-alike conditions may not fit project distribution or downstream use."
+    },
+    {
+      "name": "OpenStax Introductory Statistics 2e",
+      "url": "https://openstax.org/books/introductory-statistics-2e/pages/preface",
+      "declared_license": "CC-BY-NC-SA-4.0",
+      "decision": "Do not ingest under the current allowlist; non-commercial and share-alike conditions may not fit project distribution or downstream use."
+    }
+  ],
+  "ingestion_gates": [
+    "Record source title, owner/author, original location, source URL, exact license identifier and URL, retrieval/version details, reviewer, verification date, and evidence.",
+    "Exclude sources with unknown terms, non-commercial or no-derivatives restrictions, unclear third-party content, or missing attribution rights.",
+    "Run exact and near-duplicate detection and assign shared-content leakage groups wholly to one split.",
+    "Have a subject-matter reviewer assess accuracy, quality, and Q&A references.",
+    "Stage data under data/ingestion_runs; never mutate the current splits, tokenizer, or checkpoints automatically."
+  ],
+  "recommended_next_training_configuration": {
+    "status": "recommendation_only_requires_explicit_approval",
+    "preconditions": [
+      "Resolve source rights for every item used; do not treat the current unknown-license corpus as approved.",
+      "Expand the corpus and create a multi-document validation split with subject coverage.",
+      "Review and freeze the evaluation set before any final test evaluation."
+    ],
+    "device": "cpu",
+    "batch_size": 1,
+    "learning_rate": 0.00005,
+    "max_optimizer_steps": 10,
+    "validation_interval_steps": 1,
+    "checkpoint_interval_steps": 5,
+    "early_stopping_patience": 3,
+    "random_seed": 20261106,
+    "test_split_used": false,
+    "full_corpus_training": false,
+    "rationale": "A bounded follow-up pilot is appropriate only after permission and dataset quality are resolved. It should test optimization stability on a more representative train/validation set, not claim language-generation quality."
+  },
+  "verification_references": [
+    {
+      "url": "https://docs.python.org/3/license.html",
+      "retrieved_for": "Python documentation license statement"
+    },
+    {
+      "url": "https://openstax.org/books/college-algebra-2e/pages/preface",
+      "retrieved_for": "License conditions; candidate excluded"
+    },
+    {
+      "url": "https://openstax.org/books/introductory-statistics-2e/pages/preface",
+      "retrieved_for": "License conditions; candidate excluded"
+    }
+  ],
+  "source_downloaded_or_ingested": false
+}

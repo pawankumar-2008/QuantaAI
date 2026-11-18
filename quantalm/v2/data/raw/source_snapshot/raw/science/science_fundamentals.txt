@@ -1,0 +1,1021 @@
+﻿SCIENCE FUNDAMENTALS
+
+1. INTRODUCTION TO SCIENCE
+
+Science is the systematic study of the natural world through observation, experimentation, measurement, and reasoning.
+
+Major branches:
+- Physics: Studies matter, energy, motion, and forces.
+- Chemistry: Studies matter, its composition, properties, and transformations.
+- Biology: Studies living organisms and life processes.
+- Earth Science: Studies the Earth and its systems.
+- Astronomy: Studies celestial objects and the universe.
+
+2. SCIENTIFIC METHOD
+
+The scientific method is a systematic approach used to investigate questions and develop explanations.
+
+Steps:
+1. Observation: Identify a phenomenon.
+2. Question: Formulate a question about the observation.
+3. Hypothesis: Propose a testable explanation.
+4. Experiment: Design and perform an investigation.
+5. Data collection: Record observations and measurements.
+6. Analysis: Interpret the collected data.
+7. Conclusion: Determine whether the evidence supports the hypothesis.
+8. Communication: Share findings for review and further investigation.
+
+A scientific hypothesis must be testable and capable of being evaluated using evidence.
+
+3. MEASUREMENT AND SI UNITS
+
+Measurement assigns numerical values and units to physical quantities.
+
+The International System of Units (SI) defines seven base units:
+
+Length: metre (m).
+Mass: kilogram (kg).
+Time: second (s).
+Electric current: ampere (A).
+Temperature: kelvin (K).
+Amount of substance: mole (mol).
+Luminous intensity: candela (cd).
+
+Derived units:
+- Velocity: metre per second (m/s).
+- Acceleration: metre per second squared (m/s^2).
+- Force: newton (N).
+- Energy: joule (J).
+- Power: watt (W).
+- Pressure: pascal (Pa).
+
+4. SCALARS AND VECTORS
+
+A scalar quantity has magnitude only.
+
+Examples:
+- Mass.
+- Time.
+- Temperature.
+- Energy.
+- Distance.
+
+A vector quantity has both magnitude and direction.
+
+Examples:
+- Displacement.
+- Velocity.
+- Acceleration.
+- Force.
+- Momentum.
+
+5. MATTER
+
+Matter is anything that has mass and occupies space.
+
+Common states of matter:
+- Solid: Has a definite shape and volume.
+- Liquid: Has a definite volume but takes the shape of its container.
+- Gas: Has neither a definite shape nor a definite volume.
+- Plasma: An ionized state of matter containing charged particles.
+
+Changes of state:
+- Melting: Solid to liquid.
+- Freezing: Liquid to solid.
+- Vaporization: Liquid to gas.
+- Condensation: Gas to liquid.
+- Sublimation: Solid directly to gas.
+- Deposition: Gas directly to solid.
+
+6. MOTION
+
+Motion is the change in position of an object with respect to a reference point over time.
+
+Distance:
+The total length of the path travelled. It is a scalar quantity.
+
+Displacement:
+The change in position from initial to final point. It is a vector quantity.
+
+Speed:
+Rate of change of distance.
+
+Speed = Distance / Time.
+
+Velocity:
+Rate of change of displacement.
+
+Average velocity = Displacement / Time taken.
+
+Acceleration:
+Rate of change of velocity.
+
+Average acceleration = Change in velocity / Time taken.
+
+7. TYPES OF MOTION
+
+Linear motion:
+Movement along a straight line.
+
+Circular motion:
+Movement along a circular path.
+
+Rotational motion:
+Movement of an object around an axis.
+
+Oscillatory motion:
+Repeated movement around an equilibrium position.
+
+Periodic motion:
+Motion that repeats after equal intervals of time.
+
+8. NEWTON'S LAWS OF MOTION
+
+First Law - Law of Inertia:
+An object remains at rest or continues moving with constant velocity unless acted upon by a net external force.
+
+Inertia is the tendency of an object to resist changes in its state of motion.
+
+Second Law:
+The net force acting on an object equals the rate of change of its momentum.
+
+For constant mass:
+
+F = ma.
+
+Where:
+F = Net force.
+m = Mass.
+a = Acceleration.
+
+Third Law:
+For every action, there is an equal and opposite reaction.
+
+The action and reaction forces act on different bodies.
+
+9. FORCE
+
+Force is an interaction that can change the motion or shape of an object.
+
+SI unit: Newton (N).
+
+Types:
+- Gravitational force.
+- Frictional force.
+- Normal force.
+- Tension.
+- Magnetic force.
+- Electrostatic force.
+
+Balanced forces:
+Net force is zero.
+
+Unbalanced forces:
+Net force is non-zero and can change an object's velocity.
+
+10. FRICTION
+
+Friction is a force that opposes relative motion or the tendency of relative motion between surfaces in contact.
+
+Types:
+- Static friction.
+- Sliding friction.
+- Rolling friction.
+- Fluid friction.
+
+Friction can:
+- Help us walk.
+- Allow vehicles to brake.
+- Produce heat.
+- Cause mechanical wear.
+
+11. WORK, ENERGY, AND POWER
+
+Work is done when a force causes displacement.
+
+For a constant force:
+
+W = F s cos(theta).
+
+Where:
+F = Force.
+s = Displacement.
+theta = Angle between force and displacement.
+
+SI unit: Joule (J).
+
+Energy is the capacity to do work.
+
+Forms of energy:
+- Kinetic energy.
+- Potential energy.
+- Thermal energy.
+- Chemical energy.
+- Electrical energy.
+- Nuclear energy.
+- Light energy.
+
+Kinetic energy:
+
+KE = 1/2 mv^2.
+
+Gravitational potential energy near Earth's surface:
+
+PE = mgh.
+
+Power is the rate of doing work.
+
+Power = Work / Time.
+
+SI unit: Watt (W).
+
+12. LAW OF CONSERVATION OF ENERGY
+
+Energy cannot be created or destroyed in an isolated system. It can only be transferred or transformed from one form to another.
+
+Example:
+In a falling object, gravitational potential energy decreases while kinetic energy increases, ignoring energy losses.
+
+13. MOMENTUM
+
+Momentum is the product of mass and velocity.
+
+p = mv.
+
+SI unit: kg m/s.
+
+Momentum is a vector quantity.
+
+Impulse:
+Impulse equals the change in momentum.
+
+J = F * delta(t), for constant force.
+
+In an isolated system, total momentum remains constant if the net external force is zero.
+
+14. GRAVITATION
+
+Gravitation is the attractive force between objects with mass.
+
+Newton's law of universal gravitation:
+
+F = G(m1*m2)/r^2.
+
+Where:
+G = Universal gravitational constant.
+m1 and m2 = Masses of objects.
+r = Distance between their centres.
+
+Acceleration due to gravity near Earth's surface is approximately 9.8 m/s^2.
+
+15. PRESSURE
+
+Pressure is force acting per unit area.
+
+P = F/A.
+
+SI unit: Pascal (Pa).
+
+Pressure in a fluid at rest increases with depth.
+
+For a fluid of density rho at depth h:
+
+P = rho*g*h.
+
+This is gauge pressure due to the fluid column.
+
+16. HEAT AND TEMPERATURE
+
+Heat is energy transferred because of a temperature difference.
+
+Temperature measures the thermal state of a system.
+
+Heat transfer methods:
+
+Conduction:
+Transfer of thermal energy through direct microscopic interactions, commonly important in solids.
+
+Convection:
+Transfer of thermal energy through the bulk movement of fluids.
+
+Radiation:
+Transfer of energy through electromagnetic waves and does not require a material medium.
+
+17. SPECIFIC HEAT CAPACITY
+
+Specific heat capacity is the energy required to raise the temperature of one kilogram of a substance by one kelvin.
+
+Q = mc(delta T).
+
+Where:
+Q = Heat transferred.
+m = Mass.
+c = Specific heat capacity.
+delta T = Change in temperature.
+
+SI unit of specific heat capacity: J/(kg K).
+
+18. THERMODYNAMICS
+
+Thermodynamics studies heat, work, temperature, and energy transformations.
+
+Zeroth Law:
+If two systems are separately in thermal equilibrium with a third system, they are in thermal equilibrium with each other.
+
+First Law:
+Energy is conserved.
+
+Using the convention that W is work done by the system:
+
+delta U = Q - W.
+
+Second Law:
+The entropy of an isolated system does not decrease in a spontaneous process.
+
+Third Law:
+The entropy of a perfect crystal approaches zero as its temperature approaches absolute zero.
+
+19. WAVES
+
+A wave is a disturbance that transfers energy from one location to another.
+
+Mechanical waves require a material medium.
+
+Electromagnetic waves can travel through a vacuum.
+
+Types:
+- Transverse waves.
+- Longitudinal waves.
+
+Transverse wave:
+Particle oscillations are perpendicular to the direction of wave propagation.
+
+Longitudinal wave:
+Particle oscillations are parallel to the direction of wave propagation.
+
+20. WAVE PARAMETERS
+
+Wavelength:
+Distance between two successive points in the same phase, such as consecutive crests.
+
+Frequency:
+Number of complete cycles per second.
+
+SI unit: Hertz (Hz).
+
+Time period:
+Time required for one complete cycle.
+
+T = 1/f.
+
+Wave speed:
+
+v = f(lambda).
+
+Where lambda represents wavelength.
+
+Amplitude:
+Maximum displacement from the equilibrium position.
+
+21. SOUND
+
+Sound is a mechanical wave produced by vibrating objects.
+
+In air, sound generally travels as a longitudinal wave.
+
+Properties:
+- Frequency determines perceived pitch.
+- Amplitude is related to sound intensity.
+- Timbre helps distinguish sound sources.
+
+Sound requires a material medium and cannot travel through a vacuum.
+
+The speed of sound depends on the properties and conditions of the medium.
+
+22. LIGHT
+
+Light is electromagnetic radiation visible to the human eye.
+
+Properties:
+- Travels through a vacuum.
+- Undergoes reflection and refraction.
+- Exhibits diffraction and interference.
+- Can be polarized.
+
+Speed of light in vacuum:
+
+c approximately equals 3 * 10^8 m/s.
+
+23. REFLECTION OF LIGHT
+
+Reflection occurs when light returns into the original medium after striking a surface.
+
+Laws:
+1. The incident ray, reflected ray, and normal lie in the same plane.
+2. Angle of incidence equals angle of reflection.
+
+Applications:
+- Mirrors.
+- Periscopes.
+- Optical instruments.
+
+24. REFRACTION OF LIGHT
+
+Refraction is the change in direction of light when it passes between media with different refractive indices.
+
+Snell's law:
+
+n1 sin(theta1) = n2 sin(theta2).
+
+Refractive index:
+
+n = c/v.
+
+Where:
+c = Speed of light in vacuum.
+v = Speed of light in the medium.
+
+Applications:
+- Lenses.
+- Spectacles.
+- Cameras.
+- Microscopes.
+
+25. ELECTRICITY
+
+Electricity involves electric charge and its effects.
+
+Electric charge is a fundamental property of matter.
+
+Two types:
+- Positive charge.
+- Negative charge.
+
+Like charges repel.
+Unlike charges attract.
+
+SI unit of electric charge: Coulomb (C).
+
+26. ELECTRIC CURRENT
+
+Electric current is the rate of flow of electric charge.
+
+I = Q/t.
+
+SI unit: Ampere (A).
+
+Conventional current direction is defined as the direction positive charges would move.
+
+27. VOLTAGE AND RESISTANCE
+
+Voltage is the electric potential difference between two points.
+
+SI unit: Volt (V).
+
+Resistance is the opposition to electric current.
+
+SI unit: Ohm (ohm symbol).
+
+28. OHM'S LAW
+
+Ohm's law states that for a conductor under constant physical conditions, current is directly proportional to voltage.
+
+V = IR.
+
+Where:
+V = Voltage.
+I = Current.
+R = Resistance.
+
+29. ELECTRIC POWER AND ENERGY
+
+Electric power is the rate of electrical energy transfer.
+
+P = VI.
+
+For a resistive element:
+
+P = I^2 R.
+
+Also:
+
+P = V^2/R.
+
+Electrical energy:
+
+E = Pt.
+
+Commercial electrical energy is commonly measured in kilowatt-hours (kWh).
+
+30. ELECTRIC CIRCUITS
+
+A basic electric circuit contains:
+- Source.
+- Conducting wires.
+- Load.
+- Switching or control element.
+
+Series circuit:
+Components are connected along a single current path.
+
+Parallel circuit:
+Components are connected across common nodes, providing multiple current paths.
+
+For resistors in series:
+
+R_total = R1 + R2 + ... + Rn.
+
+For resistors in parallel:
+
+1/R_total = 1/R1 + 1/R2 + ... + 1/Rn.
+
+31. MAGNETISM
+
+Magnetism is associated with moving electric charges and magnetic moments.
+
+A magnet has north and south poles.
+
+Like magnetic poles repel.
+Unlike magnetic poles attract.
+
+Magnetic fields describe the magnetic influence in a region.
+
+SI unit of magnetic flux density: Tesla (T).
+
+32. ELECTROMAGNETISM
+
+Electromagnetism studies the relationship between electric and magnetic fields.
+
+An electric current can produce a magnetic field.
+
+A changing magnetic flux can induce an electromotive force.
+
+Faraday's law describes electromagnetic induction.
+
+Lenz's law states that the induced current produces an effect that opposes the change in magnetic flux that caused it.
+
+Applications:
+- Electric motors.
+- Generators.
+- Transformers.
+- Electromagnets.
+
+33. ATOMIC STRUCTURE
+
+An atom is the basic unit of a chemical element that retains its chemical identity.
+
+Main subatomic particles:
+
+Proton:
+Positive charge; located in the nucleus.
+
+Neutron:
+No electric charge; located in the nucleus.
+
+Electron:
+Negative charge; occupies regions around the nucleus.
+
+Atomic number:
+Number of protons in an atom's nucleus.
+
+Mass number:
+Total number of protons and neutrons.
+
+In a neutral atom, the number of electrons equals the number of protons.
+
+34. ISOTOPES AND IONS
+
+Isotopes:
+Atoms of the same element with the same number of protons but different numbers of neutrons.
+
+Ions:
+Electrically charged atoms or groups of atoms.
+
+Cation:
+A positively charged ion formed by losing electrons.
+
+Anion:
+A negatively charged ion formed by gaining electrons.
+
+35. PERIODIC TABLE
+
+The periodic table organizes chemical elements according to increasing atomic number.
+
+Rows are called periods.
+
+Columns are called groups.
+
+Elements in the same group often have similar chemical properties because of related valence electron configurations.
+
+Broad categories:
+- Metals.
+- Non-metals.
+- Metalloids.
+
+36. CHEMICAL BONDING
+
+Chemical bonds hold atoms or ions together.
+
+Ionic bond:
+Forms through electrostatic attraction between oppositely charged ions, commonly following electron transfer.
+
+Covalent bond:
+Forms when atoms share electron pairs.
+
+Metallic bond:
+Involves attraction between positive metal ion cores and delocalized electrons.
+
+37. CHEMICAL REACTIONS
+
+A chemical reaction converts reactants into products through the rearrangement of atoms.
+
+Reactants:
+Starting substances.
+
+Products:
+Substances formed.
+
+Common types:
+- Combination reaction.
+- Decomposition reaction.
+- Displacement reaction.
+- Double displacement reaction.
+- Combustion reaction.
+- Redox reaction.
+
+A balanced chemical equation has equal numbers of each type of atom on both sides.
+
+38. ACIDS, BASES, AND SALTS
+
+Acid:
+A substance that donates protons in the Brønsted-Lowry definition.
+
+Base:
+A substance that accepts protons in the Brønsted-Lowry definition.
+
+Salt:
+An ionic compound formed through reactions involving acids and bases or other chemical processes.
+
+pH:
+A measure related to hydrogen ion activity.
+
+At approximately 25 degrees Celsius in dilute aqueous solutions:
+- pH below 7 is acidic.
+- pH equal to 7 is neutral.
+- pH above 7 is basic.
+
+39. CHEMICAL STOICHIOMETRY
+
+Stoichiometry studies quantitative relationships between reactants and products in chemical reactions.
+
+A mole represents a specified amount of substance.
+
+Avogadro constant:
+
+6.02214076 * 10^23 entities per mole.
+
+Molar mass:
+Mass of one mole of a substance.
+
+Balanced chemical equations provide mole ratios for calculations.
+
+40. INTRODUCTION TO BIOLOGY
+
+Biology is the scientific study of living organisms and life processes.
+
+Major branches:
+- Botany.
+- Zoology.
+- Microbiology.
+- Genetics.
+- Ecology.
+- Molecular biology.
+- Biotechnology.
+
+Characteristics commonly associated with living organisms include cellular organization, metabolism, growth, response to stimuli, reproduction, and evolution across populations.
+
+41. CELL THEORY
+
+The cell is the basic structural and functional unit of life.
+
+Cell theory:
+1. All living organisms are composed of one or more cells.
+2. The cell is the basic unit of structure and function.
+3. New cells arise from pre-existing cells.
+
+Two broad cell types:
+- Prokaryotic cells.
+- Eukaryotic cells.
+
+42. PROKARYOTIC AND EUKARYOTIC CELLS
+
+Prokaryotic cells:
+Do not have a membrane-bound nucleus. Their genetic material is located in a nucleoid region.
+
+Examples include bacteria and archaea.
+
+Eukaryotic cells:
+Have a membrane-bound nucleus and membrane-bound organelles.
+
+Examples include animal, plant, fungal, and protist cells.
+
+43. CELL ORGANELLES
+
+Nucleus:
+Contains most of the cell's genetic material and regulates gene expression.
+
+Mitochondria:
+Carry out important stages of cellular respiration and produce much of the cell's ATP.
+
+Ribosomes:
+Synthesize proteins.
+
+Endoplasmic reticulum:
+Involved in protein and lipid synthesis and processing.
+
+Golgi apparatus:
+Modifies, sorts, and packages proteins and lipids.
+
+Lysosomes:
+Contain enzymes that help break down cellular materials.
+
+Chloroplasts:
+In plants and algae, carry out photosynthesis.
+
+Cell membrane:
+Controls movement of substances into and out of the cell.
+
+44. DNA AND RNA
+
+DNA (Deoxyribonucleic Acid):
+Stores hereditary information in most organisms.
+
+RNA (Ribonucleic Acid):
+Participates in gene expression and protein synthesis and performs other cellular roles.
+
+DNA generally contains:
+- Adenine.
+- Thymine.
+- Guanine.
+- Cytosine.
+
+RNA generally contains:
+- Adenine.
+- Uracil.
+- Guanine.
+- Cytosine.
+
+45. GENETICS
+
+Genetics is the study of heredity and variation.
+
+Gene:
+A segment of genetic material associated with a functional product.
+
+Allele:
+An alternative form of a gene.
+
+Genotype:
+The genetic constitution of an organism for a particular trait or set of traits.
+
+Phenotype:
+Observable characteristics resulting from genetic and environmental influences.
+
+Dominant allele:
+An allele that can determine a phenotype in a heterozygote under a simple dominance model.
+
+Recessive allele:
+An allele whose associated phenotype is masked in a heterozygote under a simple dominance model.
+
+46. MENDEL'S LAWS OF INHERITANCE
+
+Gregor Mendel's experiments with pea plants helped establish fundamental principles of inheritance.
+
+Law of Segregation:
+The two alleles of a gene separate during gamete formation, so each gamete receives one allele.
+
+Law of Independent Assortment:
+Alleles of different genes assort independently when the genes are unlinked or sufficiently far apart, subject to genetic linkage.
+
+Law of Dominance:
+In simple complete-dominance cases, one allele can mask the expression of another in a heterozygote.
+
+47. PHOTOSYNTHESIS
+
+Photosynthesis is the process by which plants, algae, and certain bacteria convert light energy into chemical energy.
+
+In oxygenic photosynthesis, carbon dioxide and water are used to produce carbohydrates, and oxygen is released.
+
+Simplified equation:
+
+6CO2 + 6H2O + light energy -> C6H12O6 + 6O2.
+
+In plants, photosynthesis mainly occurs in chloroplasts.
+
+48. CELLULAR RESPIRATION
+
+Cellular respiration is the process by which cells extract energy from nutrients and use it to produce ATP.
+
+Aerobic respiration uses oxygen as the final electron acceptor in the electron transport chain.
+
+A simplified overall equation for glucose oxidation is:
+
+C6H12O6 + 6O2 -> 6CO2 + 6H2O + energy.
+
+Major stages:
+- Glycolysis.
+- Pyruvate oxidation.
+- Citric acid cycle.
+- Oxidative phosphorylation.
+
+49. HUMAN BODY SYSTEMS
+
+Digestive system:
+Breaks down food and absorbs nutrients.
+
+Respiratory system:
+Supports gas exchange, taking in oxygen and removing carbon dioxide.
+
+Circulatory system:
+Transports blood, oxygen, nutrients, hormones, and waste products.
+
+Nervous system:
+Coordinates rapid communication and responses using electrical and chemical signals.
+
+Skeletal system:
+Supports the body, protects organs, and helps movement.
+
+Muscular system:
+Produces movement and helps maintain posture.
+
+Excretory system:
+Removes metabolic waste and regulates water and electrolyte balance.
+
+Endocrine system:
+Uses hormones to regulate body functions.
+
+Immune system:
+Defends the body against pathogens and other harmful substances.
+
+50. ECOLOGY
+
+Ecology studies interactions between organisms and their environment.
+
+Levels of ecological organization:
+- Organism.
+- Population.
+- Community.
+- Ecosystem.
+- Biome.
+- Biosphere.
+
+Ecosystem:
+A system consisting of living organisms and their physical environment interacting together.
+
+Biotic factors:
+Living components.
+
+Abiotic factors:
+Non-living environmental components such as water, light, soil, and temperature.
+
+51. FOOD CHAINS AND FOOD WEBS
+
+Food chain:
+A linear sequence showing the transfer of energy and nutrients between organisms.
+
+Producer:
+An organism that produces organic matter, commonly through photosynthesis.
+
+Consumer:
+An organism that obtains energy by consuming other organisms or organic matter.
+
+Decomposer:
+An organism that breaks down dead organic matter and recycles nutrients.
+
+Food web:
+A network of interconnected food chains.
+
+Energy generally decreases at successive trophic levels because organisms use energy for life processes and lose much of it as heat.
+
+52. BIODIVERSITY
+
+Biodiversity refers to the variety of life at genetic, species, and ecosystem levels.
+
+Importance:
+- Maintains ecosystem functioning.
+- Provides food and resources.
+- Supports pollination and nutrient cycling.
+- Contributes to ecosystem resilience.
+- Has cultural, scientific, and economic value.
+
+Threats:
+- Habitat destruction.
+- Pollution.
+- Climate change.
+- Invasive species.
+- Overexploitation.
+
+53. ENVIRONMENTAL SCIENCE
+
+Environmental science studies interactions between natural systems and human activities.
+
+Major environmental issues:
+- Climate change.
+- Air pollution.
+- Water pollution.
+- Soil degradation.
+- Deforestation.
+- Biodiversity loss.
+- Waste management.
+
+Sustainable development aims to meet present needs without compromising the ability of future generations to meet their own needs.
+
+54. CLIMATE CHANGE
+
+Climate change refers to long-term changes in temperature and weather patterns.
+
+Human activities, especially greenhouse gas emissions from burning fossil fuels and land-use changes, are major drivers of recent global warming.
+
+Important greenhouse gases:
+- Carbon dioxide.
+- Methane.
+- Nitrous oxide.
+- Certain industrial gases.
+
+Potential effects:
+- Rising average temperatures.
+- Sea-level rise.
+- Changes in rainfall patterns.
+- More frequent or intense heat extremes in many regions.
+- Ecosystem disruption.
+
+55. SCIENCE QUESTION AND ANSWER EXAMPLES
+
+Q: What is science?
+A: Science is the systematic study of the natural world through observation, experimentation, measurement, and reasoning.
+
+Q: What is the scientific method?
+A: The scientific method is a structured process involving observation, hypothesis formation, experimentation, analysis, and conclusion.
+
+Q: What is matter?
+A: Matter is anything that has mass and occupies space.
+
+Q: What is Newton's first law?
+A: An object remains at rest or in uniform straight-line motion unless acted upon by a net external force.
+
+Q: What is Newton's second law?
+A: The net force equals the rate of change of momentum; for constant mass, F = ma.
+
+Q: What is energy?
+A: Energy is a physical quantity associated with the capacity to cause change or perform work.
+
+Q: What is the law of conservation of energy?
+A: Energy cannot be created or destroyed in an isolated system; it can only be transferred or transformed.
+
+Q: What is heat?
+A: Heat is energy transferred because of a temperature difference.
+
+Q: What is the difference between heat and temperature?
+A: Heat is energy in transfer, whereas temperature describes the thermal state of a system.
+
+Q: What is a wave?
+A: A wave is a disturbance that transfers energy from one location to another.
+
+Q: What is electric current?
+A: Electric current is the rate of flow of electric charge.
+
+Q: State Ohm's law.
+A: For a conductor under constant physical conditions, voltage is equal to current multiplied by resistance: V = IR.
+
+Q: What is an atom?
+A: An atom is the basic unit of a chemical element that retains its chemical identity.
+
+Q: What is an isotope?
+A: Isotopes are atoms of the same element with different numbers of neutrons.
+
+Q: What is a chemical bond?
+A: A chemical bond is an interaction that holds atoms or ions together.
+
+Q: What is biology?
+A: Biology is the scientific study of living organisms and life processes.
+
+Q: What is a cell?
+A: A cell is the basic structural and functional unit of life.
+
+Q: What is DNA?
+A: DNA is the molecule that stores hereditary information in most organisms.
+
+Q: What is photosynthesis?
+A: Photosynthesis converts light energy into chemical energy and, in oxygenic photosynthesis, releases oxygen.
+
+Q: What is cellular respiration?
+A: Cellular respiration is the process through which cells extract energy from nutrients and produce ATP.
+
+Q: What is an ecosystem?
+A: An ecosystem includes living organisms and their physical environment interacting as a system.
+
+Q: What is biodiversity?
+A: Biodiversity is the variety of life at genetic, species, and ecosystem levels.
+
+Q: What is climate change?
+A: Climate change refers to long-term changes in climate patterns, including the recent warming driven largely by human greenhouse gas emissions.

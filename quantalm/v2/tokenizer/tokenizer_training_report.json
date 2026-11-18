@@ -1,0 +1,212 @@
+{
+  "algorithm": "Byte-level BPE; whitespace and non-whitespace pieces preserved; weighted pair-frequency merges; seeded tie-breaking.",
+  "artifacts": {
+    "bpe_merges_path": "tokenizer/bpe_merges.json",
+    "bpe_merges_sha256": "58311870925135198c8ec425a47aa6438546432bc489c23b6c14d955ffb48ff1",
+    "bpe_vocab_path": "tokenizer/bpe_vocab.json",
+    "bpe_vocab_sha256": "22726c0c72d74a9e7ce0d2957bdd58d869293988471d3b3004b962318273381b",
+    "tokenizer_config_path": "tokenizer/tokenizer_config.json",
+    "tokenizer_config_sha256": "700ded969a20ba865602ffa744301659c48f9da0838ba18c5538c3fb951e8f98"
+  },
+  "created_at_utc": "2026-11-05T21:25:08.134421+00:00",
+  "eos_token_id": 259,
+  "excluded_splits": [
+    {
+      "split": "validation",
+      "used_for_fitting": false
+    },
+    {
+      "split": "test",
+      "used_for_fitting": false
+    }
+  ],
+  "model_compatibility": {
+    "configured_eos_token_id": 259,
+    "configured_vocabulary_size": 2048,
+    "eos_matches_model_configuration": true,
+    "tokenizer_eos_token_id": 259,
+    "trained_vocabulary_size": 2048,
+    "vocabulary_matches_model": true
+  },
+  "report_type": "QuantaLM V2 independent tokenizer training",
+  "seed_effect": "Used only to resolve equal-frequency BPE merge ties.",
+  "special_tokens": {
+    "<bos>": 258,
+    "<eos>": 259,
+    "<pad>": 256,
+    "<unk>": 257
+  },
+  "training_random_seed": 20261106,
+  "training_source": {
+    "manifest_path": "data/manifests/dataset_manifest.json",
+    "split": "train",
+    "split_path": "data/splits/train/dataset.jsonl",
+    "split_sha256": "40de3bb3446317770478a457b6b9e08fead5294afddc6507175780967d7666c9",
+    "test_documents_read_for_fitting": 0,
+    "training_document_count": 11,
+    "training_document_ids": [
+      "31ca69d786c76ed3",
+      "789b13107075f7f5",
+      "9756884e55d4caf1",
+      "9e8980b5da0650e4",
+      "b0aa2e9dbbd0dc68",
+      "bb9c2c7947924120",
+      "c690a1efa2e3b140",
+      "c80d9c28d833f12b",
+      "e764c0050f66382f",
+      "eb659abed95930b1",
+      "f5ff7ec9ee9907cb"
+    ],
+    "training_documents": [
+      {
+        "category": "General Science",
+        "classification_confidence": 0.98,
+        "classification_source": "source directory: science",
+        "clean_text_sha256": "344aa10f6c0bbd7e6a6b5a783c647e53cf447038d64b737a321f343666f18149",
+        "document_id": "31ca69d786c76ed3",
+        "document_title": null,
+        "license_status": "unknown; no license information found",
+        "source_path": "data/raw/science/science_fundamentals.txt",
+        "source_sha256": "5dd04477ca2352ce03481a3d84cae7897c9b3bb6f5d552133a583a644c58a76b",
+        "split": "train",
+        "title_status": "No document title metadata was supplied."
+      },
+      {
+        "category": "Computer Science",
+        "classification_confidence": 0.98,
+        "classification_source": "source directory: computer_science",
+        "clean_text_sha256": "63990d9e13028f3e5182b5850088cdec4a25fd056704fa5f3c4ac13680a33778",
+        "document_id": "789b13107075f7f5",
+        "document_title": null,
+        "license_status": "unknown; no license information found",
+        "source_path": "data/raw/computer_science/programming_fundamentals.txt",
+        "source_sha256": "cf1dcc6df9881133ed1caf7113577f2bad0f30fe41a6a4b63be6a949ce42a10d",
+        "split": "train",
+        "title_status": "No document title metadata was supplied."
+      },
+      {
+        "category": "Computer Science",
+        "classification_confidence": 0.98,
+        "classification_source": "source directory: computer_science",
+        "clean_text_sha256": "ff7046f582cdb1bec9bf2b6bbb23ac52d9cb2f4d8b6e2c3952fd135cdaf513be",
+        "document_id": "9756884e55d4caf1",
+        "document_title": null,
+        "license_status": "unknown; no license information found",
+        "source_path": "data/raw/computer_science/dbms.txt",
+        "source_sha256": "76a396bb33449f5d561c76f5bb1f87186ed504972fff0aee1052632470a452b8",
+        "split": "train",
+        "title_status": "No document title metadata was supplied."
+      },
+      {
+        "category": "Artificial Intelligence",
+        "classification_confidence": 0.98,
+        "classification_source": "source directory: artificial_intelligence",
+        "clean_text_sha256": "50954f71ab4d68f827cab4706883898061b30073b0a4fd5aa14d5e054682218f",
+        "document_id": "9e8980b5da0650e4",
+        "document_title": null,
+        "license_status": "unknown; no license information found",
+        "source_path": "data/raw/artificial_intelligence/ai_fundamentals.txt",
+        "source_sha256": "e76d692816ec8e72f6ac39463abef93a6b0011acf3ffe5c29cd4363e4c6510ed",
+        "split": "train",
+        "title_status": "No document title metadata was supplied."
+      },
+      {
+        "category": "Mathematics",
+        "classification_confidence": 0.98,
+        "classification_source": "source directory: mathematics",
+        "clean_text_sha256": "22cce9d8ab8613b8786e18503d252a2504da4adb944e00554f31709481cb254c",
+        "document_id": "b0aa2e9dbbd0dc68",
+        "document_title": null,
+        "license_status": "unknown; no license information found",
+        "source_path": "data/raw/mathematics/mathematics_fundamentals.txt",
+        "source_sha256": "0dc1dd524a1f9b5c8900a967287865e29f3547dc44ac3a8387165f58c3d6efb0",
+        "split": "train",
+        "title_status": "No document title metadata was supplied."
+      },
+      {
+        "category": "Computer Science",
+        "classification_confidence": 0.98,
+        "classification_source": "source directory: computer_science",
+        "clean_text_sha256": "dc10d5f21b3af9ff73047ee340c71ccf79d66a422daeb0552953062328a2f21f",
+        "document_id": "bb9c2c7947924120",
+        "document_title": null,
+        "license_status": "unknown; no license information found",
+        "source_path": "data/raw/computer_science/python.txt",
+        "source_sha256": "f2acfbf690382ca8564d8e1fdae654111191926c80fcd2e1b808008dbcd8be1e",
+        "split": "train",
+        "title_status": "No document title metadata was supplied."
+      },
+      {
+        "category": "Computer Science",
+        "classification_confidence": 0.98,
+        "classification_source": "source directory: computer_science",
+        "clean_text_sha256": "5afb3e3b76c6ceb2bc541e96a273991070ced36cd88862ba8d4b4ad4b5556433",
+        "document_id": "c690a1efa2e3b140",
+        "document_title": null,
+        "license_status": "unknown; no license information found",
+        "source_path": "data/raw/computer_science/fundamentals.txt",
+        "source_sha256": "c54ede1aef183b9e53071cbf0bbce4c2fe644f0ca8ff1e93d8840118de01e25b",
+        "split": "train",
+        "title_status": "No document title metadata was supplied."
+      },
+      {
+        "category": "Computer Science",
+        "classification_confidence": 0.98,
+        "classification_source": "source directory: computer_science",
+        "clean_text_sha256": "1069f85db68be5a8d324820925421ebcb0718af8c46adfc9084fb6f4853df8e4",
+        "document_id": "c80d9c28d833f12b",
+        "document_title": null,
+        "license_status": "unknown; no license information found",
+        "source_path": "data/raw/computer_science/operating_systems.txt",
+        "source_sha256": "42b62bc601d936331f1f1be80f4dcac459dce4c47efae1e0e2ee2764aa2b13e5",
+        "split": "train",
+        "title_status": "No document title metadata was supplied."
+      },
+      {
+        "category": "Computer Science",
+        "classification_confidence": 0.98,
+        "classification_source": "source directory: computer_science",
+        "clean_text_sha256": "4aa2817dbbe1a586a8b3ab1f57b31531be36da4420803ef55093e21f9c3b5c83",
+        "document_id": "e764c0050f66382f",
+        "document_title": null,
+        "license_status": "unknown; no license information found",
+        "source_path": "data/raw/computer_science/algorithms.txt",
+        "source_sha256": "8dd298962c4b9d11e9bc03ada1f56994def323bca2006ffc7cc027060bb5ab97",
+        "split": "train",
+        "title_status": "No document title metadata was supplied."
+      },
+      {
+        "category": "Computer Science",
+        "classification_confidence": 0.98,
+        "classification_source": "source directory: computer_science",
+        "clean_text_sha256": "5ff2d3fe17c23e05e6a7fa7236b8d0a082b6b42ca15b68e70ad532ab91fa449c",
+        "document_id": "eb659abed95930b1",
+        "document_title": null,
+        "license_status": "unknown; no license information found",
+        "source_path": "data/raw/computer_science/data_structures.txt",
+        "source_sha256": "9ea5bdeb83fabf78d05e52e5ebb889f240bd9c924b737830a9a072bc97c691eb",
+        "split": "train",
+        "title_status": "No document title metadata was supplied."
+      },
+      {
+        "category": "Student Learning",
+        "classification_confidence": 0.98,
+        "classification_source": "source directory: student_learning",
+        "clean_text_sha256": "69c7cfc3b2ceeedbcda0504fedacfb31bf423d9a4bc2eb738273fba00771f270",
+        "document_id": "f5ff7ec9ee9907cb",
+        "document_title": null,
+        "license_status": "unknown; no license information found",
+        "source_path": "data/raw/student_learning/question_answers.txt",
+        "source_sha256": "3df7f702cb71b57cbe70a0115746cf9e1ec955b2455e84ac79c02296042b8230",
+        "split": "train",
+        "title_status": "No document title metadata was supplied."
+      }
+    ],
+    "training_provenance_sha256": "e3001673524fa4b581b248d1b3f0222cf3c391c6a41b7aaf8212ebe93ac3a0dd",
+    "training_text_characters": 155112,
+    "training_text_sha256": "ff7f01bdd145d59a370701a000d52273495f6658fa60290b648e6289f79e4361",
+    "validation_documents_read_for_fitting": 0
+  },
+  "v1_tokenizer_modified": false,
+  "vocabulary_size": 2048
+}
